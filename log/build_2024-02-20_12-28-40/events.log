@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.000312] (llm_ros2) JobQueued: {'identifier': 'llm_ros2', 'dependencies': OrderedDict()}
+[0.000372] (llm_ros2) JobStarted: {'identifier': 'llm_ros2'}
+[0.099631] (-) TimerEvent: {}
+[0.200102] (-) TimerEvent: {}
+[0.300815] (-) TimerEvent: {}
+[0.401578] (-) TimerEvent: {}
+[0.503005] (-) TimerEvent: {}
+[0.603470] (-) TimerEvent: {}
+[0.704912] (-) TimerEvent: {}
+[0.773522] (llm_ros2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/llm_ros2', 'build', '--build-base', '/home/csg/dev_ws/build/llm_ros2/build', 'install', '--record', '/home/csg/dev_ws/build/llm_ros2/install.log', '--single-version-externally-managed'], 'cwd': '/home/csg/dev_ws/src/llm_ros2', 'env': {'LANGUAGE': 'en_US:', 'USER': 'csg', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/csg', 'OLDPWD': '/home/csg', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '1887', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/csg/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'csg', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'csg', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/csg-virtual-machine:@/tmp/.ICE-unix/1855,unix/csg-virtual-machine:/tmp/.ICE-unix/1855', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/65023240_c8ff_4fa4_b504_7a5c7a90ae5e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZBHBJ2', 'GNOME_TERMINAL_SERVICE': ':1.214', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/csg/dev_ws/build/llm_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.805598] (-) TimerEvent: {}
+[0.906694] (-) TimerEvent: {}
+[1.007666] (-) TimerEvent: {}
+[1.015764] (llm_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[1.016955] (llm_ros2) StdoutLine: {'line': b'writing ../../build/llm_ros2/llm_ros2.egg-info/PKG-INFO\n'}
+[1.017648] (llm_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/llm_ros2/llm_ros2.egg-info/dependency_links.txt\n'}
+[1.018372] (llm_ros2) StdoutLine: {'line': b'writing entry points to ../../build/llm_ros2/llm_ros2.egg-info/entry_points.txt\n'}
+[1.019333] (llm_ros2) StdoutLine: {'line': b'writing requirements to ../../build/llm_ros2/llm_ros2.egg-info/requires.txt\n'}
+[1.019816] (llm_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/llm_ros2/llm_ros2.egg-info/top_level.txt\n'}
+[1.022607] (llm_ros2) StdoutLine: {'line': b"reading manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'\n"}
+[1.023390] (llm_ros2) StdoutLine: {'line': b"writing manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'\n"}
+[1.023919] (llm_ros2) StdoutLine: {'line': b'running build\n'}
+[1.024049] (llm_ros2) StdoutLine: {'line': b'running build_py\n'}
+[1.024102] (llm_ros2) StdoutLine: {'line': b'copying llm_ros2/sub_pose.py -> /home/csg/dev_ws/build/llm_ros2/build/lib/llm_ros2\n'}
+[1.024256] (llm_ros2) StdoutLine: {'line': b'running install\n'}
+[1.024548] (llm_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[1.025699] (llm_ros2) StdoutLine: {'line': b'copying /home/csg/dev_ws/build/llm_ros2/build/lib/llm_ros2/sub_pose.py -> /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2\n'}
+[1.026187] (llm_ros2) StdoutLine: {'line': b'byte-compiling /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2/sub_pose.py to sub_pose.cpython-310.pyc\n'}
+[1.027742] (llm_ros2) StdoutLine: {'line': b'running install_data\n'}
+[1.028394] (llm_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.030040] (llm_ros2) StdoutLine: {'line': b"removing '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.030933] (llm_ros2) StdoutLine: {'line': b'Copying ../../build/llm_ros2/llm_ros2.egg-info to /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info\n'}
+[1.032181] (llm_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.052435] (llm_ros2) StdoutLine: {'line': b'Installing camera_server script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.053520] (llm_ros2) StdoutLine: {'line': b'Installing sub_pose script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.054184] (llm_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/csg/dev_ws/build/llm_ros2/install.log'\n"}
+[1.093436] (llm_ros2) CommandEnded: {'returncode': 0}
+[1.108416] (-) TimerEvent: {}
+[1.150998] (llm_ros2) JobEnded: {'identifier': 'llm_ros2', 'rc': 0}
+[1.153720] (-) EventReactorShutdown: {}

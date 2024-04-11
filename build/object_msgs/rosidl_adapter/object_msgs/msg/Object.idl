@@ -1,0 +1,94 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from object_msgs/msg/Object.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "object_msgs/msg/Header.idl"
+#include "object_recognition_msgs/msg/ObjectType.idl"
+#include "shape_msgs/msg/Mesh.idl"
+#include "shape_msgs/msg/Plane.idl"
+#include "shape_msgs/msg/SolidPrimitive.idl"
+
+module object_msgs {
+  module msg {
+    module Object_Constants {
+      @verbatim (language="comment", text=
+        "For field 'content':" "\n"        "Message contains the shape(s) of the object including poses")
+      const octet SHAPE = 0;
+      @verbatim (language="comment", text=
+        "For field 'content':" "\n"        "Message contains only the pose of the primitives," "\n"        "i.e. only *_poses will be with values.")
+      const octet POSE = 1;
+      @verbatim (language="comment", text=
+        "For fields 'mesh_origin' and 'primitives_origin':" "\n"        "the root/origin of the object is the" "\n"        "average of all poses." "\n"        "Because the average of several quaternions" "\n"        "can only be determined approximately when" "\n"        "the quaternions are close together, this" "\n"        "setting requires at least the orientation part" "\n"        "of the field 'origin' to be set in addition.")
+      const int32 ORIGIN_AVERAGE = -1;
+      @verbatim (language="comment", text=
+        "For fields 'mesh_origin' and 'primitives_origin':" "\n"        "The origin of the object cannot be defined by this" "\n"        "set of poses.")
+      const int32 ORIGIN_UNDEFINED = -2;
+      @verbatim (language="comment", text=
+        "For fields 'mesh_origin' and 'primitives_origin':" "\n"        "The origin is given in the custom field 'origin'")
+      const int32 ORIGIN_CUSTOM = -3;
+    };
+    @verbatim (language="comment", text=
+      "a header, used for interpreting the poses")
+    struct Object {
+      object_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "the name of the object. This should usually" "\n"
+        "coincide with the /tf frame of the base/origin" "\n"
+        "of the object, though this is no mandatory" "\n"
+        "requirement.")
+      string name;
+
+      @verbatim (language="comment", text=
+        "If known: The object type in a database of known objects")
+      object_recognition_msgs::msg::ObjectType type;
+
+      @verbatim (language="comment", text=
+        "If the model is made up of primitives:" "\n"
+        "Solid geometric primitives")
+      sequence<shape_msgs::msg::SolidPrimitive> primitives;
+
+      sequence<geometry_msgs::msg::Pose> primitive_poses;
+
+      @verbatim (language="comment", text=
+        "If the model is made up of meshes:" "\n"
+        "The model meshes")
+      sequence<shape_msgs::msg::Mesh> meshes;
+
+      sequence<geometry_msgs::msg::Pose> mesh_poses;
+
+      @verbatim (language="comment", text=
+        "If known: bounding plane")
+      sequence<shape_msgs::msg::Plane> planes;
+
+      sequence<geometry_msgs::msg::Pose> plane_poses;
+
+      @verbatim (language="comment", text=
+        "Index into the primitive_poses to the" "\n"
+        "pose which is considered to be the" "\n"
+        "object's root / origin. Can also be" "\n"
+        "set to constants ORIGIN_AVERAGE," "\n"
+        "ORIGIN_UNDEFINED or ORIGIN_CUSTOM.")
+      int32 primitive_origin;
+
+      @verbatim (language="comment", text=
+        "Index into the mesh_poses to the" "\n"
+        "pose which is considered to be the" "\n"
+        "object's root / origin. Can also be" "\n"
+        "set to constants ORIGIN_AVERAGE," "\n"
+        "ORIGIN_UNDEFINED or ORIGIN_CUSTOM.")
+      int32 mesh_origin;
+
+      @verbatim (language="comment", text=
+        "If 'mesh_origin' or 'primitive_origin'" "\n"
+        "are set to ORIGIN_CUSTOM, this field" "\n"
+        "contains the origin of the overall object.")
+      geometry_msgs::msg::Pose origin;
+
+      @verbatim (language="comment", text=
+        "Information in the message, either SHAPE or POSE")
+      octet content;
+    };
+  };
+};

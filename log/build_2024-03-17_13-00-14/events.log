@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000738] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000776] (llm_ros2) JobQueued: {'identifier': 'llm_ros2', 'dependencies': OrderedDict()}
+[0.000824] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.074710] (llm_ros2) JobStarted: {'identifier': 'llm_ros2'}
+[0.097913] (-) TimerEvent: {}
+[0.166892] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.168410] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.169224] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/csg/dev_ws/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/csg/dev_ws/build/interfaces', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1967'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1949,unix/csg-virtual-machine:/tmp/.ICE-unix/1949'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f450e35_9a7a_44e6_aca7_b1ff1ea2b349'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z6N1K2'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[0.198349] (-) TimerEvent: {}
+[0.299165] (-) TimerEvent: {}
+[0.356011] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[0.372949] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.386779] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.401113] (-) TimerEvent: {}
+[0.419642] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.420433] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.421524] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.422800] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.422990] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.426379] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.466702] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[0.501876] (-) TimerEvent: {}
+[0.510257] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[0.565557] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[0.602320] (-) TimerEvent: {}
+[0.610660] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.616017] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[0.638594] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.703518] (-) TimerEvent: {}
+[0.736924] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.737493] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[0.738154] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[0.738446] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[0.742658] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.744620] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.790886] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[0.804543] (-) TimerEvent: {}
+[0.811220] (interfaces) CommandEnded: {'returncode': 0}
+[0.905119] (-) TimerEvent: {}
+[0.975313] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[0.994066] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/csg/dev_ws/build/interfaces'], 'cwd': '/home/csg/dev_ws/build/interfaces', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1967'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1949,unix/csg-virtual-machine:/tmp/.ICE-unix/1949'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f450e35_9a7a_44e6_aca7_b1ff1ea2b349'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z6N1K2'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[1.005721] (-) TimerEvent: {}
+[1.006087] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.006788] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[1.007939] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.008495] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.009405] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/matrix.h\n'}
+[1.009585] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.009815] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__functions.c\n'}
+[1.009936] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__type_support.h\n'}
+[1.009994] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__struct.h\n'}
+[1.010044] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__functions.h\n'}
+[1.010094] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.010793] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[1.011256] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[1.011451] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[1.011674] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.011884] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.011972] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.012070] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.012130] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_fastrtps_c.h\n'}
+[1.012332] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.012736] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.012978] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.013609] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.013743] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_introspection_c.h\n'}
+[1.013802] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__type_support.c\n'}
+[1.013927] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.014030] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.014163] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[1.014422] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.014510] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.014562] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/matrix.hpp\n'}
+[1.014618] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.014667] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__struct.hpp\n'}
+[1.014716] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__builder.hpp\n'}
+[1.014765] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__traits.hpp\n'}
+[1.014814] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.014862] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.014911] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.014959] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.015227] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[1.015848] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.015934] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.015990] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.016041] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.016093] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.016176] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.016239] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__type_support.cpp\n'}
+[1.016875] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.017810] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[1.018132] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[1.018322] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[1.018542] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[1.018698] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.018776] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.018861] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.019020] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.019306] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[1.019472] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.019542] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.019643] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[1.019843] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.019908] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.019960] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[1.020010] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_matrix_s.c\n'}
+[1.020058] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_matrix.py\n'}
+[1.020172] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[1.020228] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.020278] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[1.020327] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.064186] (interfaces) StdoutLine: {'line': b"Listing '/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[1.064495] (interfaces) StdoutLine: {'line': b"Listing '/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[1.071981] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.073595] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.073714] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.074662] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[1.075737] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/msg/Matrix.idl\n'}
+[1.075922] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/msg/Matrix.msg\n'}
+[1.075978] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[1.076148] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[1.076407] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[1.076630] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[1.077318] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[1.077514] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[1.077573] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[1.077623] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[1.077675] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[1.077724] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[1.077785] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[1.078123] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[1.082126] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.082415] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.083013] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.083229] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.084077] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.084273] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.085197] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.085497] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.086069] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.087040] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.087439] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.087903] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.088088] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.088938] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.089155] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.090005] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.090335] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.090607] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.090722] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.090869] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.091024] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.091085] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.091137] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.092013] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.092441] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[1.092610] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[1.092721] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/package.xml\n'}
+[1.096086] (interfaces) CommandEnded: {'returncode': 0}
+[1.106456] (-) TimerEvent: {}
+[1.192339] (llm_ros2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/llm_ros2', 'build', '--build-base', '/home/csg/dev_ws/build/llm_ros2/build', 'install', '--record', '/home/csg/dev_ws/build/llm_ros2/install.log', '--single-version-externally-managed'], 'cwd': '/home/csg/dev_ws/src/llm_ros2', 'env': {'SVGA_VGPU10': '0', 'LANGUAGE': 'en_US:', 'USER': 'csg', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/csg', 'OLDPWD': '/home/csg/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '1967', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/csg/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'csg', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'csg', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/csg-virtual-machine:@/tmp/.ICE-unix/1949,unix/csg-virtual-machine:/tmp/.ICE-unix/1949', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5f450e35_9a7a_44e6_aca7_b1ff1ea2b349', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z6N1K2', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/csg/dev_ws/build/llm_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces'}, 'shell': False}
+[1.207116] (-) TimerEvent: {}
+[1.308304] (-) TimerEvent: {}
+[1.408835] (-) TimerEvent: {}
+[1.447962] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[1.456308] (llm_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[1.457487] (llm_ros2) StdoutLine: {'line': b'writing ../../build/llm_ros2/llm_ros2.egg-info/PKG-INFO\n'}
+[1.458408] (llm_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/llm_ros2/llm_ros2.egg-info/dependency_links.txt\n'}
+[1.459133] (llm_ros2) StdoutLine: {'line': b'writing entry points to ../../build/llm_ros2/llm_ros2.egg-info/entry_points.txt\n'}
+[1.459870] (llm_ros2) StdoutLine: {'line': b'writing requirements to ../../build/llm_ros2/llm_ros2.egg-info/requires.txt\n'}
+[1.460518] (llm_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/llm_ros2/llm_ros2.egg-info/top_level.txt\n'}
+[1.465770] (llm_ros2) StdoutLine: {'line': b"reading manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'\n"}
+[1.467637] (llm_ros2) StdoutLine: {'line': b"writing manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'\n"}
+[1.468551] (llm_ros2) StdoutLine: {'line': b'running build\n'}
+[1.468957] (llm_ros2) StdoutLine: {'line': b'running build_py\n'}
+[1.470460] (llm_ros2) StdoutLine: {'line': b'copying llm_ros2/control_robot.py -> /home/csg/dev_ws/build/llm_ros2/build/lib/llm_ros2\n'}
+[1.472020] (llm_ros2) StdoutLine: {'line': b'running install\n'}
+[1.472722] (llm_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[1.474197] (llm_ros2) StdoutLine: {'line': b'copying /home/csg/dev_ws/build/llm_ros2/build/lib/llm_ros2/control_robot.py -> /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2\n'}
+[1.476615] (llm_ros2) StdoutLine: {'line': b'byte-compiling /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2/control_robot.py to control_robot.cpython-310.pyc\n'}
+[1.480339] (llm_ros2) StdoutLine: {'line': b'running install_data\n'}
+[1.486359] (llm_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.488338] (llm_ros2) StdoutLine: {'line': b"removing '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.489036] (llm_ros2) StdoutLine: {'line': b'Copying ../../build/llm_ros2/llm_ros2.egg-info to /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info\n'}
+[1.491372] (llm_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.509321] (-) TimerEvent: {}
+[1.511185] (llm_ros2) StdoutLine: {'line': b'Installing calculate_matrix script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.511861] (llm_ros2) StdoutLine: {'line': b'Installing camera_server script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.512619] (llm_ros2) StdoutLine: {'line': b'Installing ctl_robot script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.513954] (llm_ros2) StdoutLine: {'line': b'Installing monitor_joint script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.514594] (llm_ros2) StdoutLine: {'line': b'Installing sub_pose script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.515598] (llm_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/csg/dev_ws/build/llm_ros2/install.log'\n"}
+[1.563912] (llm_ros2) CommandEnded: {'returncode': 0}
+[1.611056] (-) TimerEvent: {}
+[1.619256] (llm_ros2) JobEnded: {'identifier': 'llm_ros2', 'rc': 0}
+[1.620450] (-) EventReactorShutdown: {}

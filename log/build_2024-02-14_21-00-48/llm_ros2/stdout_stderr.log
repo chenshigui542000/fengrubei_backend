@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing llm_ros2.egg-info/PKG-INFO
+writing dependency_links to llm_ros2.egg-info/dependency_links.txt
+writing entry points to llm_ros2.egg-info/entry_points.txt
+writing requirements to llm_ros2.egg-info/requires.txt
+writing top-level names to llm_ros2.egg-info/top_level.txt
+reading manifest file 'llm_ros2.egg-info/SOURCES.txt'
+writing manifest file 'llm_ros2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm-ros2.egg-link (link to .)
+Installing sub_pose script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+
+Installed /home/csg/dev_ws/build/llm_ros2
+running install_data

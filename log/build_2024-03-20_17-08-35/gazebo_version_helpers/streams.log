@@ -1,0 +1,29 @@
+[0.728s] Invoking command in '/home/csg/dev_ws/build/gazebo_version_helpers': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/gazebo_version_helpers
+[1.405s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.406s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.407s]   CMake.
+[1.409s] 
+[1.410s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.410s]   CMake that the project does not need compatibility with older versions.
+[1.411s] 
+[1.411s] [0m
+[1.412s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.412s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.412s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.413s]   CMake did not find one.
+[1.413s] 
+[1.414s]   Could not find a package configuration file provided by "catkin" with any
+[1.424s]   of the following names:
+[1.426s] 
+[1.426s]     catkinConfig.cmake
+[1.426s]     catkin-config.cmake
+[1.428s] 
+[1.428s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.428s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.432s]   provides a separate development package or SDK, be sure it has been
+[1.432s]   installed.
+[1.432s] 
+[1.433s] [0m
+[1.433s] -- Configuring incomplete, errors occurred!
+[1.434s] See also "/home/csg/dev_ws/build/gazebo_version_helpers/CMakeFiles/CMakeOutput.log".
+[1.454s] Invoked command in '/home/csg/dev_ws/build/gazebo_version_helpers' returned '1': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/gazebo_version_helpers

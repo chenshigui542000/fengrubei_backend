@@ -1,0 +1,41 @@
+[0.518s] Invoking command in '/home/csg/dev_ws/build/gazebo_world_plugin_loader': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_world_plugin_loader -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/gazebo_world_plugin_loader
+[1.265s] -- The C compiler identification is GNU 11.4.0
+[1.265s] -- The CXX compiler identification is GNU 11.4.0
+[1.265s] -- Detecting C compiler ABI info
+[1.266s] -- Detecting C compiler ABI info - done
+[1.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.268s] -- Detecting C compile features
+[1.268s] -- Detecting C compile features - done
+[1.270s] -- Detecting CXX compiler ABI info
+[1.272s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.274s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.277s]   CMake.
+[1.278s] 
+[1.278s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.278s]   CMake that the project does not need compatibility with older versions.
+[1.278s] 
+[1.279s] [0m
+[1.386s] -- Detecting CXX compiler ABI info - done
+[1.406s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.407s] -- Detecting CXX compile features
+[1.407s] -- Detecting CXX compile features - done
+[1.434s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[1.436s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.437s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.438s]   CMake did not find one.
+[1.438s] 
+[1.439s]   Could not find a package configuration file provided by "catkin" with any
+[1.439s]   of the following names:
+[1.439s] 
+[1.439s]     catkinConfig.cmake
+[1.439s]     catkin-config.cmake
+[1.440s] 
+[1.440s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.443s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.443s]   provides a separate development package or SDK, be sure it has been
+[1.444s]   installed.
+[1.444s] 
+[1.446s] [0m
+[1.447s] -- Configuring incomplete, errors occurred!
+[1.447s] See also "/home/csg/dev_ws/build/gazebo_world_plugin_loader/CMakeFiles/CMakeOutput.log".
+[1.451s] Invoked command in '/home/csg/dev_ws/build/gazebo_world_plugin_loader' returned '1': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_world_plugin_loader -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/gazebo_world_plugin_loader

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- control_arm -->
+    <xacro:macro name = "joint_control" params="name">
+        <joint name="${name}">
+            <command_interface name="velocity">
+                <param name="min">-10</param>
+                <param name="max">10</param>
+            </command_interface>
+
+            <command_interface name="position"/>
+
+            <command_interface name="acceleration"/>
+
+            <command_interface name="effort"/>
+
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+    </xacro:macro>
+
+
+    <xacro:macro name="control_arm">
+        <ros2_control name="bbot_hardware_interface" type="system">
+            <hardware>
+                <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+            </hardware>
+
+            <xacro:joint_control name="joint1"/>
+            <xacro:joint_control name="joint2"/>
+            <xacro:joint_control name="joint3"/>
+            <xacro:joint_control name="joint4"/>
+            <xacro:joint_control name="joint5"/>
+            <xacro:joint_control name="joint6"/>
+            <xacro:joint_control name="gripper_joint1"/>
+            <xacro:joint_control name="gripper_joint2"/>
+            <xacro:joint_control name="gripper_joint3"/>
+
+
+        </ros2_control>
+
+        <gazebo>
+        <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+            <parameters>$(find llm_ros2)/config/ros_arm_control.yaml</parameters>
+            <robotNamespace>/mbot_arm_gazebo.xacro</robotNamespace>
+            
+        </plugin>
+        </gazebo>
+    </xacro:macro>
+
+    <!-- control_base -->
+
+    <xacro:macro name="control_base">
+        <gazebo>
+            <plugin name="differential_drive_controller" 
+                    filename="libgazebo_ros_diff_drive.so">               
+                    <update_rate>30</update_rate>
+                  <left_joint>left_wheel_joint</left_joint>
+                  <right_joint>right_wheel_joint</right_joint>
+                  <wheel_separation>0.35</wheel_separation>
+                  <wheel_diameter>0.10</wheel_diameter>
+                  <max_wheel_torque>20</max_wheel_torque>
+                  <max_wheel_acceleration>1.0</max_wheel_acceleration>
+                  <command_topic>cmd_vel</command_topic>
+                  <publish_odom>true</publish_odom>
+                  <publish_odom_tf>true</publish_odom_tf>
+                  <publish_wheel_tf>true</publish_wheel_tf>
+                  <odometry_topic>odom</odometry_topic>
+                  <odometry_frame>odom</odometry_frame>
+                  <robot_base_frame>base_link</robot_base_frame>
+                  <odometry_source>1</odometry_source>
+            </plugin>
+        </gazebo> 
+    </xacro:macro>
+
+    <!-- control_arm_soft -->
+
+    <xacro:macro name="control_arm_soft">
+        <gazebo>
+            <plugin name="gazebo_grasp_fix" filename="libgazebo_grasp_fix.so">
+                <arm>
+                <arm_name>robot_arm</arm_name>
+                <palm_link>link6</palm_link>
+                <gripper_link>gripper1_link</gripper_link>
+                <gripper_link> gripper2_link </gripper_link>
+                </arm>
+            <forces_angle_tolerance>100</forces_angle_tolerance>
+            <update_rate>20</update_rate>
+            <grip_count_threshold>4</grip_count_threshold>
+            <max_grip_count>8</max_grip_count>
+            <release_tolerance>0.01</release_tolerance>
+            <disable_collisions_on_attach>false</disable_collisions_on_attach>
+            <contact_topic>__default_topic__</contact_topic>
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+
+
+</robot>

@@ -1,0 +1,4 @@
+Invoking command in '/home/csg/dev_ws/build/leo_teleop': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_teleop -- -j8 -l8
+Invoked command in '/home/csg/dev_ws/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_teleop -- -j8 -l8
+Invoking command in '/home/csg/dev_ws/build/leo_teleop': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_teleop
+Invoked command in '/home/csg/dev_ws/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_teleop

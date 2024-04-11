@@ -1,0 +1,54 @@
+[0.966s] Invoking command in '/home/csg/dev_ws/src/llm_ros2': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm_ros2 build --build-base /home/csg/dev_ws/build/llm_ros2/build install --record /home/csg/dev_ws/build/llm_ros2/install.log --single-version-externally-managed
+[1.217s] running egg_info
+[1.218s] writing ../../build/llm_ros2/llm_ros2.egg-info/PKG-INFO
+[1.219s] writing dependency_links to ../../build/llm_ros2/llm_ros2.egg-info/dependency_links.txt
+[1.220s] writing entry points to ../../build/llm_ros2/llm_ros2.egg-info/entry_points.txt
+[1.221s] writing requirements to ../../build/llm_ros2/llm_ros2.egg-info/requires.txt
+[1.222s] writing top-level names to ../../build/llm_ros2/llm_ros2.egg-info/top_level.txt
+[1.224s] reading manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'
+[1.227s] writing manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'
+[1.227s] running build
+[1.227s] running build_py
+[1.228s] running install
+[1.229s] running install_lib
+[1.231s] running install_data
+[1.233s] creating /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/launch
+[1.233s] copying launch/mbot.launch.py -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/launch
+[1.234s] copying launch/mbot_rgbd.launch.py -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/launch
+[1.234s] copying launch/load_mbot_laser_into_gazebo.launch.py -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/launch
+[1.235s] copying launch/load_mbot_rgbd_into_gazebo.launch.py -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/launch
+[1.235s] copying launch/mbot_laser.launch.py -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/launch
+[1.235s] copying launch/load_mbot_camera_into_gazebo.launch.py -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/launch
+[1.236s] copying launch/load_urdf_into_gazebo.launch.py -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/launch
+[1.236s] copying launch/mbot_camera.launch.py -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/launch
+[1.237s] creating /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf
+[1.237s] copying urdf/mbot_with_kinect_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf
+[1.238s] copying urdf/mbot_base_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf
+[1.240s] copying urdf/mbot_with_camera_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf
+[1.241s] copying urdf/two_wheeled_robot_nav2.urdf -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf
+[1.243s] copying urdf/mbot_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf
+[1.244s] copying urdf/mbot_with_rgbd_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf
+[1.244s] copying urdf/mbot_with_laser_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf
+[1.246s] creating /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/meshes
+[1.246s] copying meshes/kinect.jpg -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/meshes
+[1.247s] copying meshes/kinect.tga -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/meshes
+[1.248s] copying meshes/kinect.dae -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/meshes
+[1.251s] creating /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf/sensors
+[1.251s] copying urdf/sensors/lidar_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf/sensors
+[1.251s] copying urdf/sensors/rgbd_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf/sensors
+[1.252s] copying urdf/sensors/kinect_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf/sensors
+[1.253s] copying urdf/sensors/camera_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf/sensors
+[1.254s] creating /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/worlds
+[1.254s] copying worlds/empty_world.model -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/worlds
+[1.255s] copying worlds/neighborhood.world -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/worlds
+[1.258s] creating /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/rviz
+[1.259s] copying rviz/urdf_gazebo_config.rviz -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/rviz
+[1.259s] running install_egg_info
+[1.262s] removing '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.264s] Copying ../../build/llm_ros2/llm_ros2.egg-info to /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info
+[1.266s] running install_scripts
+[1.285s] Installing camera_server script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[1.286s] Installing ctl_tobot script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[1.287s] Installing sub_pose script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[1.287s] writing list of installed files to '/home/csg/dev_ws/build/llm_ros2/install.log'
+[1.326s] Invoked command in '/home/csg/dev_ws/src/llm_ros2' returned '0': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm_ros2 build --build-base /home/csg/dev_ws/build/llm_ros2/build install --record /home/csg/dev_ws/build/llm_ros2/install.log --single-version-externally-managed

@@ -1,0 +1,1 @@
+Invoking command in '/home/csg/dev_ws/src/build/path_navigation_msgs': /usr/bin/cmake /home/csg/dev_ws/src/general-message-pkgs/path_navigation_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/path_navigation_msgs

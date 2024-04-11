@@ -1,0 +1,7 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/csg/dev_ws/src/interfaces:msg/Matrix.msg",
+    "/home/csg/dev_ws/src/interfaces:msg/Position.msg"
+  ]
+}

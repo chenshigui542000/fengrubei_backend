@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from object_msgs/srv/RegisterObject.srv
+// generated code does not contain a copyright notice
+
+
+module object_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "object name to be registered")
+    struct RegisterObject_Request {
+      string name;
+    };
+    module RegisterObject_Response_Constants {
+      @verbatim (language="comment", text=
+        "successfully registered")
+      const octet SUCCESS = 0;
+      @verbatim (language="comment", text=
+        "object already registered")
+      const octet EXISTS = 1;
+      @verbatim (language="comment", text=
+        "could not query required information for this object")
+      const octet ERROR_INFO = 2;
+    };
+    struct RegisterObject_Response {
+      @verbatim (language="comment", text=
+        "succes flag")
+      octet success;
+    };
+  };
+};

@@ -1,0 +1,2 @@
+Invoking command in '/home/csg/dev_ws/src/build/gazebo_world_plugin_loader': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_world_plugin_loader -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/gazebo_world_plugin_loader
+Invoked command in '/home/csg/dev_ws/src/build/gazebo_world_plugin_loader' returned '1': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_world_plugin_loader -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/gazebo_world_plugin_loader

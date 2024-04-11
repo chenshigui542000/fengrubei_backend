@@ -1,0 +1,40 @@
+[0.807s] Invoking command in '/home/csg/dev_ws/src/build/path_navigation_msgs': /usr/bin/cmake /home/csg/dev_ws/src/general-message-pkgs/path_navigation_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/path_navigation_msgs
+[0.830s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.830s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.830s]   CMake.
+[0.830s] 
+[0.830s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.830s]   CMake that the project does not need compatibility with older versions.
+[0.830s] 
+[0.831s] [0m
+[0.953s] -- The C compiler identification is GNU 11.4.0
+[1.096s] -- The CXX compiler identification is GNU 11.4.0
+[1.114s] -- Detecting C compiler ABI info
+[1.302s] -- Detecting C compiler ABI info - done
+[1.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.318s] -- Detecting C compile features
+[1.319s] -- Detecting C compile features - done
+[1.326s] -- Detecting CXX compiler ABI info
+[1.561s] -- Detecting CXX compiler ABI info - done
+[1.578s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.579s] -- Detecting CXX compile features
+[1.580s] -- Detecting CXX compile features - done
+[1.608s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[1.608s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.608s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.608s]   CMake did not find one.
+[1.608s] 
+[1.608s]   Could not find a package configuration file provided by "catkin" with any
+[1.608s]   of the following names:
+[1.609s] 
+[1.609s]     catkinConfig.cmake
+[1.609s]     catkin-config.cmake
+[1.609s] 
+[1.609s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.609s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.609s]   provides a separate development package or SDK, be sure it has been
+[1.609s]   installed.
+[1.609s] 
+[1.609s] [0m
+[1.609s] -- Configuring incomplete, errors occurred!
+[1.610s] See also "/home/csg/dev_ws/src/build/path_navigation_msgs/CMakeFiles/CMakeOutput.log".

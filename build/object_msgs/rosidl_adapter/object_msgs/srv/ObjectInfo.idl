@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from object_msgs/srv/ObjectInfo.srv
+// generated code does not contain a copyright notice
+
+#include "object_msgs/msg/Object.idl"
+
+module object_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "name of the object whose information is requested")
+    struct ObjectInfo_Request {
+      string name;
+
+      @verbatim (language="comment", text=
+        "set to true if the Geometry should be returned" "\n"
+        "with the Object as well. If false, then only" "\n"
+        "the current object pose fields are returned")
+      boolean get_geometry;
+    };
+    module ObjectInfo_Response_Constants {
+      const octet NO_ERROR = 0;
+      const octet OBJECT_NOT_FOUND = 1;
+      const octet OTHER_ERROR = 2;
+    };
+    struct ObjectInfo_Response {
+      @verbatim (language="comment", text=
+        "true if object exists and information is" "\n"
+        "stored in field 'object'. If false, the" "\n"
+        "error_code contains more information about the error.")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "information about the object")
+      object_msgs::msg::Object object;
+
+      @verbatim (language="comment", text=
+        "error code if success is false")
+      octet error_code;
+    };
+  };
+};

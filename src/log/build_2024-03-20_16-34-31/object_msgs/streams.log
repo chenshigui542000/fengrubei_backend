@@ -1,0 +1,41 @@
+[0.634s] Invoking command in '/home/csg/dev_ws/src/build/object_msgs': /usr/bin/cmake /home/csg/dev_ws/src/general-message-pkgs/object_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/object_msgs
+[1.295s] -- The C compiler identification is GNU 11.4.0
+[1.297s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.298s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.299s]   CMake.
+[1.299s] 
+[1.300s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.300s]   CMake that the project does not need compatibility with older versions.
+[1.302s] 
+[1.303s] [0m
+[1.345s] -- The CXX compiler identification is GNU 11.4.0
+[1.384s] -- Detecting C compiler ABI info
+[1.588s] -- Detecting C compiler ABI info - done
+[1.620s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.621s] -- Detecting C compile features
+[1.621s] -- Detecting C compile features - done
+[1.628s] -- Detecting CXX compiler ABI info
+[1.832s] -- Detecting CXX compiler ABI info - done
+[1.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.849s] -- Detecting CXX compile features
+[1.850s] -- Detecting CXX compile features - done
+[1.904s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[1.904s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.905s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.905s]   CMake did not find one.
+[1.906s] 
+[1.906s]   Could not find a package configuration file provided by "catkin" with any
+[1.906s]   of the following names:
+[1.906s] 
+[1.906s]     catkinConfig.cmake
+[1.906s]     catkin-config.cmake
+[1.906s] 
+[1.906s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.908s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.908s]   provides a separate development package or SDK, be sure it has been
+[1.909s]   installed.
+[1.909s] 
+[1.910s] [0m
+[1.911s] -- Configuring incomplete, errors occurred!
+[1.912s] See also "/home/csg/dev_ws/src/build/object_msgs/CMakeFiles/CMakeOutput.log".
+[1.940s] Invoked command in '/home/csg/dev_ws/src/build/object_msgs' returned '1': /usr/bin/cmake /home/csg/dev_ws/src/general-message-pkgs/object_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/object_msgs

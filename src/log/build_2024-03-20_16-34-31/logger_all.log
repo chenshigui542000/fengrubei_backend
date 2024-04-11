@@ -1,0 +1,362 @@
+[3.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77504fa87130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77504fa87820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77504fa87820>>)
+[3.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.272s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/csg/dev_ws/src'
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extensions ['ignore', 'ignore_ament_install']
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extension 'ignore'
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extension 'ignore_ament_install'
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extensions ['colcon_pkg']
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extension 'colcon_pkg'
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extensions ['colcon_meta']
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extension 'colcon_meta'
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extensions ['ros']
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extension 'ros'
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extensions ['cmake', 'python']
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extension 'cmake'
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extension 'python'
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extensions ['python_setup_py']
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs) by extension 'python_setup_py'
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin) by extensions ['ignore', 'ignore_ament_install']
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin) by extension 'ignore'
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin) by extension 'ignore_ament_install'
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin) by extensions ['colcon_pkg']
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin) by extension 'colcon_pkg'
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin) by extensions ['colcon_meta']
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin) by extension 'colcon_meta'
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin) by extensions ['ros']
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin) by extension 'ros'
+[3.309s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo-pkgs/gazebo_grasp_plugin' with type 'ros.catkin' and name 'gazebo_grasp_plugin'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin_ros) by extension 'ignore'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin_ros) by extension 'ignore_ament_install'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin_ros) by extensions ['colcon_pkg']
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin_ros) by extension 'colcon_pkg'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin_ros) by extensions ['colcon_meta']
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin_ros) by extension 'colcon_meta'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin_ros) by extensions ['ros']
+[3.310s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_grasp_plugin_ros) by extension 'ros'
+[3.311s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo-pkgs/gazebo_grasp_plugin_ros' with type 'ros.catkin' and name 'gazebo_grasp_plugin_ros'
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_state_plugins) by extensions ['ignore', 'ignore_ament_install']
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_state_plugins) by extension 'ignore'
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_state_plugins) by extension 'ignore_ament_install'
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_state_plugins) by extensions ['colcon_pkg']
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_state_plugins) by extension 'colcon_pkg'
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_state_plugins) by extensions ['colcon_meta']
+[3.312s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_state_plugins) by extension 'colcon_meta'
+[3.312s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_state_plugins) by extensions ['ros']
+[3.312s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_state_plugins) by extension 'ros'
+[3.313s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo-pkgs/gazebo_state_plugins' with type 'ros.catkin' and name 'gazebo_state_plugins'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_test_tools) by extensions ['ignore', 'ignore_ament_install']
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_test_tools) by extension 'ignore'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_test_tools) by extension 'ignore_ament_install'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_test_tools) by extensions ['colcon_pkg']
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_test_tools) by extension 'colcon_pkg'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_test_tools) by extensions ['colcon_meta']
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_test_tools) by extension 'colcon_meta'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_test_tools) by extensions ['ros']
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_test_tools) by extension 'ros'
+[3.316s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo-pkgs/gazebo_test_tools' with type 'ros.catkin' and name 'gazebo_test_tools'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_version_helpers) by extensions ['ignore', 'ignore_ament_install']
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_version_helpers) by extension 'ignore'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_version_helpers) by extension 'ignore_ament_install'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_version_helpers) by extensions ['colcon_pkg']
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_version_helpers) by extension 'colcon_pkg'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_version_helpers) by extensions ['colcon_meta']
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_version_helpers) by extension 'colcon_meta'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_version_helpers) by extensions ['ros']
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_version_helpers) by extension 'ros'
+[3.317s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo-pkgs/gazebo_version_helpers' with type 'ros.catkin' and name 'gazebo_version_helpers'
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_world_plugin_loader) by extensions ['ignore', 'ignore_ament_install']
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_world_plugin_loader) by extension 'ignore'
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_world_plugin_loader) by extension 'ignore_ament_install'
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_world_plugin_loader) by extensions ['colcon_pkg']
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_world_plugin_loader) by extension 'colcon_pkg'
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_world_plugin_loader) by extensions ['colcon_meta']
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_world_plugin_loader) by extension 'colcon_meta'
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_world_plugin_loader) by extensions ['ros']
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo-pkgs/gazebo_world_plugin_loader) by extension 'ros'
+[3.319s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo-pkgs/gazebo_world_plugin_loader' with type 'ros.catkin' and name 'gazebo_world_plugin_loader'
+[3.319s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extensions ['ignore', 'ignore_ament_install']
+[3.319s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extension 'ignore'
+[3.319s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extension 'ignore_ament_install'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extensions ['colcon_pkg']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extension 'colcon_pkg'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extensions ['colcon_meta']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extension 'colcon_meta'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extensions ['ros']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extension 'ros'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extensions ['cmake', 'python']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extension 'cmake'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extension 'python'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extensions ['python_setup_py']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs) by extension 'python_setup_py'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs) by extension 'ignore'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs) by extension 'ignore_ament_install'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs) by extensions ['colcon_pkg']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs) by extension 'colcon_pkg'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs) by extensions ['colcon_meta']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs) by extension 'colcon_meta'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs) by extensions ['ros']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs) by extension 'ros'
+[3.322s] DEBUG:colcon.colcon_core.package_identification:Package 'general-message-pkgs/object_msgs' with type 'ros.catkin' and name 'object_msgs'
+[3.322s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs_tools) by extensions ['ignore', 'ignore_ament_install']
+[3.322s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs_tools) by extension 'ignore'
+[3.322s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs_tools) by extension 'ignore_ament_install'
+[3.322s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs_tools) by extensions ['colcon_pkg']
+[3.323s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs_tools) by extension 'colcon_pkg'
+[3.323s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs_tools) by extensions ['colcon_meta']
+[3.323s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs_tools) by extension 'colcon_meta'
+[3.323s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs_tools) by extensions ['ros']
+[3.323s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/object_msgs_tools) by extension 'ros'
+[3.325s] DEBUG:colcon.colcon_core.package_identification:Package 'general-message-pkgs/object_msgs_tools' with type 'ros.catkin' and name 'object_msgs_tools'
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/path_navigation_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/path_navigation_msgs) by extension 'ignore'
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/path_navigation_msgs) by extension 'ignore_ament_install'
+[3.327s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/path_navigation_msgs) by extensions ['colcon_pkg']
+[3.327s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/path_navigation_msgs) by extension 'colcon_pkg'
+[3.327s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/path_navigation_msgs) by extensions ['colcon_meta']
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/path_navigation_msgs) by extension 'colcon_meta'
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/path_navigation_msgs) by extensions ['ros']
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(general-message-pkgs/path_navigation_msgs) by extension 'ros'
+[3.329s] DEBUG:colcon.colcon_core.package_identification:Package 'general-message-pkgs/path_navigation_msgs' with type 'ros.catkin' and name 'path_navigation_msgs'
+[3.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.330s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['ignore', 'ignore_ament_install']
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ignore'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ignore_ament_install'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['colcon_pkg']
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'colcon_pkg'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['colcon_meta']
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'colcon_meta'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['ros']
+[3.332s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ros'
+[3.333s] DEBUG:colcon.colcon_core.package_identification:Package 'interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[3.333s] Level 1:colcon.colcon_core.package_identification:_identify(llm_ros2) by extensions ['ignore', 'ignore_ament_install']
+[3.333s] Level 1:colcon.colcon_core.package_identification:_identify(llm_ros2) by extension 'ignore'
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(llm_ros2) by extension 'ignore_ament_install'
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(llm_ros2) by extensions ['colcon_pkg']
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(llm_ros2) by extension 'colcon_pkg'
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(llm_ros2) by extensions ['colcon_meta']
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(llm_ros2) by extension 'colcon_meta'
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(llm_ros2) by extensions ['ros']
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(llm_ros2) by extension 'ros'
+[3.335s] DEBUG:colcon.colcon_core.package_identification:Package 'llm_ros2' with type 'ros.ament_python' and name 'llm_ros2'
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.595s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/csg/dev_ws/install
+[3.627s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[3.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_args' from command line to 'None'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_target' from command line to 'None'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_clean_cache' from command line to 'False'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_clean_first' from command line to 'False'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_force_configure' from command line to 'False'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'ament_cmake_args' from command line to 'None'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'catkin_cmake_args' from command line to 'None'
+[4.017s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.017s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_version_helpers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/gazebo_version_helpers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/gazebo_version_helpers', 'merge_install': False, 'path': '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers', 'symlink_install': False, 'test_result_base': None}
+[4.045s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world_plugin_loader' build argument 'cmake_args' from command line to 'None'
+[4.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world_plugin_loader' build argument 'cmake_target' from command line to 'None'
+[4.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world_plugin_loader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world_plugin_loader' build argument 'cmake_clean_cache' from command line to 'False'
+[4.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world_plugin_loader' build argument 'cmake_clean_first' from command line to 'False'
+[4.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world_plugin_loader' build argument 'cmake_force_configure' from command line to 'False'
+[4.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world_plugin_loader' build argument 'ament_cmake_args' from command line to 'None'
+[4.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world_plugin_loader' build argument 'catkin_cmake_args' from command line to 'None'
+[4.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world_plugin_loader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.046s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_world_plugin_loader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/gazebo_world_plugin_loader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader', 'merge_install': False, 'path': '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_world_plugin_loader', 'symlink_install': False, 'test_result_base': None}
+[4.073s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[4.073s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[4.073s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.073s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[4.073s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[4.073s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[4.073s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[4.073s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[4.073s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.073s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/interfaces', 'merge_install': False, 'path': '/home/csg/dev_ws/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[4.099s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_args' from command line to 'None'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_target' from command line to 'None'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[4.100s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.100s] DEBUG:colcon.colcon_core.verb:Building package 'llm_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/llm_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/llm_ros2', 'merge_install': False, 'path': '/home/csg/dev_ws/src/llm_ros2', 'symlink_install': False, 'test_result_base': None}
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'object_msgs' build argument 'cmake_args' from command line to 'None'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'object_msgs' build argument 'cmake_target' from command line to 'None'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'object_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'object_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'object_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'object_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'object_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'object_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'object_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.127s] DEBUG:colcon.colcon_core.verb:Building package 'object_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/object_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/object_msgs', 'merge_install': False, 'path': '/home/csg/dev_ws/src/general-message-pkgs/object_msgs', 'symlink_install': False, 'test_result_base': None}
+[4.152s] Level 5:colcon.colcon_core.verb:set package 'path_navigation_msgs' build argument 'cmake_args' from command line to 'None'
+[4.152s] Level 5:colcon.colcon_core.verb:set package 'path_navigation_msgs' build argument 'cmake_target' from command line to 'None'
+[4.153s] Level 5:colcon.colcon_core.verb:set package 'path_navigation_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.153s] Level 5:colcon.colcon_core.verb:set package 'path_navigation_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[4.153s] Level 5:colcon.colcon_core.verb:set package 'path_navigation_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[4.153s] Level 5:colcon.colcon_core.verb:set package 'path_navigation_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[4.153s] Level 5:colcon.colcon_core.verb:set package 'path_navigation_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[4.153s] Level 5:colcon.colcon_core.verb:set package 'path_navigation_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[4.153s] Level 5:colcon.colcon_core.verb:set package 'path_navigation_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.153s] DEBUG:colcon.colcon_core.verb:Building package 'path_navigation_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/path_navigation_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/path_navigation_msgs', 'merge_install': False, 'path': '/home/csg/dev_ws/src/general-message-pkgs/path_navigation_msgs', 'symlink_install': False, 'test_result_base': None}
+[4.178s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_args' from command line to 'None'
+[4.178s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_target' from command line to 'None'
+[4.178s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.178s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[4.178s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[4.178s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[4.178s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[4.178s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[4.178s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.178s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_grasp_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/gazebo_grasp_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/gazebo_grasp_plugin', 'merge_install': False, 'path': '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin', 'symlink_install': False, 'test_result_base': None}
+[4.205s] Level 5:colcon.colcon_core.verb:set package 'gazebo_test_tools' build argument 'cmake_args' from command line to 'None'
+[4.205s] Level 5:colcon.colcon_core.verb:set package 'gazebo_test_tools' build argument 'cmake_target' from command line to 'None'
+[4.205s] Level 5:colcon.colcon_core.verb:set package 'gazebo_test_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.205s] Level 5:colcon.colcon_core.verb:set package 'gazebo_test_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[4.205s] Level 5:colcon.colcon_core.verb:set package 'gazebo_test_tools' build argument 'cmake_clean_first' from command line to 'False'
+[4.205s] Level 5:colcon.colcon_core.verb:set package 'gazebo_test_tools' build argument 'cmake_force_configure' from command line to 'False'
+[4.205s] Level 5:colcon.colcon_core.verb:set package 'gazebo_test_tools' build argument 'ament_cmake_args' from command line to 'None'
+[4.205s] Level 5:colcon.colcon_core.verb:set package 'gazebo_test_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[4.205s] Level 5:colcon.colcon_core.verb:set package 'gazebo_test_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.205s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_test_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/gazebo_test_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/gazebo_test_tools', 'merge_install': False, 'path': '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_test_tools', 'symlink_install': False, 'test_result_base': None}
+[4.234s] Level 5:colcon.colcon_core.verb:set package 'object_msgs_tools' build argument 'cmake_args' from command line to 'None'
+[4.234s] Level 5:colcon.colcon_core.verb:set package 'object_msgs_tools' build argument 'cmake_target' from command line to 'None'
+[4.234s] Level 5:colcon.colcon_core.verb:set package 'object_msgs_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.234s] Level 5:colcon.colcon_core.verb:set package 'object_msgs_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[4.234s] Level 5:colcon.colcon_core.verb:set package 'object_msgs_tools' build argument 'cmake_clean_first' from command line to 'False'
+[4.234s] Level 5:colcon.colcon_core.verb:set package 'object_msgs_tools' build argument 'cmake_force_configure' from command line to 'False'
+[4.234s] Level 5:colcon.colcon_core.verb:set package 'object_msgs_tools' build argument 'ament_cmake_args' from command line to 'None'
+[4.234s] Level 5:colcon.colcon_core.verb:set package 'object_msgs_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[4.234s] Level 5:colcon.colcon_core.verb:set package 'object_msgs_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.234s] DEBUG:colcon.colcon_core.verb:Building package 'object_msgs_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/object_msgs_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/object_msgs_tools', 'merge_install': False, 'path': '/home/csg/dev_ws/src/general-message-pkgs/object_msgs_tools', 'symlink_install': False, 'test_result_base': None}
+[4.258s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_args' from command line to 'None'
+[4.259s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_target' from command line to 'None'
+[4.259s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.259s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[4.259s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_clean_first' from command line to 'False'
+[4.259s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_force_configure' from command line to 'False'
+[4.259s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'ament_cmake_args' from command line to 'None'
+[4.259s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[4.259s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.259s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_grasp_plugin_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/gazebo_grasp_plugin_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/gazebo_grasp_plugin_ros', 'merge_install': False, 'path': '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin_ros', 'symlink_install': False, 'test_result_base': None}
+[4.286s] Level 5:colcon.colcon_core.verb:set package 'gazebo_state_plugins' build argument 'cmake_args' from command line to 'None'
+[4.287s] Level 5:colcon.colcon_core.verb:set package 'gazebo_state_plugins' build argument 'cmake_target' from command line to 'None'
+[4.287s] Level 5:colcon.colcon_core.verb:set package 'gazebo_state_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.287s] Level 5:colcon.colcon_core.verb:set package 'gazebo_state_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[4.287s] Level 5:colcon.colcon_core.verb:set package 'gazebo_state_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[4.287s] Level 5:colcon.colcon_core.verb:set package 'gazebo_state_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[4.287s] Level 5:colcon.colcon_core.verb:set package 'gazebo_state_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[4.287s] Level 5:colcon.colcon_core.verb:set package 'gazebo_state_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[4.287s] Level 5:colcon.colcon_core.verb:set package 'gazebo_state_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.287s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_state_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/src/build/gazebo_state_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/src/install/gazebo_state_plugins', 'merge_install': False, 'path': '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_state_plugins', 'symlink_install': False, 'test_result_base': None}
+[4.312s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.342s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers' with build type 'catkin'
+[4.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers'
+[4.382s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.469s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/csg/dev_ws/src/general-message-pkgs/object_msgs' with build type 'catkin'
+[4.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/src/general-message-pkgs/object_msgs'
+[4.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.585s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_world_plugin_loader' with build type 'catkin'
+[4.586s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_world_plugin_loader'
+[4.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.700s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/csg/dev_ws/src/interfaces' with build type 'ament_cmake'
+[4.700s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/src/interfaces'
+[4.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.822s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/csg/dev_ws/src/llm_ros2' with build type 'ament_python'
+[4.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_ros2', 'ament_prefix_path')
+[4.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/src/install/llm_ros2/share/llm_ros2/hook/ament_prefix_path.ps1'
+[4.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/src/install/llm_ros2/share/llm_ros2/hook/ament_prefix_path.dsv'
+[4.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/src/install/llm_ros2/share/llm_ros2/hook/ament_prefix_path.sh'
+[4.886s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.886s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.972s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/csg/dev_ws/src/general-message-pkgs/path_navigation_msgs' with build type 'catkin'
+[4.972s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/src/general-message-pkgs/path_navigation_msgs'
+[5.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/src/build/gazebo_version_helpers': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/gazebo_version_helpers
+[5.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/src/build/object_msgs': /usr/bin/cmake /home/csg/dev_ws/src/general-message-pkgs/object_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/object_msgs
+[5.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/src/build/gazebo_world_plugin_loader': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_world_plugin_loader -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/gazebo_world_plugin_loader
+[5.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake /home/csg/dev_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/interfaces
+[5.631s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/csg/dev_ws/src/llm_ros2'
+[5.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/src/build/path_navigation_msgs': /usr/bin/cmake /home/csg/dev_ws/src/general-message-pkgs/path_navigation_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/path_navigation_msgs
+[6.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/src/build/gazebo_world_plugin_loader' returned '1': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_world_plugin_loader -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/gazebo_world_plugin_loader
+[6.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/src/build/gazebo_version_helpers' returned '1': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/gazebo_version_helpers
+[6.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/src/build/object_msgs' returned '1': /usr/bin/cmake /home/csg/dev_ws/src/general-message-pkgs/object_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/object_msgs
+[6.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_world_plugin_loader)
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader' for CMake module files
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader' for CMake config files
+[6.482s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader/bin'
+[6.482s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader/lib/pkgconfig/gazebo_world_plugin_loader.pc'
+[6.482s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader/lib/python3.10/site-packages'
+[6.482s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader/bin'
+[6.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader/share/gazebo_world_plugin_loader/package.ps1'
+[6.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader/share/gazebo_world_plugin_loader/package.dsv'
+[6.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader/share/gazebo_world_plugin_loader/package.sh'
+[6.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader/share/gazebo_world_plugin_loader/package.bash'
+[6.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/src/install/gazebo_world_plugin_loader/share/gazebo_world_plugin_loader/package.zsh'
+[6.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/src/install/gazebo_world_plugin_loader/share/colcon-core/packages/gazebo_world_plugin_loader)
+[9.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[9.101s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.154s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.194s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/src/install/local_setup.ps1'
+[9.224s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/csg/dev_ws/src/install/_local_setup_util_ps1.py'
+[9.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/src/install/setup.ps1'
+[9.256s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/src/install/local_setup.sh'
+[9.258s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/csg/dev_ws/src/install/_local_setup_util_sh.py'
+[9.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/src/install/setup.sh'
+[9.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/src/install/local_setup.bash'
+[9.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/src/install/setup.bash'
+[9.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/src/install/local_setup.zsh'
+[9.319s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/src/install/setup.zsh'

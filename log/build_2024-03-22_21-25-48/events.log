@@ -1,0 +1,1408 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (gazebo_version_helpers) JobQueued: {'identifier': 'gazebo_version_helpers', 'dependencies': OrderedDict()}
+[0.000308] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000329] (llm_ros2) JobQueued: {'identifier': 'llm_ros2', 'dependencies': OrderedDict()}
+[0.000375] (gazebo_grasp_plugin) JobQueued: {'identifier': 'gazebo_grasp_plugin', 'dependencies': OrderedDict([('gazebo_version_helpers', '/home/csg/dev_ws/install/gazebo_version_helpers')])}
+[0.000398] (gazebo_grasp_plugin_ros) JobQueued: {'identifier': 'gazebo_grasp_plugin_ros', 'dependencies': OrderedDict([('gazebo_version_helpers', '/home/csg/dev_ws/install/gazebo_version_helpers'), ('gazebo_grasp_plugin', '/home/csg/dev_ws/install/gazebo_grasp_plugin')])}
+[0.000417] (gazebo_version_helpers) JobStarted: {'identifier': 'gazebo_version_helpers'}
+[0.077882] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.098680] (-) TimerEvent: {}
+[0.144533] (llm_ros2) JobStarted: {'identifier': 'llm_ros2'}
+[0.199453] (-) TimerEvent: {}
+[0.232395] (gazebo_version_helpers) JobProgress: {'identifier': 'gazebo_version_helpers', 'progress': 'cmake'}
+[0.234504] (gazebo_version_helpers) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/gazebo_version_helpers'], 'cwd': '/home/csg/dev_ws/build/gazebo_version_helpers', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_version_helpers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[0.239703] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.244466] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.244614] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/csg/dev_ws/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/csg/dev_ws/build/interfaces', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[0.299846] (-) TimerEvent: {}
+[0.309699] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400307] (-) TimerEvent: {}
+[0.405469] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[0.406611] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.435035] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.468333] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.469150] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.470001] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.486548] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.487574] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.489568] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.501295] (-) TimerEvent: {}
+[0.533711] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[0.558703] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.582801] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[0.601707] (-) TimerEvent: {}
+[0.638130] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[0.702181] (-) TimerEvent: {}
+[0.703512] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.703785] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[0.720954] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.787776] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[0.788261] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.789055] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[0.789915] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[0.790201] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[0.793833] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.795821] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.797775] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.802533] (-) TimerEvent: {}
+[0.846253] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[0.866970] (interfaces) CommandEnded: {'returncode': 0}
+[0.902798] (-) TimerEvent: {}
+[0.941463] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.954890] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.979582] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.003044] (-) TimerEvent: {}
+[1.016935] (gazebo_version_helpers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.027562] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[1.045653] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/csg/dev_ws/build/interfaces'], 'cwd': '/home/csg/dev_ws/build/interfaces', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[1.058573] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.059729] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[1.060234] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.060434] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.060552] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/matrix.h\n'}
+[1.061041] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.061114] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__functions.c\n'}
+[1.061168] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__type_support.h\n'}
+[1.061219] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__struct.h\n'}
+[1.061269] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__functions.h\n'}
+[1.061320] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.061371] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[1.061420] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[1.062269] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[1.062745] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.062890] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.062958] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.063009] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.063059] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_fastrtps_c.h\n'}
+[1.063913] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.064330] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.064479] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.064537] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.064589] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_introspection_c.h\n'}
+[1.064863] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__type_support.c\n'}
+[1.064986] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.065557] (gazebo_version_helpers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.066503] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.067612] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[1.067984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.068355] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.068437] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/matrix.hpp\n'}
+[1.068525] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.068804] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__struct.hpp\n'}
+[1.068934] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__builder.hpp\n'}
+[1.069192] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__traits.hpp\n'}
+[1.069261] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.069315] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.069365] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.069416] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.069465] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[1.069514] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.070239] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.070608] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.070745] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.070802] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.070853] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.070907] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__type_support.cpp\n'}
+[1.072360] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.073802] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[1.074127] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[1.074327] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[1.074550] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[1.075053] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.075312] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.075588] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.076106] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.076242] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[1.076670] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.076839] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.076896] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[1.076947] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.076997] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.077048] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[1.077104] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_matrix_s.c\n'}
+[1.077154] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_matrix.py\n'}
+[1.077223] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[1.077277] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.077327] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[1.077377] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.103546] (-) TimerEvent: {}
+[1.132245] (interfaces) StdoutLine: {'line': b"Listing '/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[1.132591] (interfaces) StdoutLine: {'line': b"Listing '/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[1.140352] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.142066] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.143622] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.145538] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[1.146214] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/msg/Matrix.idl\n'}
+[1.146499] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/msg/Matrix.msg\n'}
+[1.146884] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[1.147270] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[1.147415] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[1.148384] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[1.148680] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[1.149505] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[1.149798] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[1.150041] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[1.150254] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[1.150450] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[1.150869] (interfaces) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[1.151616] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[1.154831] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.155083] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.156082] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.156641] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.157775] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.157960] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.158836] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.159016] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.159992] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.160978] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.161461] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.162078] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.162534] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.163473] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.163626] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.164944] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.165299] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.165376] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.165610] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.165675] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.165727] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.165777] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.165826] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.165876] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.165943] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[1.165993] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[1.166042] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/package.xml\n'}
+[1.170427] (interfaces) CommandEnded: {'returncode': 0}
+[1.205753] (-) TimerEvent: {}
+[1.225258] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.233775] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.306575] (-) TimerEvent: {}
+[1.326533] (llm_ros2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/llm_ros2', 'build', '--build-base', '/home/csg/dev_ws/build/llm_ros2/build', 'install', '--record', '/home/csg/dev_ws/build/llm_ros2/install.log', '--single-version-externally-managed'], 'cwd': '/home/csg/dev_ws/src/llm_ros2', 'env': {'SVGA_VGPU10': '0', 'LANGUAGE': 'en_US:', 'USER': 'csg', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/csg', 'OLDPWD': '/home/csg/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '1846', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/csg/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'csg', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'csg', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TYL1K2', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/csg/dev_ws/build/llm_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces'}, 'shell': False}
+[1.406894] (-) TimerEvent: {}
+[1.474732] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.509909] (-) TimerEvent: {}
+[1.517094] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.538238] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[1.579498] (gazebo_version_helpers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.604844] (llm_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[1.605467] (llm_ros2) StdoutLine: {'line': b'writing ../../build/llm_ros2/llm_ros2.egg-info/PKG-INFO\n'}
+[1.607398] (llm_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/llm_ros2/llm_ros2.egg-info/dependency_links.txt\n'}
+[1.607905] (llm_ros2) StdoutLine: {'line': b'writing entry points to ../../build/llm_ros2/llm_ros2.egg-info/entry_points.txt\n'}
+[1.608422] (llm_ros2) StdoutLine: {'line': b'writing requirements to ../../build/llm_ros2/llm_ros2.egg-info/requires.txt\n'}
+[1.609095] (llm_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/llm_ros2/llm_ros2.egg-info/top_level.txt\n'}
+[1.610425] (-) TimerEvent: {}
+[1.610751] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.615464] (llm_ros2) StdoutLine: {'line': b"reading manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'\n"}
+[1.617700] (llm_ros2) StdoutLine: {'line': b"writing manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'\n"}
+[1.618170] (llm_ros2) StdoutLine: {'line': b'running build\n'}
+[1.618263] (llm_ros2) StdoutLine: {'line': b'running build_py\n'}
+[1.622554] (llm_ros2) StdoutLine: {'line': b'running install\n'}
+[1.622896] (llm_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[1.624048] (llm_ros2) StdoutLine: {'line': b'running install_data\n'}
+[1.631985] (llm_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.633919] (llm_ros2) StdoutLine: {'line': b"removing '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.635355] (llm_ros2) StdoutLine: {'line': b'Copying ../../build/llm_ros2/llm_ros2.egg-info to /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info\n'}
+[1.646211] (llm_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.664492] (llm_ros2) StdoutLine: {'line': b'Installing calculate_matrix script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.666145] (llm_ros2) StdoutLine: {'line': b'Installing camera_server script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.667228] (llm_ros2) StdoutLine: {'line': b'Installing ctl_robot script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.668865] (llm_ros2) StdoutLine: {'line': b'Installing monitor_joint script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.669226] (llm_ros2) StdoutLine: {'line': b'Installing sub_pose script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[1.670095] (llm_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/csg/dev_ws/build/llm_ros2/install.log'\n"}
+[1.711049] (-) TimerEvent: {}
+[1.725561] (llm_ros2) CommandEnded: {'returncode': 0}
+[1.793131] (llm_ros2) JobEnded: {'identifier': 'llm_ros2', 'rc': 0}
+[1.811522] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.811697] (-) TimerEvent: {}
+[1.813603] (gazebo_version_helpers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.912900] (-) TimerEvent: {}
+[1.935728] (gazebo_version_helpers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.935890] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.013271] (-) TimerEvent: {}
+[2.114676] (-) TimerEvent: {}
+[2.195298] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.195466] (gazebo_version_helpers) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[2.195546] (gazebo_version_helpers) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[2.195598] (gazebo_version_helpers) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[2.195652] (gazebo_version_helpers) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[2.195746] (gazebo_version_helpers) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[2.195806] (gazebo_version_helpers) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.195855] (gazebo_version_helpers) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[2.195904] (gazebo_version_helpers) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[2.195952] (gazebo_version_helpers) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[2.195999] (gazebo_version_helpers) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.196047] (gazebo_version_helpers) StderrLine: {'line': b'\x1b[0m\n'}
+[2.198226] (gazebo_version_helpers) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.215005] (-) TimerEvent: {}
+[2.224151] (gazebo_version_helpers) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.315557] (-) TimerEvent: {}
+[2.416489] (-) TimerEvent: {}
+[2.443708] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.516839] (-) TimerEvent: {}
+[2.554153] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[2.616065] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.617173] (-) TimerEvent: {}
+[2.675358] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.708981] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.717774] (-) TimerEvent: {}
+[2.721216] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.741573] (gazebo_version_helpers) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.747860] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.748279] (gazebo_version_helpers) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.756580] (gazebo_version_helpers) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.785143] (gazebo_version_helpers) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.819135] (-) TimerEvent: {}
+[2.857938] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.867422] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.878364] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.885723] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.885892] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.892789] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.892976] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.901131] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.901497] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.906875] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.907043] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.914557] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.914732] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.919386] (-) TimerEvent: {}
+[2.921733] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.020245] (-) TimerEvent: {}
+[3.077541] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.083699] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.084794] (gazebo_version_helpers) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.108294] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.120702] (-) TimerEvent: {}
+[3.123775] (gazebo_version_helpers) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.133234] (gazebo_version_helpers) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.168531] (gazebo_version_helpers) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.221020] (-) TimerEvent: {}
+[3.243942] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.255736] (gazebo_version_helpers) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.282946] (gazebo_version_helpers) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.321730] (-) TimerEvent: {}
+[3.353674] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.362305] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.363307] (gazebo_version_helpers) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.388792] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.398286] (gazebo_version_helpers) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.422257] (-) TimerEvent: {}
+[3.428041] (gazebo_version_helpers) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.505639] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.514405] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.515383] (gazebo_version_helpers) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.516894] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.518188] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.520038] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.522664] (-) TimerEvent: {}
+[3.539087] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[3.542296] (gazebo_version_helpers) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.548014] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.549056] (gazebo_version_helpers) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.549812] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.558431] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.559267] (gazebo_version_helpers) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.623043] (-) TimerEvent: {}
+[3.706980] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[3.723943] (-) TimerEvent: {}
+[3.725337] (gazebo_version_helpers) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.753768] (gazebo_version_helpers) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[3.824508] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.824716] (-) TimerEvent: {}
+[3.834400] (gazebo_version_helpers) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.862155] (gazebo_version_helpers) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.925055] (-) TimerEvent: {}
+[3.931911] (gazebo_version_helpers) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.932775] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.932935] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.933349] (gazebo_version_helpers) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.025367] (-) TimerEvent: {}
+[4.033912] (gazebo_version_helpers) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.046495] (gazebo_version_helpers) StdoutLine: {'line': b'-- Generating done\n'}
+[4.048757] (gazebo_version_helpers) StdoutLine: {'line': b'-- Build files have been written to: /home/csg/dev_ws/build/gazebo_version_helpers\n'}
+[4.065298] (gazebo_version_helpers) CommandEnded: {'returncode': 0}
+[4.065766] (gazebo_version_helpers) JobProgress: {'identifier': 'gazebo_version_helpers', 'progress': 'build'}
+[4.067229] (gazebo_version_helpers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/csg/dev_ws/build/gazebo_version_helpers', '--', '-j8', '-l8'], 'cwd': '/home/csg/dev_ws/build/gazebo_version_helpers', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_version_helpers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[4.126770] (-) TimerEvent: {}
+[4.150927] (gazebo_version_helpers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_version_helpers.dir/src/GazeboVersionHelpers.cpp.o\x1b[0m\n'}
+[4.227957] (-) TimerEvent: {}
+[4.329111] (-) TimerEvent: {}
+[4.430112] (-) TimerEvent: {}
+[4.530756] (-) TimerEvent: {}
+[4.631671] (-) TimerEvent: {}
+[4.732921] (-) TimerEvent: {}
+[4.833538] (-) TimerEvent: {}
+[4.934133] (-) TimerEvent: {}
+[5.034861] (-) TimerEvent: {}
+[5.135815] (-) TimerEvent: {}
+[5.236840] (-) TimerEvent: {}
+[5.337835] (-) TimerEvent: {}
+[5.438534] (-) TimerEvent: {}
+[5.539173] (-) TimerEvent: {}
+[5.639835] (-) TimerEvent: {}
+[5.740973] (-) TimerEvent: {}
+[5.841667] (-) TimerEvent: {}
+[5.942317] (-) TimerEvent: {}
+[6.042972] (-) TimerEvent: {}
+[6.143660] (-) TimerEvent: {}
+[6.245021] (-) TimerEvent: {}
+[6.345859] (-) TimerEvent: {}
+[6.446894] (-) TimerEvent: {}
+[6.547654] (-) TimerEvent: {}
+[6.648254] (-) TimerEvent: {}
+[6.748964] (-) TimerEvent: {}
+[6.849713] (-) TimerEvent: {}
+[6.950654] (-) TimerEvent: {}
+[7.051579] (-) TimerEvent: {}
+[7.152187] (-) TimerEvent: {}
+[7.253272] (-) TimerEvent: {}
+[7.354037] (-) TimerEvent: {}
+[7.454762] (-) TimerEvent: {}
+[7.555227] (-) TimerEvent: {}
+[7.656092] (-) TimerEvent: {}
+[7.756789] (-) TimerEvent: {}
+[7.857306] (-) TimerEvent: {}
+[7.958960] (-) TimerEvent: {}
+[8.059702] (-) TimerEvent: {}
+[8.160554] (-) TimerEvent: {}
+[8.261023] (-) TimerEvent: {}
+[8.361978] (-) TimerEvent: {}
+[8.462736] (-) TimerEvent: {}
+[8.563494] (-) TimerEvent: {}
+[8.664004] (-) TimerEvent: {}
+[8.765139] (-) TimerEvent: {}
+[8.865673] (-) TimerEvent: {}
+[8.966507] (-) TimerEvent: {}
+[9.067380] (-) TimerEvent: {}
+[9.168502] (-) TimerEvent: {}
+[9.269872] (-) TimerEvent: {}
+[9.371008] (-) TimerEvent: {}
+[9.472307] (-) TimerEvent: {}
+[9.572932] (-) TimerEvent: {}
+[9.674103] (-) TimerEvent: {}
+[9.775102] (-) TimerEvent: {}
+[9.875777] (-) TimerEvent: {}
+[9.976894] (-) TimerEvent: {}
+[10.077954] (-) TimerEvent: {}
+[10.179287] (-) TimerEvent: {}
+[10.280419] (-) TimerEvent: {}
+[10.381432] (-) TimerEvent: {}
+[10.483014] (-) TimerEvent: {}
+[10.583936] (-) TimerEvent: {}
+[10.685152] (-) TimerEvent: {}
+[10.786232] (-) TimerEvent: {}
+[10.887158] (-) TimerEvent: {}
+[10.988007] (-) TimerEvent: {}
+[11.088924] (-) TimerEvent: {}
+[11.190040] (-) TimerEvent: {}
+[11.290836] (-) TimerEvent: {}
+[11.391813] (-) TimerEvent: {}
+[11.492652] (-) TimerEvent: {}
+[11.594031] (-) TimerEvent: {}
+[11.694744] (-) TimerEvent: {}
+[11.796025] (-) TimerEvent: {}
+[11.897229] (-) TimerEvent: {}
+[11.997743] (-) TimerEvent: {}
+[12.098278] (-) TimerEvent: {}
+[12.199773] (-) TimerEvent: {}
+[12.300969] (-) TimerEvent: {}
+[12.401460] (-) TimerEvent: {}
+[12.502337] (-) TimerEvent: {}
+[12.602918] (-) TimerEvent: {}
+[12.703866] (-) TimerEvent: {}
+[12.804578] (-) TimerEvent: {}
+[12.905572] (-) TimerEvent: {}
+[13.007181] (-) TimerEvent: {}
+[13.108130] (-) TimerEvent: {}
+[13.209108] (-) TimerEvent: {}
+[13.309927] (-) TimerEvent: {}
+[13.410878] (-) TimerEvent: {}
+[13.511348] (-) TimerEvent: {}
+[13.612089] (-) TimerEvent: {}
+[13.712793] (-) TimerEvent: {}
+[13.813623] (-) TimerEvent: {}
+[13.914170] (-) TimerEvent: {}
+[14.015431] (-) TimerEvent: {}
+[14.116182] (-) TimerEvent: {}
+[14.217032] (-) TimerEvent: {}
+[14.317800] (-) TimerEvent: {}
+[14.418477] (-) TimerEvent: {}
+[14.519078] (-) TimerEvent: {}
+[14.620308] (-) TimerEvent: {}
+[14.720959] (-) TimerEvent: {}
+[14.821529] (-) TimerEvent: {}
+[14.922537] (-) TimerEvent: {}
+[15.023718] (-) TimerEvent: {}
+[15.124784] (-) TimerEvent: {}
+[15.225730] (-) TimerEvent: {}
+[15.326334] (-) TimerEvent: {}
+[15.427805] (-) TimerEvent: {}
+[15.530217] (-) TimerEvent: {}
+[15.631066] (-) TimerEvent: {}
+[15.731970] (-) TimerEvent: {}
+[15.833006] (-) TimerEvent: {}
+[15.933533] (-) TimerEvent: {}
+[16.034326] (-) TimerEvent: {}
+[16.135370] (-) TimerEvent: {}
+[16.236919] (-) TimerEvent: {}
+[16.337673] (-) TimerEvent: {}
+[16.439127] (-) TimerEvent: {}
+[16.540206] (-) TimerEvent: {}
+[16.641172] (-) TimerEvent: {}
+[16.742318] (-) TimerEvent: {}
+[16.842945] (-) TimerEvent: {}
+[16.944140] (-) TimerEvent: {}
+[17.045470] (-) TimerEvent: {}
+[17.146079] (-) TimerEvent: {}
+[17.246932] (-) TimerEvent: {}
+[17.347711] (-) TimerEvent: {}
+[17.448896] (-) TimerEvent: {}
+[17.549676] (-) TimerEvent: {}
+[17.650127] (-) TimerEvent: {}
+[17.751054] (-) TimerEvent: {}
+[17.852003] (-) TimerEvent: {}
+[17.952986] (-) TimerEvent: {}
+[18.054166] (-) TimerEvent: {}
+[18.154969] (-) TimerEvent: {}
+[18.255630] (-) TimerEvent: {}
+[18.356113] (-) TimerEvent: {}
+[18.457140] (-) TimerEvent: {}
+[18.557790] (-) TimerEvent: {}
+[18.658311] (-) TimerEvent: {}
+[18.759012] (-) TimerEvent: {}
+[18.859798] (-) TimerEvent: {}
+[18.960847] (-) TimerEvent: {}
+[19.061373] (-) TimerEvent: {}
+[19.162001] (-) TimerEvent: {}
+[19.262762] (-) TimerEvent: {}
+[19.287322] (gazebo_version_helpers) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_version_helpers.so\x1b[0m\n'}
+[19.363028] (-) TimerEvent: {}
+[19.464180] (-) TimerEvent: {}
+[19.564887] (-) TimerEvent: {}
+[19.611389] (gazebo_version_helpers) StdoutLine: {'line': b'[100%] Built target gazebo_version_helpers\n'}
+[19.631274] (gazebo_version_helpers) CommandEnded: {'returncode': 0}
+[19.665215] (-) TimerEvent: {}
+[19.695215] (gazebo_version_helpers) JobProgress: {'identifier': 'gazebo_version_helpers', 'progress': 'install'}
+[19.695321] (gazebo_version_helpers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/csg/dev_ws/build/gazebo_version_helpers'], 'cwd': '/home/csg/dev_ws/build/gazebo_version_helpers', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_version_helpers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[19.708451] (gazebo_version_helpers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.710352] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/lib/libgazebo_version_helpers.so\n'}
+[19.713939] (gazebo_version_helpers) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/gazebo_version_helpers/lib/libgazebo_version_helpers.so" to ""\n'}
+[19.714143] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/include\n'}
+[19.714200] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/include/gazebo_version_helpers\n'}
+[19.714251] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/include/gazebo_version_helpers/GazeboVersionHelpers.h\n'}
+[19.718314] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/library_path.sh\n'}
+[19.719200] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/library_path.dsv\n'}
+[19.719783] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/ament_index/resource_index/package_run_dependencies/gazebo_version_helpers\n'}
+[19.720247] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/ament_index/resource_index/parent_prefix_path/gazebo_version_helpers\n'}
+[19.723588] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/ament_prefix_path.sh\n'}
+[19.725882] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/ament_prefix_path.dsv\n'}
+[19.726483] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/path.sh\n'}
+[19.727186] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/path.dsv\n'}
+[19.727635] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/local_setup.bash\n'}
+[19.728001] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/local_setup.sh\n'}
+[19.728724] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/local_setup.zsh\n'}
+[19.729163] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/local_setup.dsv\n'}
+[19.732316] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.dsv\n'}
+[19.733087] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/ament_index/resource_index/packages/gazebo_version_helpers\n'}
+[19.733920] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.734013] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.734381] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.734780] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake/gazebo_version_helpersConfig.cmake\n'}
+[19.735184] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake/gazebo_version_helpersConfig-version.cmake\n'}
+[19.735572] (gazebo_version_helpers) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.xml\n'}
+[19.739986] (gazebo_version_helpers) CommandEnded: {'returncode': 0}
+[19.766060] (-) TimerEvent: {}
+[19.866637] (-) TimerEvent: {}
+[19.967191] (-) TimerEvent: {}
+[20.068157] (-) TimerEvent: {}
+[20.169936] (-) TimerEvent: {}
+[20.222114] (gazebo_version_helpers) JobEnded: {'identifier': 'gazebo_version_helpers', 'rc': 0}
+[20.231808] (gazebo_grasp_plugin) JobStarted: {'identifier': 'gazebo_grasp_plugin'}
+[20.270842] (-) TimerEvent: {}
+[20.319706] (gazebo_grasp_plugin) JobProgress: {'identifier': 'gazebo_grasp_plugin', 'progress': 'cmake'}
+[20.321754] (gazebo_grasp_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/gazebo_grasp_plugin'], 'cwd': '/home/csg/dev_ws/build/gazebo_grasp_plugin', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_grasp_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces')]), 'shell': False}
+[20.371213] (-) TimerEvent: {}
+[20.461063] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[20.471603] (-) TimerEvent: {}
+[20.559678] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[20.571885] (-) TimerEvent: {}
+[20.580097] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[20.672133] (-) TimerEvent: {}
+[20.702270] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[20.710629] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[20.711458] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[20.713322] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[20.731703] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.772661] (-) TimerEvent: {}
+[20.871259] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[20.872859] (-) TimerEvent: {}
+[20.895174] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[20.896231] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.898191] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.958283] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[20.973254] (-) TimerEvent: {}
+[21.074001] (-) TimerEvent: {}
+[21.175018] (-) TimerEvent: {}
+[21.224200] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[21.275857] (-) TimerEvent: {}
+[21.376293] (-) TimerEvent: {}
+[21.436330] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[21.457468] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[21.468105] (gazebo_grasp_plugin) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[21.476613] (-) TimerEvent: {}
+[21.498427] (gazebo_grasp_plugin) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[21.576830] (-) TimerEvent: {}
+[21.677664] (-) TimerEvent: {}
+[21.717879] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[21.778550] (-) TimerEvent: {}
+[21.826524] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[21.879487] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[21.879781] (-) TimerEvent: {}
+[21.980849] (-) TimerEvent: {}
+[22.081573] (-) TimerEvent: {}
+[22.182702] (-) TimerEvent: {}
+[22.189172] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[22.217922] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[22.229368] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[22.247384] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[22.252238] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[22.253111] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[22.261235] (gazebo_grasp_plugin) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[22.283982] (-) TimerEvent: {}
+[22.286524] (gazebo_grasp_plugin) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[22.358948] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[22.374116] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[22.384638] (-) TimerEvent: {}
+[22.385156] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[22.395636] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[22.395890] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[22.403569] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[22.403735] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[22.410881] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[22.411283] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[22.419156] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[22.419332] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[22.429604] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[22.429795] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[22.436669] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[22.485090] (-) TimerEvent: {}
+[22.586651] (-) TimerEvent: {}
+[22.607025] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[22.611521] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[22.612033] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[22.636721] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[22.650988] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[22.658241] (gazebo_grasp_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[22.687305] (-) TimerEvent: {}
+[22.689946] (gazebo_grasp_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[22.767578] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[22.777517] (gazebo_grasp_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[22.788029] (-) TimerEvent: {}
+[22.804949] (gazebo_grasp_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[22.876515] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[22.882085] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[22.882585] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[22.889034] (-) TimerEvent: {}
+[22.907482] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[22.915572] (gazebo_grasp_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[22.942581] (gazebo_grasp_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[22.989270] (-) TimerEvent: {}
+[23.017949] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[23.025474] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[23.026059] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[23.027129] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[23.028132] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[23.029895] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[23.048195] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[23.049464] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[23.053921] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[23.054387] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[23.054789] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[23.062621] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[23.063024] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[23.089746] (-) TimerEvent: {}
+[23.190750] (-) TimerEvent: {}
+[23.209884] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[23.226522] (gazebo_grasp_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[23.253710] (gazebo_grasp_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[23.291683] (-) TimerEvent: {}
+[23.325436] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[23.336409] (gazebo_grasp_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[23.364249] (gazebo_grasp_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[23.392887] (-) TimerEvent: {}
+[23.434247] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[23.434758] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[23.435080] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[23.435515] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[23.445121] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[23.445821] (gazebo_grasp_plugin) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[23.473262] (gazebo_grasp_plugin) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[23.493732] (-) TimerEvent: {}
+[23.548795] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[23.594315] (-) TimerEvent: {}
+[23.651209] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[23.663132] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[23.682523] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[23.694666] (-) TimerEvent: {}
+[23.719677] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.758770] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.795032] (-) TimerEvent: {}
+[23.883217] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[23.891198] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[23.895884] (-) TimerEvent: {}
+[23.997151] (-) TimerEvent: {}
+[24.096104] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[24.097707] (-) TimerEvent: {}
+[24.132971] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[24.196562] (gazebo_grasp_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[24.198426] (-) TimerEvent: {}
+[24.216228] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[24.298692] (-) TimerEvent: {}
+[24.399334] (-) TimerEvent: {}
+[24.459544] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[24.500351] (-) TimerEvent: {}
+[24.524178] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found gazebo_version_helpers: 0.0.0 (/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake)\n'}
+[24.542538] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[24.601227] (-) TimerEvent: {}
+[24.702319] (-) TimerEvent: {}
+[24.706480] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[24.802560] (-) TimerEvent: {}
+[24.818798] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[24.821798] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/csg/dev_ws/build/gazebo_grasp_plugin\n'}
+[24.842984] (gazebo_grasp_plugin) CommandEnded: {'returncode': 0}
+[24.843585] (gazebo_grasp_plugin) JobProgress: {'identifier': 'gazebo_grasp_plugin', 'progress': 'build'}
+[24.843717] (gazebo_grasp_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/csg/dev_ws/build/gazebo_grasp_plugin', '--', '-j8', '-l8'], 'cwd': '/home/csg/dev_ws/build/gazebo_grasp_plugin', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_grasp_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces')]), 'shell': False}
+[24.903813] (-) TimerEvent: {}
+[24.905589] (gazebo_grasp_plugin) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mRunning cpp protocol buffer compiler on msgs/grasp_event.proto\x1b[0m\n'}
+[24.960599] (gazebo_grasp_plugin) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_grasp_msgs.dir/grasp_event.pb.cc.o\x1b[0m\n'}
+[25.004160] (-) TimerEvent: {}
+[25.104803] (-) TimerEvent: {}
+[25.205518] (-) TimerEvent: {}
+[25.306152] (-) TimerEvent: {}
+[25.407123] (-) TimerEvent: {}
+[25.508481] (-) TimerEvent: {}
+[25.609085] (-) TimerEvent: {}
+[25.709890] (-) TimerEvent: {}
+[25.810754] (-) TimerEvent: {}
+[25.911829] (-) TimerEvent: {}
+[25.993443] (gazebo_grasp_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_grasp_msgs.so\x1b[0m\n'}
+[26.012320] (-) TimerEvent: {}
+[26.114162] (-) TimerEvent: {}
+[26.123962] (gazebo_grasp_plugin) StdoutLine: {'line': b'\x1b[34m\x1b[1mMoving protobuf headers to msgs directory\x1b[0m\n'}
+[26.167676] (gazebo_grasp_plugin) StdoutLine: {'line': b'[ 50%] Built target gazebo_grasp_msgs\n'}
+[26.207048] (gazebo_grasp_plugin) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o\x1b[0m\n'}
+[26.207233] (gazebo_grasp_plugin) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o\x1b[0m\n'}
+[26.214433] (-) TimerEvent: {}
+[26.314955] (-) TimerEvent: {}
+[26.415780] (-) TimerEvent: {}
+[26.516459] (-) TimerEvent: {}
+[26.616952] (-) TimerEvent: {}
+[26.717767] (-) TimerEvent: {}
+[26.818496] (-) TimerEvent: {}
+[26.920711] (-) TimerEvent: {}
+[27.021529] (-) TimerEvent: {}
+[27.122730] (-) TimerEvent: {}
+[27.223626] (-) TimerEvent: {}
+[27.324328] (-) TimerEvent: {}
+[27.425485] (-) TimerEvent: {}
+[27.526601] (-) TimerEvent: {}
+[27.627681] (-) TimerEvent: {}
+[27.728407] (-) TimerEvent: {}
+[27.829536] (-) TimerEvent: {}
+[27.930213] (-) TimerEvent: {}
+[28.030742] (-) TimerEvent: {}
+[28.131651] (-) TimerEvent: {}
+[28.232233] (-) TimerEvent: {}
+[28.332846] (-) TimerEvent: {}
+[28.433235] (-) TimerEvent: {}
+[28.534146] (-) TimerEvent: {}
+[28.634826] (-) TimerEvent: {}
+[28.736080] (-) TimerEvent: {}
+[28.836892] (-) TimerEvent: {}
+[28.937594] (-) TimerEvent: {}
+[29.038556] (-) TimerEvent: {}
+[29.139970] (-) TimerEvent: {}
+[29.240890] (-) TimerEvent: {}
+[29.341722] (-) TimerEvent: {}
+[29.442640] (-) TimerEvent: {}
+[29.543084] (-) TimerEvent: {}
+[29.643935] (-) TimerEvent: {}
+[29.744891] (-) TimerEvent: {}
+[29.845938] (-) TimerEvent: {}
+[29.946892] (-) TimerEvent: {}
+[30.047845] (-) TimerEvent: {}
+[30.148479] (-) TimerEvent: {}
+[30.249266] (-) TimerEvent: {}
+[30.350034] (-) TimerEvent: {}
+[30.450826] (-) TimerEvent: {}
+[30.551645] (-) TimerEvent: {}
+[30.652676] (-) TimerEvent: {}
+[30.753266] (-) TimerEvent: {}
+[30.853954] (-) TimerEvent: {}
+[30.954959] (-) TimerEvent: {}
+[31.055815] (-) TimerEvent: {}
+[31.157245] (-) TimerEvent: {}
+[31.258224] (-) TimerEvent: {}
+[31.359036] (-) TimerEvent: {}
+[31.460269] (-) TimerEvent: {}
+[31.561052] (-) TimerEvent: {}
+[31.661589] (-) TimerEvent: {}
+[31.762163] (-) TimerEvent: {}
+[31.862831] (-) TimerEvent: {}
+[31.964211] (-) TimerEvent: {}
+[32.064768] (-) TimerEvent: {}
+[32.166344] (-) TimerEvent: {}
+[32.267851] (-) TimerEvent: {}
+[32.277063] (gazebo_grasp_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[32.277365] (gazebo_grasp_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp:1\x1b[m\x1b[K:\n'}
+[32.277463] (gazebo_grasp_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.277538] (gazebo_grasp_plugin) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[32.277589] (gazebo_grasp_plugin) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.283347] (gazebo_grasp_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[32.283516] (gazebo_grasp_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:1\x1b[m\x1b[K:\n'}
+[32.283571] (gazebo_grasp_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.283624] (gazebo_grasp_plugin) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[32.283718] (gazebo_grasp_plugin) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.369223] (-) TimerEvent: {}
+[32.470535] (-) TimerEvent: {}
+[32.571797] (-) TimerEvent: {}
+[32.672832] (-) TimerEvent: {}
+[32.773624] (-) TimerEvent: {}
+[32.875123] (-) TimerEvent: {}
+[32.975781] (-) TimerEvent: {}
+[33.076523] (-) TimerEvent: {}
+[33.176888] (-) TimerEvent: {}
+[33.277567] (-) TimerEvent: {}
+[33.378332] (-) TimerEvent: {}
+[33.479731] (-) TimerEvent: {}
+[33.580823] (-) TimerEvent: {}
+[33.681818] (-) TimerEvent: {}
+[33.782394] (-) TimerEvent: {}
+[33.882926] (-) TimerEvent: {}
+[33.984110] (-) TimerEvent: {}
+[34.084675] (-) TimerEvent: {}
+[34.185133] (-) TimerEvent: {}
+[34.285981] (-) TimerEvent: {}
+[34.386914] (-) TimerEvent: {}
+[34.488142] (-) TimerEvent: {}
+[34.588633] (-) TimerEvent: {}
+[34.689757] (-) TimerEvent: {}
+[34.790703] (-) TimerEvent: {}
+[34.891842] (-) TimerEvent: {}
+[34.992722] (-) TimerEvent: {}
+[35.093872] (-) TimerEvent: {}
+[35.195042] (-) TimerEvent: {}
+[35.296076] (-) TimerEvent: {}
+[35.397045] (-) TimerEvent: {}
+[35.497900] (-) TimerEvent: {}
+[35.598930] (-) TimerEvent: {}
+[35.699629] (-) TimerEvent: {}
+[35.800903] (-) TimerEvent: {}
+[35.902047] (-) TimerEvent: {}
+[36.003058] (-) TimerEvent: {}
+[36.103811] (-) TimerEvent: {}
+[36.204462] (-) TimerEvent: {}
+[36.305085] (-) TimerEvent: {}
+[36.406154] (-) TimerEvent: {}
+[36.507102] (-) TimerEvent: {}
+[36.607712] (-) TimerEvent: {}
+[36.708909] (-) TimerEvent: {}
+[36.809528] (-) TimerEvent: {}
+[36.910572] (-) TimerEvent: {}
+[37.011558] (-) TimerEvent: {}
+[37.112409] (-) TimerEvent: {}
+[37.213691] (-) TimerEvent: {}
+[37.314849] (-) TimerEvent: {}
+[37.416035] (-) TimerEvent: {}
+[37.517590] (-) TimerEvent: {}
+[37.618309] (-) TimerEvent: {}
+[37.718981] (-) TimerEvent: {}
+[37.820057] (-) TimerEvent: {}
+[37.921197] (-) TimerEvent: {}
+[38.022686] (-) TimerEvent: {}
+[38.123313] (-) TimerEvent: {}
+[38.223916] (-) TimerEvent: {}
+[38.324788] (-) TimerEvent: {}
+[38.425999] (-) TimerEvent: {}
+[38.527044] (-) TimerEvent: {}
+[38.628039] (-) TimerEvent: {}
+[38.728595] (-) TimerEvent: {}
+[38.829133] (-) TimerEvent: {}
+[38.929750] (-) TimerEvent: {}
+[39.030472] (-) TimerEvent: {}
+[39.131052] (-) TimerEvent: {}
+[39.231966] (-) TimerEvent: {}
+[39.332920] (-) TimerEvent: {}
+[39.434000] (-) TimerEvent: {}
+[39.534594] (-) TimerEvent: {}
+[39.636008] (-) TimerEvent: {}
+[39.737172] (-) TimerEvent: {}
+[39.838175] (-) TimerEvent: {}
+[39.939463] (-) TimerEvent: {}
+[40.040880] (-) TimerEvent: {}
+[40.141402] (-) TimerEvent: {}
+[40.242387] (-) TimerEvent: {}
+[40.343170] (-) TimerEvent: {}
+[40.444311] (-) TimerEvent: {}
+[40.545466] (-) TimerEvent: {}
+[40.646139] (-) TimerEvent: {}
+[40.747483] (-) TimerEvent: {}
+[40.848756] (-) TimerEvent: {}
+[40.949868] (-) TimerEvent: {}
+[41.050812] (-) TimerEvent: {}
+[41.151981] (-) TimerEvent: {}
+[41.252924] (-) TimerEvent: {}
+[41.354132] (-) TimerEvent: {}
+[41.454638] (-) TimerEvent: {}
+[41.555377] (-) TimerEvent: {}
+[41.655954] (-) TimerEvent: {}
+[41.757278] (-) TimerEvent: {}
+[41.858109] (-) TimerEvent: {}
+[41.958720] (-) TimerEvent: {}
+[42.059596] (-) TimerEvent: {}
+[42.160258] (-) TimerEvent: {}
+[42.260852] (-) TimerEvent: {}
+[42.361974] (-) TimerEvent: {}
+[42.462859] (-) TimerEvent: {}
+[42.564190] (-) TimerEvent: {}
+[42.664928] (-) TimerEvent: {}
+[42.765956] (-) TimerEvent: {}
+[42.866740] (-) TimerEvent: {}
+[42.967773] (-) TimerEvent: {}
+[43.027130] (gazebo_grasp_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::GazeboGraspFix::OnUpdate()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[43.027417] (gazebo_grasp_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:665:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kgazebo::GazeboGraspFix::CollidingPoint& gazebo::GazeboGraspFix::CollidingPoint::operator=(const gazebo::GazeboGraspFix::CollidingPoint&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[43.027502] (gazebo_grasp_plugin) StderrLine: {'line': b'  665 |         attGripConts[collidingLink] = \x1b[01;35m\x1b[KcollidingPoint\x1b[m\x1b[K;\n'}
+[43.027553] (gazebo_grasp_plugin) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[43.027601] (gazebo_grasp_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:399:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Kgazebo::GazeboGraspFix::CollidingPoint\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kgazebo::GazeboGraspFix::CollidingPoint::CollidingPoint(const gazebo::GazeboGraspFix::CollidingPoint&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[43.027651] (gazebo_grasp_plugin) StderrLine: {'line': b'  399 |     \x1b[01;36m\x1b[KCollidingPoint\x1b[m\x1b[K(const CollidingPoint &o):\n'}
+[43.027699] (gazebo_grasp_plugin) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[43.047172] (gazebo_grasp_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::GazeboGraspFix::OnContact(ConstContactsPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[43.047402] (gazebo_grasp_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:908:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ignition::math::v6::Vector3<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[43.047464] (gazebo_grasp_plugin) StderrLine: {'line': b'  908 |       for (int k = 0; \x1b[01;35m\x1b[Kk < force.size()\x1b[m\x1b[K; ++k)\n'}
+[43.047517] (gazebo_grasp_plugin) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[43.068943] (-) TimerEvent: {}
+[43.169843] (-) TimerEvent: {}
+[43.270536] (-) TimerEvent: {}
+[43.371120] (-) TimerEvent: {}
+[43.471930] (-) TimerEvent: {}
+[43.572545] (-) TimerEvent: {}
+[43.673136] (-) TimerEvent: {}
+[43.773701] (-) TimerEvent: {}
+[43.874541] (-) TimerEvent: {}
+[43.976128] (-) TimerEvent: {}
+[44.077378] (-) TimerEvent: {}
+[44.178028] (-) TimerEvent: {}
+[44.278789] (-) TimerEvent: {}
+[44.380243] (-) TimerEvent: {}
+[44.481099] (-) TimerEvent: {}
+[44.581800] (-) TimerEvent: {}
+[44.682754] (-) TimerEvent: {}
+[44.783746] (-) TimerEvent: {}
+[44.885226] (-) TimerEvent: {}
+[44.985796] (-) TimerEvent: {}
+[45.086300] (-) TimerEvent: {}
+[45.187328] (-) TimerEvent: {}
+[45.287912] (-) TimerEvent: {}
+[45.388642] (-) TimerEvent: {}
+[45.489990] (-) TimerEvent: {}
+[45.590727] (-) TimerEvent: {}
+[45.691513] (-) TimerEvent: {}
+[45.792502] (-) TimerEvent: {}
+[45.892871] (-) TimerEvent: {}
+[45.993646] (-) TimerEvent: {}
+[46.094841] (-) TimerEvent: {}
+[46.195542] (-) TimerEvent: {}
+[46.296355] (-) TimerEvent: {}
+[46.397763] (-) TimerEvent: {}
+[46.498374] (-) TimerEvent: {}
+[46.600211] (-) TimerEvent: {}
+[46.700959] (-) TimerEvent: {}
+[46.801708] (-) TimerEvent: {}
+[46.902299] (-) TimerEvent: {}
+[47.002819] (-) TimerEvent: {}
+[47.103526] (-) TimerEvent: {}
+[47.204036] (-) TimerEvent: {}
+[47.304811] (-) TimerEvent: {}
+[47.405948] (-) TimerEvent: {}
+[47.506872] (-) TimerEvent: {}
+[47.607999] (-) TimerEvent: {}
+[47.709111] (-) TimerEvent: {}
+[47.809630] (-) TimerEvent: {}
+[47.910349] (-) TimerEvent: {}
+[48.010803] (-) TimerEvent: {}
+[48.111938] (-) TimerEvent: {}
+[48.213119] (-) TimerEvent: {}
+[48.313702] (-) TimerEvent: {}
+[48.414933] (-) TimerEvent: {}
+[48.516370] (-) TimerEvent: {}
+[48.617914] (-) TimerEvent: {}
+[48.718444] (-) TimerEvent: {}
+[48.818936] (-) TimerEvent: {}
+[48.919402] (-) TimerEvent: {}
+[49.020955] (-) TimerEvent: {}
+[49.122571] (-) TimerEvent: {}
+[49.223527] (-) TimerEvent: {}
+[49.281577] (gazebo_grasp_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_grasp_fix.so\x1b[0m\n'}
+[49.323916] (-) TimerEvent: {}
+[49.424779] (-) TimerEvent: {}
+[49.525526] (-) TimerEvent: {}
+[49.626168] (-) TimerEvent: {}
+[49.727124] (-) TimerEvent: {}
+[49.827801] (-) TimerEvent: {}
+[49.928822] (-) TimerEvent: {}
+[50.030114] (-) TimerEvent: {}
+[50.130911] (-) TimerEvent: {}
+[50.232112] (-) TimerEvent: {}
+[50.333067] (-) TimerEvent: {}
+[50.433825] (-) TimerEvent: {}
+[50.534597] (-) TimerEvent: {}
+[50.635950] (-) TimerEvent: {}
+[50.683435] (gazebo_grasp_plugin) StdoutLine: {'line': b'[100%] Built target gazebo_grasp_fix\n'}
+[50.736279] (-) TimerEvent: {}
+[50.775150] (gazebo_grasp_plugin) CommandEnded: {'returncode': 0}
+[50.836668] (-) TimerEvent: {}
+[50.854427] (gazebo_grasp_plugin) JobProgress: {'identifier': 'gazebo_grasp_plugin', 'progress': 'install'}
+[50.854546] (gazebo_grasp_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/csg/dev_ws/build/gazebo_grasp_plugin'], 'cwd': '/home/csg/dev_ws/build/gazebo_grasp_plugin', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_grasp_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces')]), 'shell': False}
+[50.869823] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[50.871477] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so\n'}
+[50.877672] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so" to ""\n'}
+[50.877865] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_msgs.so\n'}
+[50.878713] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include\n'}
+[50.879211] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin\n'}
+[50.879771] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/GazeboGraspGripper.h\n'}
+[50.880279] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/GazeboGraspFix.h\n'}
+[50.881862] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin\n'}
+[50.882035] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/msgs\n'}
+[50.882766] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/msgs/grasp_event.pb.h\n'}
+[50.884014] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_environment_hooks\n'}
+[50.884871] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index\n'}
+[50.885319] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share\n'}
+[50.885829] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share/ament_index\n'}
+[50.886331] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share/ament_index/resource_index\n'}
+[50.886875] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path\n'}
+[50.887358] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies\n'}
+[50.887897] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share/ament_index/resource_index/packages\n'}
+[50.888583] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_export_dependencies\n'}
+[50.889359] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_core\n'}
+[50.889770] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_core/stamps\n'}
+[50.890249] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_export_include_directories\n'}
+[50.890786] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/grasp_event.pb.h\n'}
+[50.891743] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_package_templates\n'}
+[50.892528] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_export_libraries\n'}
+[50.893198] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_uninstall_target\n'}
+[50.893934] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles\n'}
+[50.894298] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_msgs.dir\n'}
+[50.894579] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/CMakeTmp\n'}
+[50.895267] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_plugin_uninstall.dir\n'}
+[50.895648] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/uninstall.dir\n'}
+[50.896009] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/3.22.1\n'}
+[50.897150] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/3.22.1/CompilerIdC\n'}
+[50.898180] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/3.22.1/CompilerIdC/tmp\n'}
+[50.899002] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/3.22.1/CompilerIdCXX\n'}
+[50.899629] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/3.22.1/CompilerIdCXX/tmp\n'}
+[50.900374] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir\n'}
+[50.900534] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src\n'}
+[50.903633] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/library_path.sh\n'}
+[50.904506] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/library_path.dsv\n'}
+[50.905403] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/ament_index/resource_index/package_run_dependencies/gazebo_grasp_plugin\n'}
+[50.905981] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/ament_index/resource_index/parent_prefix_path/gazebo_grasp_plugin\n'}
+[50.908756] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/ament_prefix_path.sh\n'}
+[50.909416] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/ament_prefix_path.dsv\n'}
+[50.910085] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/path.sh\n'}
+[50.910922] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/path.dsv\n'}
+[50.911516] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/local_setup.bash\n'}
+[50.912112] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/local_setup.sh\n'}
+[50.912883] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/local_setup.zsh\n'}
+[50.914109] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/local_setup.dsv\n'}
+[50.914856] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.dsv\n'}
+[50.915485] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/ament_index/resource_index/packages/gazebo_grasp_plugin\n'}
+[50.915744] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[50.916397] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[50.916989] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[50.917606] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/gazebo_grasp_pluginConfig.cmake\n'}
+[50.918100] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/gazebo_grasp_pluginConfig-version.cmake\n'}
+[50.918750] (gazebo_grasp_plugin) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.xml\n'}
+[50.923196] (gazebo_grasp_plugin) CommandEnded: {'returncode': 0}
+[50.937307] (-) TimerEvent: {}
+[51.038271] (-) TimerEvent: {}
+[51.139096] (-) TimerEvent: {}
+[51.240130] (-) TimerEvent: {}
+[51.695922] (-) TimerEvent: {}
+[51.796873] (-) TimerEvent: {}
+[51.874944] (gazebo_grasp_plugin) JobEnded: {'identifier': 'gazebo_grasp_plugin', 'rc': 0}
+[51.876906] (gazebo_grasp_plugin_ros) JobStarted: {'identifier': 'gazebo_grasp_plugin_ros'}
+[51.897386] (-) TimerEvent: {}
+[51.983337] (gazebo_grasp_plugin_ros) JobProgress: {'identifier': 'gazebo_grasp_plugin_ros', 'progress': 'cmake'}
+[51.985474] (gazebo_grasp_plugin_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin_ros', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/gazebo_grasp_plugin_ros'], 'cwd': '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces')]), 'shell': False}
+[51.997965] (-) TimerEvent: {}
+[52.098879] (-) TimerEvent: {}
+[52.185068] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[52.199622] (-) TimerEvent: {}
+[52.276741] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[52.299950] (-) TimerEvent: {}
+[52.303165] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[52.400294] (-) TimerEvent: {}
+[52.419351] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[52.426707] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[52.428310] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[52.429775] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[52.436194] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[52.500907] (-) TimerEvent: {}
+[52.559310] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[52.566856] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[52.567595] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[52.568336] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[52.595502] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[52.601332] (-) TimerEvent: {}
+[52.701870] (-) TimerEvent: {}
+[52.802944] (-) TimerEvent: {}
+[52.856889] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[52.903590] (-) TimerEvent: {}
+[53.004092] (-) TimerEvent: {}
+[53.087386] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[53.104688] (-) TimerEvent: {}
+[53.205239] (-) TimerEvent: {}
+[53.215095] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[53.227511] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[53.251466] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[53.297454] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[53.305931] (-) TimerEvent: {}
+[53.341260] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[53.406323] (-) TimerEvent: {}
+[53.488806] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[53.499292] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[53.506659] (-) TimerEvent: {}
+[53.607813] (-) TimerEvent: {}
+[53.708927] (-) TimerEvent: {}
+[53.726641] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[53.765545] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[53.809554] (-) TimerEvent: {}
+[53.824992] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[53.850584] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[53.909881] (-) TimerEvent: {}
+[53.985417] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[53.986347] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[54.010156] (-) TimerEvent: {}
+[54.110602] (-) TimerEvent: {}
+[54.113313] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[54.113769] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[54.210855] (-) TimerEvent: {}
+[54.311500] (-) TimerEvent: {}
+[54.353786] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[54.376697] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[54.378028] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[54.406379] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[54.412133] (-) TimerEvent: {}
+[54.512816] (-) TimerEvent: {}
+[54.613731] (-) TimerEvent: {}
+[54.640348] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[54.714342] (-) TimerEvent: {}
+[54.751834] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[54.810095] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[54.814806] (-) TimerEvent: {}
+[54.860244] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[54.903391] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[54.915833] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[54.916044] (-) TimerEvent: {}
+[54.935186] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[54.940373] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[54.941253] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[54.949348] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[54.977851] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[55.016875] (-) TimerEvent: {}
+[55.053491] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[55.063040] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[55.073600] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[55.079796] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[55.080074] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[55.089756] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[55.090090] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[55.097948] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[55.098115] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[55.106149] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[55.106493] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[55.113769] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[55.113969] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[55.117498] (-) TimerEvent: {}
+[55.122154] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[55.218261] (-) TimerEvent: {}
+[55.295201] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[55.300469] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[55.301151] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[55.319023] (-) TimerEvent: {}
+[55.327745] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[55.342281] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[55.350161] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[55.383072] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[55.419980] (-) TimerEvent: {}
+[55.462559] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[55.473511] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[55.498419] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[55.521187] (-) TimerEvent: {}
+[55.571941] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[55.578840] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[55.579405] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[55.604242] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[55.612357] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[55.621759] (-) TimerEvent: {}
+[55.642047] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[55.721667] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[55.721926] (-) TimerEvent: {}
+[55.729051] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[55.729631] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[55.730645] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[55.731495] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[55.733763] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[55.753649] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[55.755657] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[55.759901] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[55.760656] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[55.761391] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[55.768699] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[55.769015] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[55.822746] (-) TimerEvent: {}
+[55.917338] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[55.923241] (-) TimerEvent: {}
+[55.934394] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[55.963348] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[56.023794] (-) TimerEvent: {}
+[56.038378] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[56.048978] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[56.078206] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[56.124234] (-) TimerEvent: {}
+[56.154213] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[56.154649] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[56.155014] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[56.155466] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[56.164730] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[56.165172] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[56.195538] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[56.224648] (-) TimerEvent: {}
+[56.271862] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[56.287846] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[56.325143] (-) TimerEvent: {}
+[56.425822] (-) TimerEvent: {}
+[56.526378] (-) TimerEvent: {}
+[56.627212] (-) TimerEvent: {}
+[56.632845] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found gazebo_grasp_plugin: 1.0.2 (/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake)\n'}
+[56.727624] (-) TimerEvent: {}
+[56.828221] (-) TimerEvent: {}
+[56.855471] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[56.896104] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[56.899243] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/csg/dev_ws/build/gazebo_grasp_plugin_ros\n'}
+[56.917249] (gazebo_grasp_plugin_ros) CommandEnded: {'returncode': 0}
+[56.918204] (gazebo_grasp_plugin_ros) JobProgress: {'identifier': 'gazebo_grasp_plugin_ros', 'progress': 'build'}
+[56.920274] (gazebo_grasp_plugin_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros', '--', '-j8', '-l8'], 'cwd': '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces')]), 'shell': False}
+[56.929390] (-) TimerEvent: {}
+[57.021895] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/grasp_event_republisher.dir/src/grasp_event_republisher.cpp.o\x1b[0m\n'}
+[57.029710] (-) TimerEvent: {}
+[57.130811] (-) TimerEvent: {}
+[57.231671] (-) TimerEvent: {}
+[57.332835] (-) TimerEvent: {}
+[57.433614] (-) TimerEvent: {}
+[57.534229] (-) TimerEvent: {}
+[57.635120] (-) TimerEvent: {}
+[57.736312] (-) TimerEvent: {}
+[57.836973] (-) TimerEvent: {}
+[57.937876] (-) TimerEvent: {}
+[58.038467] (-) TimerEvent: {}
+[58.139087] (-) TimerEvent: {}
+[58.239808] (-) TimerEvent: {}
+[58.340736] (-) TimerEvent: {}
+[58.441290] (-) TimerEvent: {}
+[58.541844] (-) TimerEvent: {}
+[58.642800] (-) TimerEvent: {}
+[58.743839] (-) TimerEvent: {}
+[58.844971] (-) TimerEvent: {}
+[58.945753] (-) TimerEvent: {}
+[59.046486] (-) TimerEvent: {}
+[59.147377] (-) TimerEvent: {}
+[59.247948] (-) TimerEvent: {}
+[59.348897] (-) TimerEvent: {}
+[59.449867] (-) TimerEvent: {}
+[59.550427] (-) TimerEvent: {}
+[59.651108] (-) TimerEvent: {}
+[59.751795] (-) TimerEvent: {}
+[59.852873] (-) TimerEvent: {}
+[59.953637] (-) TimerEvent: {}
+[60.054713] (-) TimerEvent: {}
+[60.155310] (-) TimerEvent: {}
+[60.255958] (-) TimerEvent: {}
+[60.357099] (-) TimerEvent: {}
+[60.458438] (-) TimerEvent: {}
+[60.559127] (-) TimerEvent: {}
+[60.659844] (-) TimerEvent: {}
+[60.761006] (-) TimerEvent: {}
+[60.862081] (-) TimerEvent: {}
+[60.962724] (-) TimerEvent: {}
+[61.063387] (-) TimerEvent: {}
+[61.164002] (-) TimerEvent: {}
+[61.264723] (-) TimerEvent: {}
+[61.365186] (-) TimerEvent: {}
+[61.465742] (-) TimerEvent: {}
+[61.566281] (-) TimerEvent: {}
+[61.666858] (-) TimerEvent: {}
+[61.767367] (-) TimerEvent: {}
+[61.868128] (-) TimerEvent: {}
+[61.968712] (-) TimerEvent: {}
+[62.069263] (-) TimerEvent: {}
+[62.169851] (-) TimerEvent: {}
+[62.270579] (-) TimerEvent: {}
+[62.371147] (-) TimerEvent: {}
+[62.471868] (-) TimerEvent: {}
+[62.572545] (-) TimerEvent: {}
+[62.673355] (-) TimerEvent: {}
+[62.773992] (-) TimerEvent: {}
+[62.874735] (-) TimerEvent: {}
+[62.975353] (-) TimerEvent: {}
+[63.075900] (-) TimerEvent: {}
+[63.176613] (-) TimerEvent: {}
+[63.277175] (-) TimerEvent: {}
+[63.377804] (-) TimerEvent: {}
+[63.478469] (-) TimerEvent: {}
+[63.578989] (-) TimerEvent: {}
+[63.679797] (-) TimerEvent: {}
+[63.780349] (-) TimerEvent: {}
+[63.881062] (-) TimerEvent: {}
+[63.981594] (-) TimerEvent: {}
+[64.082419] (-) TimerEvent: {}
+[64.183190] (-) TimerEvent: {}
+[64.283788] (-) TimerEvent: {}
+[64.384320] (-) TimerEvent: {}
+[64.485258] (-) TimerEvent: {}
+[64.586042] (-) TimerEvent: {}
+[64.686586] (-) TimerEvent: {}
+[64.787481] (-) TimerEvent: {}
+[64.888116] (-) TimerEvent: {}
+[64.988630] (-) TimerEvent: {}
+[65.089269] (-) TimerEvent: {}
+[65.189957] (-) TimerEvent: {}
+[65.290817] (-) TimerEvent: {}
+[65.391395] (-) TimerEvent: {}
+[65.491994] (-) TimerEvent: {}
+[65.593025] (-) TimerEvent: {}
+[65.694627] (-) TimerEvent: {}
+[65.795933] (-) TimerEvent: {}
+[65.897283] (-) TimerEvent: {}
+[65.998284] (-) TimerEvent: {}
+[66.098989] (-) TimerEvent: {}
+[66.199792] (-) TimerEvent: {}
+[66.300652] (-) TimerEvent: {}
+[66.402308] (-) TimerEvent: {}
+[66.504002] (-) TimerEvent: {}
+[66.604921] (-) TimerEvent: {}
+[66.705724] (-) TimerEvent: {}
+[66.806647] (-) TimerEvent: {}
+[66.908046] (-) TimerEvent: {}
+[67.008654] (-) TimerEvent: {}
+[67.109701] (-) TimerEvent: {}
+[67.211050] (-) TimerEvent: {}
+[67.311710] (-) TimerEvent: {}
+[67.412521] (-) TimerEvent: {}
+[67.513664] (-) TimerEvent: {}
+[67.614751] (-) TimerEvent: {}
+[67.715569] (-) TimerEvent: {}
+[67.816540] (-) TimerEvent: {}
+[67.918048] (-) TimerEvent: {}
+[68.018872] (-) TimerEvent: {}
+[68.119883] (-) TimerEvent: {}
+[68.221376] (-) TimerEvent: {}
+[68.322103] (-) TimerEvent: {}
+[68.422882] (-) TimerEvent: {}
+[68.524339] (-) TimerEvent: {}
+[68.625659] (-) TimerEvent: {}
+[68.726727] (-) TimerEvent: {}
+[68.827511] (-) TimerEvent: {}
+[68.928729] (-) TimerEvent: {}
+[69.029853] (-) TimerEvent: {}
+[69.130838] (-) TimerEvent: {}
+[69.231734] (-) TimerEvent: {}
+[69.333240] (-) TimerEvent: {}
+[69.434020] (-) TimerEvent: {}
+[69.534754] (-) TimerEvent: {}
+[69.635343] (-) TimerEvent: {}
+[69.736527] (-) TimerEvent: {}
+[69.837053] (-) TimerEvent: {}
+[69.938146] (-) TimerEvent: {}
+[70.038922] (-) TimerEvent: {}
+[70.139427] (-) TimerEvent: {}
+[70.240334] (-) TimerEvent: {}
+[70.341102] (-) TimerEvent: {}
+[70.441742] (-) TimerEvent: {}
+[70.542348] (-) TimerEvent: {}
+[70.643082] (-) TimerEvent: {}
+[70.743747] (-) TimerEvent: {}
+[70.844403] (-) TimerEvent: {}
+[70.945041] (-) TimerEvent: {}
+[71.045671] (-) TimerEvent: {}
+[71.146959] (-) TimerEvent: {}
+[71.247741] (-) TimerEvent: {}
+[71.348640] (-) TimerEvent: {}
+[71.449671] (-) TimerEvent: {}
+[71.551071] (-) TimerEvent: {}
+[71.651642] (-) TimerEvent: {}
+[71.752943] (-) TimerEvent: {}
+[71.853679] (-) TimerEvent: {}
+[71.954527] (-) TimerEvent: {}
+[72.055950] (-) TimerEvent: {}
+[72.157116] (-) TimerEvent: {}
+[72.257956] (-) TimerEvent: {}
+[72.358652] (-) TimerEvent: {}
+[72.459578] (-) TimerEvent: {}
+[72.560339] (-) TimerEvent: {}
+[72.660937] (-) TimerEvent: {}
+[72.761535] (-) TimerEvent: {}
+[72.862109] (-) TimerEvent: {}
+[72.962641] (-) TimerEvent: {}
+[73.064054] (-) TimerEvent: {}
+[73.165217] (-) TimerEvent: {}
+[73.266019] (-) TimerEvent: {}
+[73.367257] (-) TimerEvent: {}
+[73.455462] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable grasp_event_republisher\x1b[0m\n'}
+[73.468241] (-) TimerEvent: {}
+[73.569856] (-) TimerEvent: {}
+[73.670796] (-) TimerEvent: {}
+[73.771925] (-) TimerEvent: {}
+[73.873060] (-) TimerEvent: {}
+[73.973883] (-) TimerEvent: {}
+[74.074506] (-) TimerEvent: {}
+[74.175003] (-) TimerEvent: {}
+[74.275625] (-) TimerEvent: {}
+[74.376305] (-) TimerEvent: {}
+[74.477429] (-) TimerEvent: {}
+[74.579117] (-) TimerEvent: {}
+[74.679657] (-) TimerEvent: {}
+[74.780359] (-) TimerEvent: {}
+[74.881896] (-) TimerEvent: {}
+[74.982637] (-) TimerEvent: {}
+[75.083536] (-) TimerEvent: {}
+[75.184152] (-) TimerEvent: {}
+[75.245630] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'[100%] Built target grasp_event_republisher\n'}
+[75.264130] (gazebo_grasp_plugin_ros) CommandEnded: {'returncode': 0}
+[75.284932] (-) TimerEvent: {}
+[75.323471] (gazebo_grasp_plugin_ros) JobProgress: {'identifier': 'gazebo_grasp_plugin_ros', 'progress': 'install'}
+[75.325748] (gazebo_grasp_plugin_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros'], 'cwd': '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1846'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1823,unix/csg-virtual-machine:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e15bc8b4_a1b2_401a_996e_61d9cadf4ba6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TYL1K2'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces')]), 'shell': False}
+[75.337104] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[75.337388] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/lib/gazebo_grasp_plugin_ros/grasp_event_republisher\n'}
+[75.340516] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/lib/gazebo_grasp_plugin_ros/grasp_event_republisher" to ""\n'}
+[75.341428] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/ament_index/resource_index/package_run_dependencies/gazebo_grasp_plugin_ros\n'}
+[75.342053] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/ament_index/resource_index/parent_prefix_path/gazebo_grasp_plugin_ros\n'}
+[75.342299] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/environment/ament_prefix_path.sh\n'}
+[75.342510] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/environment/ament_prefix_path.dsv\n'}
+[75.342799] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/environment/path.sh\n'}
+[75.342953] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/environment/path.dsv\n'}
+[75.343135] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/local_setup.bash\n'}
+[75.343457] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/local_setup.sh\n'}
+[75.343691] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/local_setup.zsh\n'}
+[75.343756] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/local_setup.dsv\n'}
+[75.343805] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.dsv\n'}
+[75.343852] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/ament_index/resource_index/packages/gazebo_grasp_plugin_ros\n'}
+[75.343900] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/cmake/gazebo_grasp_plugin_rosConfig.cmake\n'}
+[75.343964] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/cmake/gazebo_grasp_plugin_rosConfig-version.cmake\n'}
+[75.344013] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.xml\n'}
+[75.346764] (gazebo_grasp_plugin_ros) CommandEnded: {'returncode': 0}
+[75.385390] (-) TimerEvent: {}
+[75.486579] (-) TimerEvent: {}
+[75.522982] (gazebo_grasp_plugin_ros) JobEnded: {'identifier': 'gazebo_grasp_plugin_ros', 'rc': 0}
+[75.523819] (-) EventReactorShutdown: {}

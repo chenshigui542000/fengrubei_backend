@@ -1,0 +1,8 @@
+[0.885s] Invoking command in '/home/csg/dev_ws/build/path_navigation_msgs': /usr/bin/cmake /home/csg/dev_ws/src/general-message-pkgs/path_navigation_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/path_navigation_msgs
+[0.892s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.180s] -- Configuring incomplete, errors occurred!
+[1.180s] See also "/home/csg/dev_ws/build/path_navigation_msgs/CMakeFiles/CMakeOutput.log".
+[1.181s] [31mCMake Error at CMakeLists.txt:21 (add_action_files):
+[1.181s]   Unknown CMake command "add_action_files".
+[1.181s] 
+[1.181s] [0m

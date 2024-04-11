@@ -1,0 +1,21 @@
+In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboGraspFix::OnUpdate()[m[K’:
+[01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:665:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgazebo::GazeboGraspFix::CollidingPoint& gazebo::GazeboGraspFix::CollidingPoint::operator=(const gazebo::GazeboGraspFix::CollidingPoint&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  665 |         attGripConts[collidingLink] = [01;35m[KcollidingPoint[m[K;
+      |                                       [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:399:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgazebo::GazeboGraspFix::CollidingPoint[m[K’ has user-provided ‘[01m[Kgazebo::GazeboGraspFix::CollidingPoint::CollidingPoint(const gazebo::GazeboGraspFix::CollidingPoint&)[m[K’
+  399 |     [01;36m[KCollidingPoint[m[K(const CollidingPoint &o):
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboGraspFix::OnContact(ConstContactsPtr&)[m[K’:
+[01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:908:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ignition::math::v6::Vector3<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  908 |       for (int k = 0; [01;35m[Kk < force.size()[m[K; ++k)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~[m[K

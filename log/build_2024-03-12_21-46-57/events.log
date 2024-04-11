@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000241] (-) JobUnselected: {'identifier': 'llm_ros2'}
+[0.000300] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000324] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.076679] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.077057] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/interfaces'], 'cwd': '/home/csg/dev_ws/build/interfaces', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1992'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1971,unix/csg-virtual-machine:/tmp/.ICE-unix/1971'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7efa34e1_7d98_48b6_883f_eddb67a5f611'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3471K2'), ('GNOME_TERMINAL_SERVICE', ':1.278'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[0.098005] (-) TimerEvent: {}
+[0.199078] (-) TimerEvent: {}
+[0.284694] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299615] (-) TimerEvent: {}
+[0.400409] (-) TimerEvent: {}
+[0.429126] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.451448] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501703] (-) TimerEvent: {}
+[0.579730] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.579893] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.580935] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.582435] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.588495] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.603167] (-) TimerEvent: {}
+[0.703995] (-) TimerEvent: {}
+[0.725496] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.725674] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.725729] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.725777] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.745282] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.804938] (-) TimerEvent: {}
+[0.906216] (-) TimerEvent: {}
+[0.971260] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.006821] (-) TimerEvent: {}
+[1.107420] (-) TimerEvent: {}
+[1.168702] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.207728] (-) TimerEvent: {}
+[1.290095] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.301063] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.307977] (-) TimerEvent: {}
+[1.321146] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.408829] (-) TimerEvent: {}
+[1.443199] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.509382] (-) TimerEvent: {}
+[1.610889] (-) TimerEvent: {}
+[1.711807] (-) TimerEvent: {}
+[1.723824] (interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.724135] (interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[1.724263] (interfaces) StderrLine: {'line': b'  interfaces --arguments-file\n'}
+[1.724364] (interfaces) StderrLine: {'line': b'  /home/csg/dev_ws/build/interfaces/rosidl_adapter__arguments__interfaces.json\n'}
+[1.724568] (interfaces) StderrLine: {'line': b'  --output-dir /home/csg/dev_ws/build/interfaces/rosidl_adapter/interfaces\n'}
+[1.724627] (interfaces) StderrLine: {'line': b'  --output-file\n'}
+[1.724675] (interfaces) StderrLine: {'line': b'  /home/csg/dev_ws/build/interfaces/rosidl_adapter/interfaces.idls) returned\n'}
+[1.724721] (interfaces) StderrLine: {'line': b'  error code 1:\n'}
+[1.724767] (interfaces) StderrLine: {'line': b'\n'}
+[1.724812] (interfaces) StderrLine: {'line': b"  Error processing 'float64[4][4] matrix' of 'interfaces/matrix':\n"}
+[1.724858] (interfaces) StderrLine: {'line': b"  ''float64[4]' is an invalid message name.  It should have the pattern\n"}
+[1.724914] (interfaces) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[1.724959] (interfaces) StderrLine: {'line': b'\n'}
+[1.725004] (interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.725048] (interfaces) StderrLine: {'line': b'\n'}
+[1.725093] (interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.725177] (interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.725234] (interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.725281] (interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.725326] (interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.725372] (interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.725416] (interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.725461] (interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.725505] (interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.725551] (interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.725595] (interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.725640] (interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.725685] (interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[1.725729] (interfaces) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[1.725774] (interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[1.725819] (interfaces) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[1.725863] (interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[1.725908] (interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.725953] (interfaces) StderrLine: {'line': b'\n'}
+[1.725997] (interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'float64[4]' is an invalid\n"}
+[1.726042] (interfaces) StderrLine: {'line': b"  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.726086] (interfaces) StderrLine: {'line': b'\n'}
+[1.726169] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.726223] (interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.726279] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:28 (rosidl_generate_interfaces)\n'}
+[1.726325] (interfaces) StderrLine: {'line': b'\n'}
+[1.726370] (interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.726415] (interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.726468] (interfaces) StdoutLine: {'line': b'See also "/home/csg/dev_ws/build/interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.736047] (interfaces) CommandEnded: {'returncode': 1}
+[1.802597] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 1}
+[1.812732] (-) TimerEvent: {}
+[1.814061] (-) EventReactorShutdown: {}

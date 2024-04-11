@@ -1,0 +1,30 @@
+[0.390s] Invoking command in '/home/csg/dev_ws/build/gazebo_version_helpers': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --build /home/csg/dev_ws/build/gazebo_version_helpers -- -j8 -l8
+[0.894s] [100%] Built target gazebo_version_helpers
+[1.025s] Invoked command in '/home/csg/dev_ws/build/gazebo_version_helpers' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --build /home/csg/dev_ws/build/gazebo_version_helpers -- -j8 -l8
+[1.150s] Invoking command in '/home/csg/dev_ws/build/gazebo_version_helpers': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --install /home/csg/dev_ws/build/gazebo_version_helpers
+[1.186s] -- Install configuration: ""
+[1.187s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/lib/libgazebo_version_helpers.so
+[1.188s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/include
+[1.189s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/include/gazebo_version_helpers
+[1.190s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/include/gazebo_version_helpers/GazeboVersionHelpers.h
+[1.190s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/library_path.sh
+[1.191s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/library_path.dsv
+[1.191s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/ament_index/resource_index/package_run_dependencies/gazebo_version_helpers
+[1.192s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/ament_index/resource_index/parent_prefix_path/gazebo_version_helpers
+[1.193s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/ament_prefix_path.sh
+[1.193s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/ament_prefix_path.dsv
+[1.194s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/path.sh
+[1.194s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/environment/path.dsv
+[1.195s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/local_setup.bash
+[1.196s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/local_setup.sh
+[1.197s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/local_setup.zsh
+[1.197s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/local_setup.dsv
+[1.198s] -- Installing: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.dsv
+[1.199s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/ament_index/resource_index/packages/gazebo_version_helpers
+[1.201s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.201s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake/ament_cmake_export_libraries-extras.cmake
+[1.202s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.202s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake/gazebo_version_helpersConfig.cmake
+[1.203s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/cmake/gazebo_version_helpersConfig-version.cmake
+[1.205s] -- Up-to-date: /home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.xml
+[1.211s] Invoked command in '/home/csg/dev_ws/build/gazebo_version_helpers' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --install /home/csg/dev_ws/build/gazebo_version_helpers

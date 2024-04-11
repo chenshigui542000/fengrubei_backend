@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from object_msgs/msg/ObjectPose.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module object_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "the name of the object")
+    struct ObjectPose {
+      string name;
+
+      @verbatim (language="comment", text=
+        "the pose of the object")
+      geometry_msgs::msg::PoseStamped pose;
+    };
+  };
+};

@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.000493] (gazebo_version_helpers) JobQueued: {'identifier': 'gazebo_version_helpers', 'dependencies': OrderedDict()}
+[0.000586] (gazebo_world_plugin_loader) JobQueued: {'identifier': 'gazebo_world_plugin_loader', 'dependencies': OrderedDict()}
+[0.002416] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.002540] (llm_ros2) JobQueued: {'identifier': 'llm_ros2', 'dependencies': OrderedDict()}
+[0.002574] (object_msgs) JobQueued: {'identifier': 'object_msgs', 'dependencies': OrderedDict()}
+[0.002598] (path_navigation_msgs) JobQueued: {'identifier': 'path_navigation_msgs', 'dependencies': OrderedDict()}
+[0.002621] (gazebo_grasp_plugin) JobQueued: {'identifier': 'gazebo_grasp_plugin', 'dependencies': OrderedDict([('gazebo_version_helpers', '/home/csg/dev_ws/install/gazebo_version_helpers')])}
+[0.002648] (gazebo_test_tools) JobQueued: {'identifier': 'gazebo_test_tools', 'dependencies': OrderedDict([('object_msgs', '/home/csg/dev_ws/install/object_msgs')])}
+[0.002675] (object_msgs_tools) JobQueued: {'identifier': 'object_msgs_tools', 'dependencies': OrderedDict([('object_msgs', '/home/csg/dev_ws/install/object_msgs')])}
+[0.002698] (gazebo_grasp_plugin_ros) JobQueued: {'identifier': 'gazebo_grasp_plugin_ros', 'dependencies': OrderedDict([('gazebo_version_helpers', '/home/csg/dev_ws/install/gazebo_version_helpers'), ('gazebo_grasp_plugin', '/home/csg/dev_ws/install/gazebo_grasp_plugin')])}
+[0.002730] (gazebo_state_plugins) JobQueued: {'identifier': 'gazebo_state_plugins', 'dependencies': OrderedDict([('gazebo_version_helpers', '/home/csg/dev_ws/install/gazebo_version_helpers'), ('gazebo_world_plugin_loader', '/home/csg/dev_ws/install/gazebo_world_plugin_loader'), ('object_msgs', '/home/csg/dev_ws/install/object_msgs'), ('object_msgs_tools', '/home/csg/dev_ws/install/object_msgs_tools')])}
+[0.002817] (gazebo_version_helpers) JobStarted: {'identifier': 'gazebo_version_helpers'}
+[0.098807] (-) TimerEvent: {}
+[0.135743] (object_msgs) JobStarted: {'identifier': 'object_msgs'}
+[0.199643] (-) TimerEvent: {}
+[0.251761] (gazebo_world_plugin_loader) JobStarted: {'identifier': 'gazebo_world_plugin_loader'}
+[0.300656] (-) TimerEvent: {}
+[0.366568] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.401930] (-) TimerEvent: {}
+[0.479878] (llm_ros2) JobStarted: {'identifier': 'llm_ros2'}
+[0.503616] (-) TimerEvent: {}
+[0.605477] (-) TimerEvent: {}
+[0.631946] (path_navigation_msgs) JobStarted: {'identifier': 'path_navigation_msgs'}
+[0.707016] (-) TimerEvent: {}
+[0.752334] (gazebo_version_helpers) JobProgress: {'identifier': 'gazebo_version_helpers', 'progress': 'cmake'}
+[0.752931] (gazebo_version_helpers) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/gazebo_version_helpers'], 'cwd': '/home/csg/dev_ws/build/gazebo_version_helpers', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1952,unix/csg-virtual-machine:/tmp/.ICE-unix/1952'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4e9a611_7be7_4abd_92f6_035201423521'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9Y5SK2'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_version_helpers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces')]), 'shell': False}
+[0.760199] (object_msgs) JobProgress: {'identifier': 'object_msgs', 'progress': 'cmake'}
+[0.760379] (object_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/src/general-message-pkgs/object_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/object_msgs'], 'cwd': '/home/csg/dev_ws/build/object_msgs', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1952,unix/csg-virtual-machine:/tmp/.ICE-unix/1952'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4e9a611_7be7_4abd_92f6_035201423521'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9Y5SK2'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/object_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces')]), 'shell': False}
+[0.765741] (gazebo_world_plugin_loader) JobProgress: {'identifier': 'gazebo_world_plugin_loader', 'progress': 'cmake'}
+[0.767853] (gazebo_world_plugin_loader) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_world_plugin_loader', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/gazebo_world_plugin_loader'], 'cwd': '/home/csg/dev_ws/build/gazebo_world_plugin_loader', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1952,unix/csg-virtual-machine:/tmp/.ICE-unix/1952'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4e9a611_7be7_4abd_92f6_035201423521'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9Y5SK2'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/gazebo_world_plugin_loader'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces')]), 'shell': False}
+[0.772171] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.779042] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.779162] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/csg/dev_ws/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/csg/dev_ws/build/interfaces', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1952,unix/csg-virtual-machine:/tmp/.ICE-unix/1952'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4e9a611_7be7_4abd_92f6_035201423521'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9Y5SK2'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[0.807635] (-) TimerEvent: {}
+[0.908487] (-) TimerEvent: {}
+[1.009841] (-) TimerEvent: {}
+[1.111080] (-) TimerEvent: {}
+[1.212577] (-) TimerEvent: {}
+[1.313658] (-) TimerEvent: {}
+[1.422155] (-) TimerEvent: {}
+[1.492861] (gazebo_version_helpers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.496747] (gazebo_version_helpers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.497636] (gazebo_version_helpers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.498259] (gazebo_version_helpers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.498793] (gazebo_version_helpers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.500182] (gazebo_version_helpers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.500414] (gazebo_version_helpers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.501941] (gazebo_version_helpers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.502654] (gazebo_version_helpers) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[1.503720] (gazebo_version_helpers) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[1.504183] (gazebo_version_helpers) StderrLine: {'line': b'  CMake.\n'}
+[1.504601] (gazebo_version_helpers) StderrLine: {'line': b'\n'}
+[1.505069] (gazebo_version_helpers) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[1.505663] (gazebo_version_helpers) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[1.506129] (gazebo_version_helpers) StderrLine: {'line': b'\n'}
+[1.508468] (gazebo_version_helpers) StderrLine: {'line': b'\x1b[0m\n'}
+[1.508708] (object_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.510817] (object_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.511099] (object_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.511924] (object_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.512345] (object_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.512719] (object_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.513525] (object_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.513884] (object_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.516050] (object_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[1.516226] (object_msgs) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[1.516315] (object_msgs) StderrLine: {'line': b'  CMake.\n'}
+[1.516396] (object_msgs) StderrLine: {'line': b'\n'}
+[1.516476] (object_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[1.516556] (object_msgs) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[1.516635] (object_msgs) StderrLine: {'line': b'\n'}
+[1.516715] (object_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.516794] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.516916] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.517047] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.517389] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.518985] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.519351] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.519795] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.520630] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.521762] (gazebo_world_plugin_loader) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[1.524984] (-) TimerEvent: {}
+[1.525514] (gazebo_world_plugin_loader) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[1.525856] (gazebo_world_plugin_loader) StderrLine: {'line': b'  CMake.\n'}
+[1.528970] (gazebo_world_plugin_loader) StderrLine: {'line': b'\n'}
+[1.529624] (gazebo_world_plugin_loader) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[1.529959] (gazebo_world_plugin_loader) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[1.530216] (gazebo_world_plugin_loader) StderrLine: {'line': b'\n'}
+[1.530440] (gazebo_world_plugin_loader) StderrLine: {'line': b'\x1b[0m\n'}
+[1.530733] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[1.530893] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[1.530986] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[1.531137] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_c\n'}
+[1.531229] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.531315] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[1.531401] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.531485] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.531570] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[1.531654] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[1.531738] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[1.531824] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[1.531909] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.532037] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.532155] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[1.532246] (path_navigation_msgs) JobProgress: {'identifier': 'path_navigation_msgs', 'progress': 'cmake'}
+[1.532277] (path_navigation_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/src/general-message-pkgs/path_navigation_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/path_navigation_msgs'], 'cwd': '/home/csg/dev_ws/build/path_navigation_msgs', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1952,unix/csg-virtual-machine:/tmp/.ICE-unix/1952'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4e9a611_7be7_4abd_92f6_035201423521'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9Y5SK2'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/path_navigation_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces')]), 'shell': False}
+[1.535920] (path_navigation_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[1.536270] (path_navigation_msgs) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[1.536374] (path_navigation_msgs) StderrLine: {'line': b'  CMake.\n'}
+[1.536459] (path_navigation_msgs) StderrLine: {'line': b'\n'}
+[1.536540] (path_navigation_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[1.536622] (path_navigation_msgs) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[1.536702] (path_navigation_msgs) StderrLine: {'line': b'\n'}
+[1.536782] (path_navigation_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.583156] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.584304] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[1.584881] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[1.585970] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[1.589708] (gazebo_version_helpers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.592518] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.594765] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.607511] (gazebo_version_helpers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.608003] (gazebo_version_helpers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.608797] (gazebo_version_helpers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.624834] (object_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.625337] (-) TimerEvent: {}
+[1.638183] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.641694] (object_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.642283] (object_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.643328] (object_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.657920] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.658339] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.658505] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.667335] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[1.672224] (object_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[1.672745] (object_msgs) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.673073] (object_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.673732] (object_msgs) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.674819] (object_msgs) StderrLine: {'line': b'\n'}
+[1.674973] (object_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.675060] (object_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[1.675138] (object_msgs) StderrLine: {'line': b'\n'}
+[1.675217] (object_msgs) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.675295] (object_msgs) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.675372] (object_msgs) StderrLine: {'line': b'\n'}
+[1.675480] (object_msgs) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.675590] (object_msgs) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.675673] (object_msgs) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.675751] (object_msgs) StderrLine: {'line': b'  installed.\n'}
+[1.675827] (object_msgs) StderrLine: {'line': b'\n'}
+[1.675903] (object_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.675981] (gazebo_version_helpers) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[1.676072] (gazebo_version_helpers) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.676150] (gazebo_version_helpers) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.676227] (gazebo_version_helpers) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.676302] (gazebo_version_helpers) StderrLine: {'line': b'\n'}
+[1.676377] (gazebo_version_helpers) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.676500] (gazebo_version_helpers) StderrLine: {'line': b'  of the following names:\n'}
+[1.676598] (gazebo_version_helpers) StderrLine: {'line': b'\n'}
+[1.676676] (gazebo_version_helpers) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.676754] (gazebo_version_helpers) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.676855] (gazebo_version_helpers) StderrLine: {'line': b'\n'}
+[1.676935] (gazebo_version_helpers) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.677018] (gazebo_version_helpers) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.677099] (gazebo_version_helpers) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.677176] (gazebo_version_helpers) StderrLine: {'line': b'  installed.\n'}
+[1.677254] (gazebo_version_helpers) StderrLine: {'line': b'\n'}
+[1.677333] (gazebo_version_helpers) StderrLine: {'line': b'\x1b[0m\n'}
+[1.677410] (gazebo_version_helpers) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.677835] (gazebo_version_helpers) StdoutLine: {'line': b'See also "/home/csg/dev_ws/build/gazebo_version_helpers/CMakeFiles/CMakeOutput.log".\n'}
+[1.677978] (object_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.678072] (object_msgs) StdoutLine: {'line': b'See also "/home/csg/dev_ws/build/object_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.682188] (object_msgs) CommandEnded: {'returncode': 1}
+[1.683360] (gazebo_world_plugin_loader) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[1.685985] (gazebo_world_plugin_loader) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.688637] (gazebo_world_plugin_loader) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.689342] (gazebo_world_plugin_loader) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.689962] (gazebo_world_plugin_loader) StderrLine: {'line': b'\n'}
+[1.690317] (gazebo_world_plugin_loader) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.690646] (gazebo_world_plugin_loader) StderrLine: {'line': b'  of the following names:\n'}
+[1.690768] (gazebo_world_plugin_loader) StderrLine: {'line': b'\n'}
+[1.690920] (gazebo_world_plugin_loader) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.691055] (gazebo_world_plugin_loader) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.691391] (gazebo_world_plugin_loader) StderrLine: {'line': b'\n'}
+[1.691666] (gazebo_world_plugin_loader) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.694387] (gazebo_world_plugin_loader) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.694771] (gazebo_world_plugin_loader) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.695456] (gazebo_world_plugin_loader) StderrLine: {'line': b'  installed.\n'}
+[1.696075] (gazebo_world_plugin_loader) StderrLine: {'line': b'\n'}
+[1.696285] (gazebo_world_plugin_loader) StderrLine: {'line': b'\x1b[0m\n'}
+[1.698248] (gazebo_world_plugin_loader) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.698919] (gazebo_world_plugin_loader) StdoutLine: {'line': b'See also "/home/csg/dev_ws/build/gazebo_world_plugin_loader/CMakeFiles/CMakeOutput.log".\n'}
+[1.702268] (path_navigation_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.703025] (gazebo_world_plugin_loader) CommandEnded: {'returncode': 1}
+[1.707224] (gazebo_version_helpers) CommandEnded: {'returncode': 1}
+[1.711075] (interfaces) CommandEnded: {'returncode': 0}
+[1.726470] (-) TimerEvent: {}
+[1.808460] (object_msgs) JobEnded: {'identifier': 'object_msgs', 'rc': 1}
+[1.809365] (gazebo_world_plugin_loader) JobEnded: {'identifier': 'gazebo_world_plugin_loader', 'rc': 'SIGINT'}
+[1.809871] (gazebo_version_helpers) JobEnded: {'identifier': 'gazebo_version_helpers', 'rc': 'SIGINT'}
+[1.822518] (path_navigation_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.827305] (-) TimerEvent: {}
+[1.840012] (path_navigation_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.927767] (-) TimerEvent: {}
+[1.964868] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 'SIGINT'}
+[2.015888] (path_navigation_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.028561] (path_navigation_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.028904] (-) TimerEvent: {}
+[2.029120] (path_navigation_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.029932] (path_navigation_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.035002] (path_navigation_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.129453] (-) TimerEvent: {}
+[2.228994] (path_navigation_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.229618] (-) TimerEvent: {}
+[2.242332] (path_navigation_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.242789] (path_navigation_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.243670] (path_navigation_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.269623] (path_navigation_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.270382] (path_navigation_msgs) StdoutLine: {'line': b'See also "/home/csg/dev_ws/build/path_navigation_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[2.270515] (path_navigation_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[2.270614] (path_navigation_msgs) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.270698] (path_navigation_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.270777] (path_navigation_msgs) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.270856] (path_navigation_msgs) StderrLine: {'line': b'\n'}
+[2.270936] (path_navigation_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.271021] (path_navigation_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[2.271100] (path_navigation_msgs) StderrLine: {'line': b'\n'}
+[2.271178] (path_navigation_msgs) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.271334] (path_navigation_msgs) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.271479] (path_navigation_msgs) StderrLine: {'line': b'\n'}
+[2.271577] (path_navigation_msgs) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.271659] (path_navigation_msgs) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.271745] (path_navigation_msgs) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.271832] (path_navigation_msgs) StderrLine: {'line': b'  installed.\n'}
+[2.271910] (path_navigation_msgs) StderrLine: {'line': b'\n'}
+[2.271989] (path_navigation_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.277091] (path_navigation_msgs) JobEnded: {'identifier': 'path_navigation_msgs', 'rc': 'SIGINT'}
+[2.330266] (-) TimerEvent: {}
+[2.349485] (llm_ros2) JobEnded: {'identifier': 'llm_ros2', 'rc': 'SIGINT'}
+[2.352222] (gazebo_grasp_plugin) JobSkipped: {'identifier': 'gazebo_grasp_plugin'}
+[2.352299] (gazebo_test_tools) JobSkipped: {'identifier': 'gazebo_test_tools'}
+[2.352326] (object_msgs_tools) JobSkipped: {'identifier': 'object_msgs_tools'}
+[2.352349] (gazebo_grasp_plugin_ros) JobSkipped: {'identifier': 'gazebo_grasp_plugin_ros'}
+[2.352626] (gazebo_state_plugins) JobSkipped: {'identifier': 'gazebo_state_plugins'}
+[2.352673] (-) EventReactorShutdown: {}

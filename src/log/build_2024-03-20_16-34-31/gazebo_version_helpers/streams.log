@@ -1,0 +1,41 @@
+[0.748s] Invoking command in '/home/csg/dev_ws/src/build/gazebo_version_helpers': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/gazebo_version_helpers
+[1.410s] -- The C compiler identification is GNU 11.4.0
+[1.416s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.418s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.419s]   CMake.
+[1.419s] 
+[1.419s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.419s]   CMake that the project does not need compatibility with older versions.
+[1.419s] 
+[1.421s] [0m
+[1.471s] -- The CXX compiler identification is GNU 11.4.0
+[1.510s] -- Detecting C compiler ABI info
+[1.708s] -- Detecting C compiler ABI info - done
+[1.727s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.727s] -- Detecting C compile features
+[1.727s] -- Detecting C compile features - done
+[1.734s] -- Detecting CXX compiler ABI info
+[1.936s] -- Detecting CXX compiler ABI info - done
+[1.953s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.954s] -- Detecting CXX compile features
+[1.954s] -- Detecting CXX compile features - done
+[2.028s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.028s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.029s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.029s]   CMake did not find one.
+[2.029s] 
+[2.029s]   Could not find a package configuration file provided by "catkin" with any
+[2.029s]   of the following names:
+[2.029s] 
+[2.029s]     catkinConfig.cmake
+[2.029s]     catkin-config.cmake
+[2.029s] 
+[2.029s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.029s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.030s]   provides a separate development package or SDK, be sure it has been
+[2.030s]   installed.
+[2.030s] 
+[2.030s] [0m
+[2.031s] -- Configuring incomplete, errors occurred!
+[2.031s] See also "/home/csg/dev_ws/src/build/gazebo_version_helpers/CMakeFiles/CMakeOutput.log".
+[2.062s] Invoked command in '/home/csg/dev_ws/src/build/gazebo_version_helpers' returned '1': /usr/bin/cmake /home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/gazebo_version_helpers

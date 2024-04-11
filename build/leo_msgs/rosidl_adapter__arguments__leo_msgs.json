@@ -1,0 +1,9 @@
+{
+  "package_name": "leo_msgs",
+  "non_idl_tuples": [
+    "/home/csg/dev_ws/leo-common-ros2/leo_msgs:msg/Imu.msg",
+    "/home/csg/dev_ws/leo-common-ros2/leo_msgs:msg/WheelOdom.msg",
+    "/home/csg/dev_ws/leo-common-ros2/leo_msgs:msg/WheelStates.msg",
+    "/home/csg/dev_ws/leo-common-ros2/leo_msgs:srv/SetImuCalibration.srv"
+  ]
+}

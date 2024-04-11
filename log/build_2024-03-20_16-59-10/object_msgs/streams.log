@@ -1,0 +1,29 @@
+[0.622s] Invoking command in '/home/csg/dev_ws/build/object_msgs': /usr/bin/cmake /home/csg/dev_ws/src/general-message-pkgs/object_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/object_msgs
+[1.323s] -- Configuring incomplete, errors occurred!
+[1.323s] See also "/home/csg/dev_ws/build/object_msgs/CMakeFiles/CMakeOutput.log".
+[1.325s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.326s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.327s]   CMake.
+[1.328s] 
+[1.329s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.331s]   CMake that the project does not need compatibility with older versions.
+[1.332s] 
+[1.332s] [0m
+[1.332s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[1.333s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.333s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.333s]   CMake did not find one.
+[1.334s] 
+[1.334s]   Could not find a package configuration file provided by "catkin" with any
+[1.339s]   of the following names:
+[1.343s] 
+[1.343s]     catkinConfig.cmake
+[1.345s]     catkin-config.cmake
+[1.345s] 
+[1.346s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.347s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.347s]   provides a separate development package or SDK, be sure it has been
+[1.350s]   installed.
+[1.350s] 
+[1.350s] [0m
+[1.374s] Invoked command in '/home/csg/dev_ws/build/object_msgs' returned '1': /usr/bin/cmake /home/csg/dev_ws/src/general-message-pkgs/object_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/object_msgs

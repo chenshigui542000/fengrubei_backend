@@ -1,0 +1,7 @@
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/csg/dev_ws/build/path_navigation_msgs/CMakeFiles/CMakeOutput.log".
+[31mCMake Error at CMakeLists.txt:21 (add_action_files):
+  Unknown CMake command "add_action_files".
+
+[0m

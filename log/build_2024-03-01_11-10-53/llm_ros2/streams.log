@@ -1,0 +1,24 @@
+[1.339s] Invoking command in '/home/csg/dev_ws/src/llm_ros2': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm_ros2 build --build-base /home/csg/dev_ws/build/llm_ros2/build install --record /home/csg/dev_ws/build/llm_ros2/install.log --single-version-externally-managed
+[1.753s] running egg_info
+[1.755s] writing ../../build/llm_ros2/llm_ros2.egg-info/PKG-INFO
+[1.756s] writing dependency_links to ../../build/llm_ros2/llm_ros2.egg-info/dependency_links.txt
+[1.756s] writing entry points to ../../build/llm_ros2/llm_ros2.egg-info/entry_points.txt
+[1.756s] writing requirements to ../../build/llm_ros2/llm_ros2.egg-info/requires.txt
+[1.756s] writing top-level names to ../../build/llm_ros2/llm_ros2.egg-info/top_level.txt
+[1.760s] reading manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'
+[1.762s] writing manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'
+[1.762s] running build
+[1.762s] running build_py
+[1.763s] running install
+[1.764s] running install_lib
+[1.766s] running install_data
+[1.768s] copying config/ros_arm_control.yaml -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/config
+[1.769s] running install_egg_info
+[1.771s] removing '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.772s] Copying ../../build/llm_ros2/llm_ros2.egg-info to /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info
+[1.773s] running install_scripts
+[1.805s] Installing camera_server script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[1.807s] Installing ctl_robot script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[1.807s] Installing sub_pose script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[1.808s] writing list of installed files to '/home/csg/dev_ws/build/llm_ros2/install.log'
+[1.860s] Invoked command in '/home/csg/dev_ws/src/llm_ros2' returned '0': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm_ros2 build --build-base /home/csg/dev_ws/build/llm_ros2/build install --record /home/csg/dev_ws/build/llm_ros2/install.log --single-version-externally-managed

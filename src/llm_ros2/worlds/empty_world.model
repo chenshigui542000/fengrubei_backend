@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="default">
+    <plugin name='set_entity_state_plugin' filename='libset_entity_state.so'>
+      <robot_name>bbot_robot</robot_name>
+    </plugin>
+    
+    <plugin name='gazebo_ros_state' filename='libgazebo_ros_state.so'>
+      <ros>
+        <argument>model_states:=model_states_demo</argument>
+      </ros>
+      <update_rate>1.0</update_rate>
+    </plugin>
+
+
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <scene>
+      <shadows>false</shadows>
+    </scene>
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>0.319654 -0.235002 9.29441 0 1.5138 0.009599</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+    <physics type="ode"> 
+      <gravity>0 0 -9.8</gravity> 
+      <ode> 
+        <solver> 
+          <type>quick</type> 
+          <iters>50</iters> 
+          <precon_iters>0</precon_iters> 
+          <sor>1.300000</sor> 
+        </solver> 
+        <constraints> 
+          <cfm>0.000000</cfm> 
+          <erp>0.200000</erp> 
+          <contact_max_correcting_vel>100.000000</contact_max_correcting_vel> 
+          <contact_surface_layer>0.001000</contact_surface_layer> 
+        </constraints> 
+      </ode> 
+    </physics> 
+
+
+    <model name="adjustable_table">
+      <static>true</static>
+      <link name="top">
+        <pose>-1 -1 0.35 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.05</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.545 0.271 0.075 1</ambient> <!-- 暗棕色的环境光颜色 -->
+            <diffuse>0.545 0.271 0.075 1</diffuse> <!-- 暗棕色的漫反射颜色 -->
+            <specular>0.1 0.1 0.1 1</specular> <!-- 微弱的镜面高光效果 -->
+            <emissive>0 0 0 0</emissive> <!-- 无自发光 -->
+          </material>
+
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.05</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="leg1">
+        <pose>-0.55 -0.55 0.175 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+            
+          </geometry>
+
+          <material>
+            <ambient>0.545 0.271 0.075 1</ambient> <!-- 暗棕色的环境光颜色 -->
+            <diffuse>0.545 0.271 0.075 1</diffuse> <!-- 暗棕色的漫反射颜色 -->
+            <specular>0.1 0.1 0.1 1</specular> <!-- 微弱的镜面高光效果 -->
+            <emissive>0 0 0 0</emissive> <!-- 无自发光 -->
+          </material>
+
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="leg2">
+        <pose>-1.45 -0.55 0.175 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.545 0.271 0.075 1</ambient> <!-- 暗棕色的环境光颜色 -->
+            <diffuse>0.545 0.271 0.075 1</diffuse> <!-- 暗棕色的漫反射颜色 -->
+            <specular>0.1 0.1 0.1 1</specular> <!-- 微弱的镜面高光效果 -->
+            <emissive>0 0 0 0</emissive> <!-- 无自发光 -->
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="leg3">
+        <pose>-0.55 -1.45 0.175 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.545 0.271 0.075 1</ambient> <!-- 暗棕色的环境光颜色 -->
+            <diffuse>0.545 0.271 0.075 1</diffuse> <!-- 暗棕色的漫反射颜色 -->
+            <specular>0.1 0.1 0.1 1</specular> <!-- 微弱的镜面高光效果 -->
+            <emissive>0 0 0 0</emissive> <!-- 无自发光 -->
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="leg4">
+        <pose>-1.45 -1.45 0.175 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.545 0.271 0.075 1</ambient> <!-- 暗棕色的环境光颜色 -->
+            <diffuse>0.545 0.271 0.075 1</diffuse> <!-- 暗棕色的漫反射颜色 -->
+            <specular>0.1 0.1 0.1 1</specular> <!-- 微弱的镜面高光效果 -->
+            <emissive>0 0 0 0</emissive> <!-- 无自发光 -->
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+
+      <!-- Add three more legs similar to leg1 with appropriate poses -->
+    </model>
+
+
+    <model name="adjustable_table2">
+      <static>true</static>
+      <link name="top">
+        <pose>1 1 0.35 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.05</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.545 0.271 0.075 1</ambient> <!-- 暗棕色的环境光颜色 -->
+            <diffuse>0.545 0.271 0.075 1</diffuse> <!-- 暗棕色的漫反射颜色 -->
+            <specular>0.1 0.1 0.1 1</specular> <!-- 微弱的镜面高光效果 -->
+            <emissive>0 0 0 0</emissive> <!-- 无自发光 -->
+          </material>
+
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.05</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="leg1">
+        <pose>1.45 1.45 0.175 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+            
+          </geometry>
+
+          <material>
+            <ambient>0.545 0.271 0.075 1</ambient> <!-- 暗棕色的环境光颜色 -->
+            <diffuse>0.545 0.271 0.075 1</diffuse> <!-- 暗棕色的漫反射颜色 -->
+            <specular>0.1 0.1 0.1 1</specular> <!-- 微弱的镜面高光效果 -->
+            <emissive>0 0 0 0</emissive> <!-- 无自发光 -->
+          </material>
+
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="leg2">
+        <pose>0.55 1.45 0.175 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.545 0.271 0.075 1</ambient> <!-- 暗棕色的环境光颜色 -->
+            <diffuse>0.545 0.271 0.075 1</diffuse> <!-- 暗棕色的漫反射颜色 -->
+            <specular>0.1 0.1 0.1 1</specular> <!-- 微弱的镜面高光效果 -->
+            <emissive>0 0 0 0</emissive> <!-- 无自发光 -->
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="leg3">
+        <pose>1.45 0.55 0.175 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.545 0.271 0.075 1</ambient> <!-- 暗棕色的环境光颜色 -->
+            <diffuse>0.545 0.271 0.075 1</diffuse> <!-- 暗棕色的漫反射颜色 -->
+            <specular>0.1 0.1 0.1 1</specular> <!-- 微弱的镜面高光效果 -->
+            <emissive>0 0 0 0</emissive> <!-- 无自发光 -->
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="leg4">
+        <pose>0.55 0.55 0.175 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.545 0.271 0.075 1</ambient> <!-- 暗棕色的环境光颜色 -->
+            <diffuse>0.545 0.271 0.075 1</diffuse> <!-- 暗棕色的漫反射颜色 -->
+            <specular>0.1 0.1 0.1 1</specular> <!-- 微弱的镜面高光效果 -->
+            <emissive>0 0 0 0</emissive> <!-- 无自发光 -->
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>0.01</radius>
+              <length>0.35</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+
+      <!-- Add three more legs similar to leg1 with appropriate poses -->
+    </model>
+
+
+
+  <model name="grabbable_cylinder">
+
+    <plugin name="state_publisher" filename="libgazebo_ros_state_publisher.so">
+      <ros>
+        <!-- ROS 2话题名称，Gazebo将在这个话题上发布模型的状态 -->
+        
+        <argument>/position</argument>
+      </ros>
+    </plugin>
+
+    <pose>-0.55 -0.55 0.40 0 0 0</pose> <!-- 位置调整以防止与地面相交 -->
+    <static>false</static> <!-- 非静态，可移动 -->
+    <link name="cylinder_link">
+      <inertial>
+        <mass>0.01</mass> <!-- 质量 -->
+        <inertia> <!-- 根据圆柱体的质量和尺寸调整惯性矩阵 -->
+          <ixx>0.00000078125</ixx> <!-- ixx -->
+          <ixy>0.0</ixy> <!-- ixy -->
+          <ixz>0.0</ixz> <!-- ixz -->
+          <iyy>0.00000078125</iyy> <!-- iyy -->
+          <iyz>0.0</iyz> <!-- iyz -->
+          <izz>0.00000078125</izz> <!-- izz -->
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.025</radius> <!-- 半径为0.025米 -->
+            <length>0.1</length> <!-- 高度为0.1米 -->
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.025</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.8 1</ambient> <!-- 蓝色 -->
+          <diffuse>0.1 0.1 0.8 1</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+
+
+
+    <model name="my_box">
+      <static>false</static>
+      <pose>1 1 0.012 0 0 0</pose> <!-- 长方体的位置和朝向 -->
+      <link name="link">
+        <inertial>
+          <mass>0.01</mass>
+          <inertia>
+            <ixx>2.167e-6</ixx>
+            <iyy>8.417e-6</iyy>
+            <izz>1.042e-5</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 0.05 0.024</size> <!-- 长、宽、高 -->
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>2.0</mu> <!-- 静摩擦系数 -->
+                <mu2>1.5</mu2> <!-- 动摩擦系数 -->
+              </ode>
+            </friction>
+
+
+            <!-- 可以选择性地添加更多表面属性，如弹性等 -->
+          </surface>
+         
+         
+
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 0.05 0.03</size> <!-- 长、宽、高 -->
+            </box>
+          </geometry>
+          <!-- 可以定义材质来改变颜色或纹理 -->
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient> <!-- RGBA颜色 -->
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

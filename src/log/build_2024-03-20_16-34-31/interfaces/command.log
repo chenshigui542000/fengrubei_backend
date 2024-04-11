@@ -1,0 +1,1 @@
+Invoking command in '/home/csg/dev_ws/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake /home/csg/dev_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/src/install/interfaces

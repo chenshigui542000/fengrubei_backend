@@ -1,0 +1,424 @@
+[1.086s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.086s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e70951fafe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e709515cdf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e709515cdf0>>)
+[1.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.136s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/csg/dev_ws'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extensions ['ignore', 'ignore_ament_install']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extension 'ignore'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extension 'ignore_ament_install'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extensions ['colcon_pkg']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extension 'colcon_pkg'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extensions ['colcon_meta']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extension 'colcon_meta'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extensions ['ros']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extension 'ros'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extensions ['cmake', 'python']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extension 'cmake'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extension 'python'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extensions ['python_setup_py']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs) by extension 'python_setup_py'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin) by extensions ['ignore', 'ignore_ament_install']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin) by extension 'ignore'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin) by extension 'ignore_ament_install'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin) by extensions ['colcon_pkg']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin) by extension 'colcon_pkg'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin) by extensions ['colcon_meta']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin) by extension 'colcon_meta'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin) by extensions ['ros']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin) by extension 'ros'
+[1.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo-pkgs/gazebo_grasp_plugin' with type 'ros.ament_cmake' and name 'gazebo_grasp_plugin'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin_ros) by extension 'ignore'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin_ros) by extension 'ignore_ament_install'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin_ros) by extensions ['colcon_pkg']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin_ros) by extension 'colcon_pkg'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin_ros) by extensions ['colcon_meta']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin_ros) by extension 'colcon_meta'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin_ros) by extensions ['ros']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_grasp_plugin_ros) by extension 'ros'
+[1.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo-pkgs/gazebo_grasp_plugin_ros' with type 'ros.ament_cmake' and name 'gazebo_grasp_plugin_ros'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_version_helpers) by extensions ['ignore', 'ignore_ament_install']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_version_helpers) by extension 'ignore'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_version_helpers) by extension 'ignore_ament_install'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_version_helpers) by extensions ['colcon_pkg']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_version_helpers) by extension 'colcon_pkg'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_version_helpers) by extensions ['colcon_meta']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_version_helpers) by extension 'colcon_meta'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_version_helpers) by extensions ['ros']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo-pkgs/gazebo_version_helpers) by extension 'ros'
+[1.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo-pkgs/gazebo_version_helpers' with type 'ros.ament_cmake' and name 'gazebo_version_helpers'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[1.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extension 'ignore'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extension 'ignore_ament_install'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extensions ['colcon_pkg']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extension 'colcon_pkg'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extensions ['colcon_meta']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extension 'colcon_meta'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extensions ['ros']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extension 'ros'
+[1.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/llm_ros2' with type 'ros.ament_python' and name 'llm_ros2'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/csg/dev_ws/install
+[1.308s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[1.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_args' from command line to 'None'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_target' from command line to 'None'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_clean_cache' from command line to 'False'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_clean_first' from command line to 'False'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'cmake_force_configure' from command line to 'False'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'ament_cmake_args' from command line to 'None'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'catkin_cmake_args' from command line to 'None'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'gazebo_version_helpers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.450s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_version_helpers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/build/gazebo_version_helpers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/install/gazebo_version_helpers', 'merge_install': False, 'path': '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers', 'symlink_install': False, 'test_result_base': None}
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.465s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/install/interfaces', 'merge_install': False, 'path': '/home/csg/dev_ws/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_args' from command line to 'None'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_target' from command line to 'None'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.479s] DEBUG:colcon.colcon_core.verb:Building package 'llm_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/build/llm_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/install/llm_ros2', 'merge_install': False, 'path': '/home/csg/dev_ws/src/llm_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_target' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.494s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_grasp_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/build/gazebo_grasp_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/install/gazebo_grasp_plugin', 'merge_install': False, 'path': '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin', 'symlink_install': False, 'test_result_base': None}
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_args' from command line to 'None'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_target' from command line to 'None'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'gazebo_grasp_plugin_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.509s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_grasp_plugin_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros', 'merge_install': False, 'path': '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin_ros', 'symlink_install': False, 'test_result_base': None}
+[1.523s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.540s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers' with build type 'ament_cmake'
+[1.540s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_version_helpers'
+[1.567s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.618s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/csg/dev_ws/src/interfaces' with build type 'ament_cmake'
+[1.619s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/src/interfaces'
+[1.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.687s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/csg/dev_ws/src/llm_ros2' with build type 'ament_python'
+[1.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_ros2', 'ament_prefix_path')
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/ament_prefix_path.ps1'
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/ament_prefix_path.dsv'
+[1.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/ament_prefix_path.sh'
+[1.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/gazebo_version_helpers': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --build /home/csg/dev_ws/build/gazebo_version_helpers -- -j8 -l8
+[1.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --build /home/csg/dev_ws/build/interfaces -- -j8 -l8
+[2.106s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/csg/dev_ws/src/llm_ros2'
+[2.121s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.121s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/gazebo_version_helpers' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --build /home/csg/dev_ws/build/gazebo_version_helpers -- -j8 -l8
+[2.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/gazebo_version_helpers': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --install /home/csg/dev_ws/build/gazebo_version_helpers
+[2.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_version_helpers)
+[2.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/gazebo_version_helpers' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --install /home/csg/dev_ws/build/gazebo_version_helpers
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers' for CMake module files
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers' for CMake config files
+[2.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_version_helpers', 'cmake_prefix_path')
+[2.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/cmake_prefix_path.ps1'
+[2.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/cmake_prefix_path.dsv'
+[2.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/cmake_prefix_path.sh'
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers/lib'
+[2.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_version_helpers', 'ld_library_path_lib')
+[2.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/ld_library_path_lib.ps1'
+[2.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/ld_library_path_lib.dsv'
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/ld_library_path_lib.sh'
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers/bin'
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers/lib/pkgconfig/gazebo_version_helpers.pc'
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers/lib/python3.10/site-packages'
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers/bin'
+[2.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.ps1'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.dsv'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.sh'
+[2.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.bash'
+[2.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.zsh'
+[2.389s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/gazebo_version_helpers/share/colcon-core/packages/gazebo_version_helpers)
+[2.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --build /home/csg/dev_ws/build/interfaces -- -j8 -l8
+[2.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_version_helpers)
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers' for CMake module files
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers' for CMake config files
+[2.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_version_helpers', 'cmake_prefix_path')
+[2.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/cmake_prefix_path.ps1'
+[2.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/cmake_prefix_path.dsv'
+[2.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/cmake_prefix_path.sh'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers/lib'
+[2.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_version_helpers', 'ld_library_path_lib')
+[2.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/ld_library_path_lib.ps1'
+[2.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/ld_library_path_lib.dsv'
+[2.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/hook/ld_library_path_lib.sh'
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers/bin'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers/lib/pkgconfig/gazebo_version_helpers.pc'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers/lib/python3.10/site-packages'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_version_helpers/bin'
+[2.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.ps1'
+[2.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.dsv'
+[2.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.sh'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.bash'
+[2.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_version_helpers/share/gazebo_version_helpers/package.zsh'
+[2.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/gazebo_version_helpers/share/colcon-core/packages/gazebo_version_helpers)
+[2.544s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin' with build type 'ament_cmake'
+[2.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin'
+[2.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --install /home/csg/dev_ws/build/interfaces
+[2.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/gazebo_grasp_plugin': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin LD_LIBRARY_PATH=/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/csg/dev_ws/build/gazebo_grasp_plugin/libgazebo_grasp_fix.so /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so /usr/bin/cmake --build /home/csg/dev_ws/build/gazebo_grasp_plugin -- -j8 -l8
+[2.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/src/llm_ros2': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm_ros2 build --build-base /home/csg/dev_ws/build/llm_ros2/build install --record /home/csg/dev_ws/build/llm_ros2/install.log --single-version-externally-managed
+[2.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[2.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --install /home/csg/dev_ws/build/interfaces
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces' for CMake module files
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces' for CMake config files
+[2.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[2.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[2.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[2.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[2.795s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces/lib'
+[2.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[2.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[2.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[2.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces/bin'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces/lib/python3.10/site-packages'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces/bin'
+[2.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/interfaces/share/interfaces/package.ps1'
+[2.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/interfaces/share/interfaces/package.dsv'
+[2.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/interfaces/share/interfaces/package.sh'
+[2.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/interfaces/share/interfaces/package.bash'
+[2.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/interfaces/share/interfaces/package.zsh'
+[2.833s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[2.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/gazebo_grasp_plugin' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin LD_LIBRARY_PATH=/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/csg/dev_ws/build/gazebo_grasp_plugin/libgazebo_grasp_fix.so /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so /usr/bin/cmake --build /home/csg/dev_ws/build/gazebo_grasp_plugin -- -j8 -l8
+[2.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/gazebo_grasp_plugin': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin LD_LIBRARY_PATH=/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/csg/dev_ws/build/gazebo_grasp_plugin/libgazebo_grasp_fix.so /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so /usr/bin/cmake --install /home/csg/dev_ws/build/gazebo_grasp_plugin
+[3.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_grasp_plugin)
+[3.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/gazebo_grasp_plugin' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin LD_LIBRARY_PATH=/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/csg/dev_ws/build/gazebo_grasp_plugin/libgazebo_grasp_fix.so /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so /usr/bin/cmake --install /home/csg/dev_ws/build/gazebo_grasp_plugin
+[3.034s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin' for CMake module files
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin' for CMake config files
+[3.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_grasp_plugin', 'cmake_prefix_path')
+[3.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/cmake_prefix_path.ps1'
+[3.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/cmake_prefix_path.dsv'
+[3.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/cmake_prefix_path.sh'
+[3.059s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin/lib'
+[3.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_grasp_plugin', 'ld_library_path_lib')
+[3.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/ld_library_path_lib.ps1'
+[3.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/ld_library_path_lib.dsv'
+[3.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/ld_library_path_lib.sh'
+[3.078s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin/bin'
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin/lib/pkgconfig/gazebo_grasp_plugin.pc'
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin/lib/python3.10/site-packages'
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin/bin'
+[3.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.ps1'
+[3.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.dsv'
+[3.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.sh'
+[3.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.bash'
+[3.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.zsh'
+[3.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/gazebo_grasp_plugin/share/colcon-core/packages/gazebo_grasp_plugin)
+[3.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces' for CMake module files
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces' for CMake config files
+[3.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[3.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[3.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[3.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces/lib'
+[3.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[3.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[3.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[3.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[3.175s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces/bin'
+[3.175s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[3.176s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces/lib/python3.10/site-packages'
+[3.176s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/interfaces/bin'
+[3.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/interfaces/share/interfaces/package.ps1'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/interfaces/share/interfaces/package.dsv'
+[3.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/interfaces/share/interfaces/package.sh'
+[3.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/interfaces/share/interfaces/package.bash'
+[3.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/interfaces/share/interfaces/package.zsh'
+[3.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[3.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/src/llm_ros2' returned '0': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm_ros2 build --build-base /home/csg/dev_ws/build/llm_ros2/build install --record /home/csg/dev_ws/build/llm_ros2/install.log --single-version-externally-managed
+[3.221s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2' for CMake module files
+[3.222s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2' for CMake config files
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2/lib'
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2/bin'
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2/lib/pkgconfig/llm_ros2.pc'
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages'
+[3.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_ros2', 'pythonpath')
+[3.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/pythonpath.ps1'
+[3.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/pythonpath.dsv'
+[3.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/pythonpath.sh'
+[3.242s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2/bin'
+[3.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_ros2)
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/package.ps1'
+[3.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/package.dsv'
+[3.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/package.sh'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/package.bash'
+[3.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/package.zsh'
+[3.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/llm_ros2/share/colcon-core/packages/llm_ros2)
+[3.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_grasp_plugin)
+[3.310s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin' for CMake module files
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin' for CMake config files
+[3.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_grasp_plugin', 'cmake_prefix_path')
+[3.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/cmake_prefix_path.ps1'
+[3.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/cmake_prefix_path.dsv'
+[3.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/cmake_prefix_path.sh'
+[3.329s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin/lib'
+[3.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_grasp_plugin', 'ld_library_path_lib')
+[3.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/ld_library_path_lib.ps1'
+[3.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/ld_library_path_lib.dsv'
+[3.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/hook/ld_library_path_lib.sh'
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin/bin'
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin/lib/pkgconfig/gazebo_grasp_plugin.pc'
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin/lib/python3.10/site-packages'
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin/bin'
+[3.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.ps1'
+[3.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.dsv'
+[3.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.sh'
+[3.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.bash'
+[3.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.zsh'
+[3.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/gazebo_grasp_plugin/share/colcon-core/packages/gazebo_grasp_plugin)
+[3.370s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin_ros' with build type 'ament_cmake'
+[3.370s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin_ros'
+[3.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros LD_LIBRARY_PATH=/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/csg/dev_ws/build/gazebo_grasp_plugin/libgazebo_grasp_fix.so /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so /usr/bin/cmake --build /home/csg/dev_ws/build/gazebo_grasp_plugin_ros -- -j8 -l8
+[3.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros LD_LIBRARY_PATH=/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/csg/dev_ws/build/gazebo_grasp_plugin/libgazebo_grasp_fix.so /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so /usr/bin/cmake --build /home/csg/dev_ws/build/gazebo_grasp_plugin_ros -- -j8 -l8
+[3.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros LD_LIBRARY_PATH=/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/csg/dev_ws/build/gazebo_grasp_plugin/libgazebo_grasp_fix.so /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so /usr/bin/cmake --install /home/csg/dev_ws/build/gazebo_grasp_plugin_ros
+[3.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_grasp_plugin_ros)
+[3.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/gazebo_grasp_plugin_ros' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros LD_LIBRARY_PATH=/home/csg/dev_ws/install/gazebo_grasp_plugin/lib:/home/csg/dev_ws/install/gazebo_version_helpers/lib:/home/csg/dev_ws/install/leo_msgs/lib:/home/csg/dev_ws/install/interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/csg/dev_ws/build/gazebo_grasp_plugin/libgazebo_grasp_fix.so /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so /usr/bin/cmake --install /home/csg/dev_ws/build/gazebo_grasp_plugin_ros
+[3.727s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros' for CMake module files
+[3.727s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros' for CMake config files
+[3.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_grasp_plugin_ros', 'cmake_prefix_path')
+[3.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/hook/cmake_prefix_path.ps1'
+[3.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/hook/cmake_prefix_path.dsv'
+[3.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/hook/cmake_prefix_path.sh'
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/lib'
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/bin'
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/lib/pkgconfig/gazebo_grasp_plugin_ros.pc'
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/lib/python3.10/site-packages'
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/bin'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.ps1'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.dsv'
+[3.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.sh'
+[3.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.bash'
+[3.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.zsh'
+[3.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/colcon-core/packages/gazebo_grasp_plugin_ros)
+[3.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_grasp_plugin_ros)
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros' for CMake module files
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros' for CMake config files
+[3.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_grasp_plugin_ros', 'cmake_prefix_path')
+[3.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/hook/cmake_prefix_path.ps1'
+[3.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/hook/cmake_prefix_path.dsv'
+[3.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/hook/cmake_prefix_path.sh'
+[3.882s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/lib'
+[3.882s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/bin'
+[3.882s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/lib/pkgconfig/gazebo_grasp_plugin_ros.pc'
+[3.882s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/lib/python3.10/site-packages'
+[3.883s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/bin'
+[3.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.ps1'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.dsv'
+[3.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.sh'
+[3.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.bash'
+[3.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.zsh'
+[3.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/colcon-core/packages/gazebo_grasp_plugin_ros)
+[3.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.902s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.902s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.903s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.930s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.930s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.930s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.960s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.974s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/install/local_setup.ps1'
+[3.978s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/csg/dev_ws/install/_local_setup_util_ps1.py'
+[3.981s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/install/setup.ps1'
+[3.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/install/local_setup.sh'
+[4.001s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/csg/dev_ws/install/_local_setup_util_sh.py'
+[4.002s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/install/setup.sh'
+[4.020s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/install/local_setup.bash'
+[4.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/install/setup.bash'
+[4.042s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/install/local_setup.zsh'
+[4.044s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/install/setup.zsh'

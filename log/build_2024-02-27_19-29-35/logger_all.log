@@ -1,0 +1,399 @@
+[0.986s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.986s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4971e64ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4971e66d10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4971e66d10>>)
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.032s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/csg/dev_ws'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extension 'ignore'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extensions ['colcon_pkg']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extension 'colcon_pkg'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extensions ['colcon_meta']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extension 'colcon_meta'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extensions ['ros']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extension 'ros'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extensions ['cmake', 'python']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extension 'cmake'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extension 'python'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extensions ['python_setup_py']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2) by extension 'python_setup_py'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo) by extensions ['ignore', 'ignore_ament_install']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo) by extension 'ignore'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo) by extension 'ignore_ament_install'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo) by extensions ['colcon_pkg']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo) by extension 'colcon_pkg'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo) by extensions ['colcon_meta']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo) by extension 'colcon_meta'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo) by extensions ['ros']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo) by extension 'ros'
+[1.046s] DEBUG:colcon.colcon_core.package_identification:Package 'leo-common-ros2/leo' with type 'ros.ament_cmake' and name 'leo'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_description) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_description) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_description) by extension 'ignore_ament_install'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_description) by extensions ['colcon_pkg']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_description) by extension 'colcon_pkg'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_description) by extensions ['colcon_meta']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_description) by extension 'colcon_meta'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_description) by extensions ['ros']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_description) by extension 'ros'
+[1.047s] DEBUG:colcon.colcon_core.package_identification:Package 'leo-common-ros2/leo_description' with type 'ros.ament_cmake' and name 'leo_description'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_msgs) by extension 'ignore'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_msgs) by extension 'ignore_ament_install'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_msgs) by extensions ['colcon_pkg']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_msgs) by extension 'colcon_pkg'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_msgs) by extensions ['colcon_meta']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_msgs) by extension 'colcon_meta'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_msgs) by extensions ['ros']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_msgs) by extension 'ros'
+[1.048s] DEBUG:colcon.colcon_core.package_identification:Package 'leo-common-ros2/leo_msgs' with type 'ros.ament_cmake' and name 'leo_msgs'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_teleop) by extension 'ignore'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_teleop) by extension 'ignore_ament_install'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_teleop) by extensions ['colcon_pkg']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_teleop) by extension 'colcon_pkg'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_teleop) by extensions ['colcon_meta']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_teleop) by extension 'colcon_meta'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_teleop) by extensions ['ros']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(leo-common-ros2/leo_teleop) by extension 'ros'
+[1.049s] DEBUG:colcon.colcon_core.package_identification:Package 'leo-common-ros2/leo_teleop' with type 'ros.ament_cmake' and name 'leo_teleop'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extension 'ignore'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extension 'ignore_ament_install'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extensions ['colcon_pkg']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extension 'colcon_pkg'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extensions ['colcon_meta']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extension 'colcon_meta'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extensions ['ros']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_ros2) by extension 'ros'
+[1.051s] DEBUG:colcon.colcon_core.package_identification:Package 'src/llm_ros2' with type 'ros.ament_python' and name 'llm_ros2'
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.170s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/csg/dev_ws/install
+[1.185s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_args' from command line to 'None'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_target' from command line to 'None'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.289s] DEBUG:colcon.colcon_core.verb:Building package 'leo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/build/leo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/install/leo_description', 'merge_install': False, 'path': '/home/csg/dev_ws/leo-common-ros2/leo_description', 'symlink_install': False, 'test_result_base': None}
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_args' from command line to 'None'
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_target' from command line to 'None'
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.304s] DEBUG:colcon.colcon_core.verb:Building package 'leo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/build/leo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/install/leo_msgs', 'merge_install': False, 'path': '/home/csg/dev_ws/leo-common-ros2/leo_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_args' from command line to 'None'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_target' from command line to 'None'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.318s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.318s] DEBUG:colcon.colcon_core.verb:Building package 'leo_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/build/leo_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/install/leo_teleop', 'merge_install': False, 'path': '/home/csg/dev_ws/leo-common-ros2/leo_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_args' from command line to 'None'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_target' from command line to 'None'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'llm_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.333s] DEBUG:colcon.colcon_core.verb:Building package 'llm_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/build/llm_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/install/llm_ros2', 'merge_install': False, 'path': '/home/csg/dev_ws/src/llm_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_args' from command line to 'None'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_target' from command line to 'None'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_clean_first' from command line to 'False'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_force_configure' from command line to 'False'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'ament_cmake_args' from command line to 'None'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.347s] DEBUG:colcon.colcon_core.verb:Building package 'leo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/csg/dev_ws/build/leo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/csg/dev_ws/install/leo', 'merge_install': False, 'path': '/home/csg/dev_ws/leo-common-ros2/leo', 'symlink_install': False, 'test_result_base': None}
+[1.361s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.376s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/csg/dev_ws/leo-common-ros2/leo_description' with build type 'ament_cmake'
+[1.376s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/leo-common-ros2/leo_description'
+[1.393s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/csg/dev_ws/leo-common-ros2/leo_msgs' with build type 'ament_cmake'
+[1.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/leo-common-ros2/leo_msgs'
+[1.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.509s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/csg/dev_ws/leo-common-ros2/leo_teleop' with build type 'ament_cmake'
+[1.509s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/leo-common-ros2/leo_teleop'
+[1.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.574s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/csg/dev_ws/src/llm_ros2' with build type 'ament_python'
+[1.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_ros2', 'ament_prefix_path')
+[1.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/ament_prefix_path.ps1'
+[1.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/ament_prefix_path.dsv'
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/ament_prefix_path.sh'
+[1.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_description -- -j8 -l8
+[1.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/leo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_msgs -- -j8 -l8
+[1.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_teleop -- -j8 -l8
+[1.990s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/csg/dev_ws/src/llm_ros2'
+[2.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_description -- -j8 -l8
+[2.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_teleop -- -j8 -l8
+[2.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_teleop
+[2.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_description
+[2.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/leo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_msgs -- -j8 -l8
+[2.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_teleop)
+[2.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_teleop
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop' for CMake module files
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop' for CMake config files
+[2.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_teleop', 'cmake_prefix_path')
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.ps1'
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.dsv'
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.sh'
+[2.203s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop/bin'
+[2.203s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop/lib/pkgconfig/leo_teleop.pc'
+[2.203s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop/lib/python3.10/site-packages'
+[2.203s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop/bin'
+[2.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.ps1'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.dsv'
+[2.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.sh'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.bash'
+[2.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.zsh'
+[2.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/leo_teleop/share/colcon-core/packages/leo_teleop)
+[2.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_description)
+[2.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_description
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description' for CMake module files
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description' for CMake config files
+[2.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_description', 'cmake_prefix_path')
+[2.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_description/share/leo_description/hook/cmake_prefix_path.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/leo_description/share/leo_description/hook/cmake_prefix_path.dsv'
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_description/share/leo_description/hook/cmake_prefix_path.sh'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description/bin'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description/lib/pkgconfig/leo_description.pc'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description/lib/python3.10/site-packages'
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description/bin'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_description/share/leo_description/package.ps1'
+[2.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/leo_description/share/leo_description/package.dsv'
+[2.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_description/share/leo_description/package.sh'
+[2.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_description/share/leo_description/package.bash'
+[2.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_description/share/leo_description/package.zsh'
+[2.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/leo_description/share/colcon-core/packages/leo_description)
+[2.302s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_teleop)
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop' for CMake module files
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop' for CMake config files
+[2.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_teleop', 'cmake_prefix_path')
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.ps1'
+[2.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.dsv'
+[2.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.sh'
+[2.338s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop/bin'
+[2.338s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop/lib/pkgconfig/leo_teleop.pc'
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop/lib/python3.10/site-packages'
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_teleop/bin'
+[2.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.ps1'
+[2.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.dsv'
+[2.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.sh'
+[2.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.bash'
+[2.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.zsh'
+[2.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/leo_teleop/share/colcon-core/packages/leo_teleop)
+[2.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_description)
+[2.393s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description' for CMake module files
+[2.393s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description' for CMake config files
+[2.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_description', 'cmake_prefix_path')
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_description/share/leo_description/hook/cmake_prefix_path.ps1'
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/leo_description/share/leo_description/hook/cmake_prefix_path.dsv'
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_description/share/leo_description/hook/cmake_prefix_path.sh'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description/bin'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description/lib/pkgconfig/leo_description.pc'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description/lib/python3.10/site-packages'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_description/bin'
+[2.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_description/share/leo_description/package.ps1'
+[2.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/leo_description/share/leo_description/package.dsv'
+[2.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_description/share/leo_description/package.sh'
+[2.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_description/share/leo_description/package.bash'
+[2.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_description/share/leo_description/package.zsh'
+[2.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/leo_description/share/colcon-core/packages/leo_description)
+[2.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/leo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_msgs
+[2.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/src/llm_ros2': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm_ros2 build --build-base /home/csg/dev_ws/build/llm_ros2/build install --record /home/csg/dev_ws/build/llm_ros2/install.log --single-version-externally-managed
+[2.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_msgs)
+[2.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/leo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_msgs
+[2.567s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs' for CMake module files
+[2.568s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs' for CMake config files
+[2.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'cmake_prefix_path')
+[2.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.ps1'
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.dsv'
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.sh'
+[2.588s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs/lib'
+[2.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'ld_library_path_lib')
+[2.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.ps1'
+[2.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.dsv'
+[2.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.sh'
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs/bin'
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs/lib/pkgconfig/leo_msgs.pc'
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs/lib/python3.10/site-packages'
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs/bin'
+[2.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.ps1'
+[2.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.dsv'
+[2.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.sh'
+[2.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.bash'
+[2.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.zsh'
+[2.626s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/leo_msgs/share/colcon-core/packages/leo_msgs)
+[2.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/src/llm_ros2' returned '0': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm_ros2 build --build-base /home/csg/dev_ws/build/llm_ros2/build install --record /home/csg/dev_ws/build/llm_ros2/install.log --single-version-externally-managed
+[2.858s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2' for CMake module files
+[2.858s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2' for CMake config files
+[2.859s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2/lib'
+[2.859s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2/bin'
+[2.859s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2/lib/pkgconfig/llm_ros2.pc'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages'
+[2.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_ros2', 'pythonpath')
+[2.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/pythonpath.ps1'
+[2.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/pythonpath.dsv'
+[2.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/hook/pythonpath.sh'
+[2.877s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/llm_ros2/bin'
+[2.877s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_ros2)
+[2.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/package.ps1'
+[2.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/package.dsv'
+[2.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/package.sh'
+[2.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/package.bash'
+[2.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/llm_ros2/share/llm_ros2/package.zsh'
+[2.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/llm_ros2/share/colcon-core/packages/llm_ros2)
+[2.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_msgs)
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs' for CMake module files
+[3.009s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs' for CMake config files
+[3.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'cmake_prefix_path')
+[3.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.ps1'
+[3.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.dsv'
+[3.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.sh'
+[3.026s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs/lib'
+[3.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'ld_library_path_lib')
+[3.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.ps1'
+[3.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.dsv'
+[3.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.sh'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs/bin'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs/lib/pkgconfig/leo_msgs.pc'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs/lib/python3.10/site-packages'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo_msgs/bin'
+[3.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.ps1'
+[3.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.dsv'
+[3.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.sh'
+[3.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.bash'
+[3.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.zsh'
+[3.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/leo_msgs/share/colcon-core/packages/leo_msgs)
+[3.063s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/csg/dev_ws/leo-common-ros2/leo' with build type 'ament_cmake'
+[3.063s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/csg/dev_ws/leo-common-ros2/leo'
+[3.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/leo': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/csg/dev_ws/install/leo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/csg/dev_ws/build/leo -- -j8 -l8
+[3.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/leo' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/csg/dev_ws/install/leo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/csg/dev_ws/build/leo -- -j8 -l8
+[3.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/csg/dev_ws/build/leo': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/csg/dev_ws/install/leo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/csg/dev_ws/build/leo
+[3.262s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo)
+[3.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/csg/dev_ws/build/leo' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/csg/dev_ws/install/leo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/csg/dev_ws/build/leo
+[3.277s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo' for CMake module files
+[3.278s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo' for CMake config files
+[3.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo', 'cmake_prefix_path')
+[3.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo/share/leo/hook/cmake_prefix_path.ps1'
+[3.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/leo/share/leo/hook/cmake_prefix_path.dsv'
+[3.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo/share/leo/hook/cmake_prefix_path.sh'
+[3.295s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo/bin'
+[3.295s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo/lib/pkgconfig/leo.pc'
+[3.295s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo/lib/python3.10/site-packages'
+[3.295s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo/bin'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo/share/leo/package.ps1'
+[3.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/leo/share/leo/package.dsv'
+[3.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo/share/leo/package.sh'
+[3.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo/share/leo/package.bash'
+[3.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo/share/leo/package.zsh'
+[3.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/leo/share/colcon-core/packages/leo)
+[3.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo)
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo' for CMake module files
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo' for CMake config files
+[3.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo', 'cmake_prefix_path')
+[3.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo/share/leo/hook/cmake_prefix_path.ps1'
+[3.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/csg/dev_ws/install/leo/share/leo/hook/cmake_prefix_path.dsv'
+[3.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/csg/dev_ws/install/leo/share/leo/hook/cmake_prefix_path.sh'
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo/bin'
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo/lib/pkgconfig/leo.pc'
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo/lib/python3.10/site-packages'
+[3.420s] Level 1:colcon.colcon_core.environment:checking '/home/csg/dev_ws/install/leo/bin'
+[3.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo/share/leo/package.ps1'
+[3.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/csg/dev_ws/install/leo/share/leo/package.dsv'
+[3.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo/share/leo/package.sh'
+[3.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo/share/leo/package.bash'
+[3.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/csg/dev_ws/install/leo/share/leo/package.zsh'
+[3.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/csg/dev_ws/install/leo/share/colcon-core/packages/leo)
+[3.440s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.440s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.440s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.441s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.463s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.478s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/install/local_setup.ps1'
+[3.495s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/csg/dev_ws/install/_local_setup_util_ps1.py'
+[3.497s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/install/setup.ps1'
+[3.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/install/local_setup.sh'
+[3.513s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/csg/dev_ws/install/_local_setup_util_sh.py'
+[3.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/install/setup.sh'
+[3.530s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/install/local_setup.bash'
+[3.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/install/setup.bash'
+[3.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/csg/dev_ws/install/local_setup.zsh'
+[3.548s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/csg/dev_ws/install/setup.zsh'

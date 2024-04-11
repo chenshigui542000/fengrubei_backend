@@ -1,0 +1,612 @@
+[0.000000] (-) TimerEvent: {}
+[0.000282] (leo_description) JobQueued: {'identifier': 'leo_description', 'dependencies': OrderedDict()}
+[0.000388] (leo_msgs) JobQueued: {'identifier': 'leo_msgs', 'dependencies': OrderedDict()}
+[0.000903] (leo_teleop) JobQueued: {'identifier': 'leo_teleop', 'dependencies': OrderedDict()}
+[0.001002] (llm_ros2) JobQueued: {'identifier': 'llm_ros2', 'dependencies': OrderedDict()}
+[0.001036] (leo) JobQueued: {'identifier': 'leo', 'dependencies': OrderedDict([('leo_description', '/home/csg/dev_ws/install/leo_description'), ('leo_msgs', '/home/csg/dev_ws/install/leo_msgs'), ('leo_teleop', '/home/csg/dev_ws/install/leo_teleop')])}
+[0.001122] (leo_description) JobStarted: {'identifier': 'leo_description'}
+[0.097328] (-) TimerEvent: {}
+[0.109562] (leo_msgs) JobStarted: {'identifier': 'leo_msgs'}
+[0.198450] (-) TimerEvent: {}
+[0.221893] (leo_teleop) JobStarted: {'identifier': 'leo_teleop'}
+[0.299717] (-) TimerEvent: {}
+[0.333803] (llm_ros2) JobStarted: {'identifier': 'llm_ros2'}
+[0.401335] (-) TimerEvent: {}
+[0.480955] (leo_description) JobProgress: {'identifier': 'leo_description', 'progress': 'cmake'}
+[0.481656] (leo_description) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/leo-common-ros2/leo_description', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/leo_description'], 'cwd': '/home/csg/dev_ws/build/leo_description', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[0.489818] (leo_msgs) JobProgress: {'identifier': 'leo_msgs', 'progress': 'cmake'}
+[0.494613] (leo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/leo-common-ros2/leo_msgs', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/leo_msgs'], 'cwd': '/home/csg/dev_ws/build/leo_msgs', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[0.498027] (leo_teleop) JobProgress: {'identifier': 'leo_teleop', 'progress': 'cmake'}
+[0.500701] (leo_teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/leo-common-ros2/leo_teleop', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/leo_teleop'], 'cwd': '/home/csg/dev_ws/build/leo_teleop', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo_teleop'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[0.505519] (-) TimerEvent: {}
+[0.609785] (-) TimerEvent: {}
+[0.710865] (-) TimerEvent: {}
+[0.812225] (-) TimerEvent: {}
+[0.873319] (leo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.874475] (leo_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.875433] (leo_teleop) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.912670] (-) TimerEvent: {}
+[1.013427] (-) TimerEvent: {}
+[1.106681] (leo_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.107322] (leo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.108255] (leo_teleop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.114231] (-) TimerEvent: {}
+[1.142148] (leo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.143602] (leo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.144810] (leo_teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.215102] (-) TimerEvent: {}
+[1.315976] (-) TimerEvent: {}
+[1.323708] (leo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.324035] (leo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.335005] (leo_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.336433] (leo_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.338323] (leo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.348209] (leo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.348443] (leo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.348541] (leo_teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.348764] (leo_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.349255] (leo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.349444] (leo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.355606] (leo_teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.357779] (leo_teleop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.358661] (leo_teleop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.366288] (leo_teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.416488] (-) TimerEvent: {}
+[1.517323] (-) TimerEvent: {}
+[1.534782] (leo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.535946] (leo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.546642] (leo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.547174] (leo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.556281] (leo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.556525] (leo_teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.556636] (leo_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.556732] (leo_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.556817] (leo_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.563030] (leo_teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.564178] (leo_teleop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.565331] (leo_teleop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.568722] (leo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.569223] (leo_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.571064] (leo_teleop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.617781] (-) TimerEvent: {}
+[1.718678] (-) TimerEvent: {}
+[1.781767] (llm_ros2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/llm_ros2', 'build', '--build-base', '/home/csg/dev_ws/build/llm_ros2/build', 'install', '--record', '/home/csg/dev_ws/build/llm_ros2/install.log', '--single-version-externally-managed'], 'cwd': '/home/csg/dev_ws/src/llm_ros2', 'env': {'SVGA_VGPU10': '0', 'LANGUAGE': 'en_US:', 'USER': 'csg', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/csg', 'OLDPWD': '/home/csg/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '1962', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/csg/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'csg', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'csg', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2', 'GNOME_TERMINAL_SERVICE': ':1.136', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/csg/dev_ws/build/llm_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.819130] (-) TimerEvent: {}
+[1.914036] (leo_teleop) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.919660] (-) TimerEvent: {}
+[1.922740] (leo_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.923329] (leo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.020055] (-) TimerEvent: {}
+[2.121350] (-) TimerEvent: {}
+[2.179294] (leo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.194390] (leo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.216876] (llm_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[2.217882] (llm_ros2) StdoutLine: {'line': b'writing ../../build/llm_ros2/llm_ros2.egg-info/PKG-INFO\n'}
+[2.218787] (llm_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/llm_ros2/llm_ros2.egg-info/dependency_links.txt\n'}
+[2.219708] (llm_ros2) StdoutLine: {'line': b'writing entry points to ../../build/llm_ros2/llm_ros2.egg-info/entry_points.txt\n'}
+[2.221387] (llm_ros2) StdoutLine: {'line': b'writing requirements to ../../build/llm_ros2/llm_ros2.egg-info/requires.txt\n'}
+[2.221588] (-) TimerEvent: {}
+[2.221827] (llm_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/llm_ros2/llm_ros2.egg-info/top_level.txt\n'}
+[2.224780] (llm_ros2) StdoutLine: {'line': b"reading manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'\n"}
+[2.225966] (leo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.227643] (llm_ros2) StdoutLine: {'line': b"writing manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'\n"}
+[2.228079] (llm_ros2) StdoutLine: {'line': b'running build\n'}
+[2.228284] (llm_ros2) StdoutLine: {'line': b'running build_py\n'}
+[2.228568] (llm_ros2) StdoutLine: {'line': b'running install\n'}
+[2.229135] (llm_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[2.232321] (llm_ros2) StdoutLine: {'line': b'running install_data\n'}
+[2.233240] (llm_ros2) StdoutLine: {'line': b'copying launch/load_urdf_into_gazebo.launch.py -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/launch\n'}
+[2.235011] (llm_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.237367] (llm_ros2) StdoutLine: {'line': b"removing '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.240283] (llm_ros2) StdoutLine: {'line': b'Copying ../../build/llm_ros2/llm_ros2.egg-info to /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info\n'}
+[2.240521] (llm_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[2.274070] (llm_ros2) StdoutLine: {'line': b'Installing camera_server script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[2.274511] (llm_ros2) StdoutLine: {'line': b'Installing ctl_robot script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[2.275330] (llm_ros2) StdoutLine: {'line': b'Installing sub_pose script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2\n'}
+[2.277208] (llm_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/csg/dev_ws/build/llm_ros2/install.log'\n"}
+[2.303870] (leo_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.304334] (leo_teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.309891] (leo_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.310651] (leo_teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[2.313167] (leo_description) StdoutLine: {'line': b'-- Build files have been written to: /home/csg/dev_ws/build/leo_description\n'}
+[2.313528] (leo_teleop) StdoutLine: {'line': b'-- Build files have been written to: /home/csg/dev_ws/build/leo_teleop\n'}
+[2.325163] (leo_teleop) CommandEnded: {'returncode': 0}
+[2.325869] (-) TimerEvent: {}
+[2.327366] (leo_teleop) JobProgress: {'identifier': 'leo_teleop', 'progress': 'build'}
+[2.327494] (leo_teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/csg/dev_ws/build/leo_teleop', '--', '-j8', '-l8'], 'cwd': '/home/csg/dev_ws/build/leo_teleop', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo_teleop'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[2.335134] (llm_ros2) CommandEnded: {'returncode': 0}
+[2.406791] (leo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.427953] (-) TimerEvent: {}
+[2.436091] (llm_ros2) JobEnded: {'identifier': 'llm_ros2', 'rc': 0}
+[2.442852] (leo_description) CommandEnded: {'returncode': 0}
+[2.443547] (leo_description) JobProgress: {'identifier': 'leo_description', 'progress': 'build'}
+[2.443598] (leo_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/csg/dev_ws/build/leo_description', '--', '-j8', '-l8'], 'cwd': '/home/csg/dev_ws/build/leo_description', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[2.445937] (leo_teleop) CommandEnded: {'returncode': 0}
+[2.520900] (leo_teleop) JobProgress: {'identifier': 'leo_teleop', 'progress': 'install'}
+[2.528959] (-) TimerEvent: {}
+[2.532969] (leo_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[2.545997] (leo_teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/csg/dev_ws/build/leo_teleop'], 'cwd': '/home/csg/dev_ws/build/leo_teleop', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo_teleop'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[2.550116] (leo_description) CommandEnded: {'returncode': 0}
+[2.564362] (leo_teleop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.565059] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/config\n'}
+[2.566101] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/config/joy_config.yaml\n'}
+[2.566403] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/launch\n'}
+[2.566702] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/launch/joy_teleop.launch.xml\n'}
+[2.567280] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/launch/key_teleop.launch.xml\n'}
+[2.568949] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/ament_index/resource_index/package_run_dependencies/leo_teleop\n'}
+[2.569462] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/ament_index/resource_index/parent_prefix_path/leo_teleop\n'}
+[2.570117] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.sh\n'}
+[2.570631] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.dsv\n'}
+[2.571135] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/environment/path.sh\n'}
+[2.571586] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/environment/path.dsv\n'}
+[2.572387] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/local_setup.bash\n'}
+[2.572781] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/local_setup.sh\n'}
+[2.573415] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/local_setup.zsh\n'}
+[2.573859] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/local_setup.dsv\n'}
+[2.574358] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.dsv\n'}
+[2.575062] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/ament_index/resource_index/packages/leo_teleop\n'}
+[2.575656] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig.cmake\n'}
+[2.576178] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig-version.cmake\n'}
+[2.576909] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.xml\n'}
+[2.581926] (leo_teleop) CommandEnded: {'returncode': 0}
+[2.629459] (-) TimerEvent: {}
+[2.672700] (leo_description) JobProgress: {'identifier': 'leo_description', 'progress': 'install'}
+[2.675946] (leo_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/csg/dev_ws/build/leo_description'], 'cwd': '/home/csg/dev_ws/build/leo_description', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[2.693628] (leo_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.693896] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/config\n'}
+[2.694254] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/config/controllers.yaml\n'}
+[2.694577] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/launch\n'}
+[2.694742] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/launch/state_publisher.launch.xml\n'}
+[2.695411] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/models\n'}
+[2.695609] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Chassis_outline.stl\n'}
+[2.695703] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/models/WheelB.dae\n'}
+[2.703540] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Rocker_outline.stl\n'}
+[2.704666] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/models/WheelA.dae\n'}
+[2.711407] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Rocker.dae\n'}
+[2.720705] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Chassis.dae\n'}
+[2.730270] (-) TimerEvent: {}
+[2.753458] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Wheel_outline.stl\n'}
+[2.754553] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Antenna.dae\n'}
+[2.754910] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/urdf\n'}
+[2.755420] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/urdf/leo_sim.urdf.xacro\n'}
+[2.755614] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/urdf/macros.xacro\n'}
+[2.755841] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/urdf/leo.urdf.xacro\n'}
+[2.756272] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/ament_index/resource_index/package_run_dependencies/leo_description\n'}
+[2.756494] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/ament_index/resource_index/parent_prefix_path/leo_description\n'}
+[2.756763] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/environment/ament_prefix_path.sh\n'}
+[2.756946] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/environment/ament_prefix_path.dsv\n'}
+[2.758620] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/environment/path.sh\n'}
+[2.761332] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/environment/path.dsv\n'}
+[2.761665] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/local_setup.bash\n'}
+[2.761878] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/local_setup.sh\n'}
+[2.762341] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/local_setup.zsh\n'}
+[2.762611] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/local_setup.dsv\n'}
+[2.762877] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/package.dsv\n'}
+[2.763140] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/ament_index/resource_index/packages/leo_description\n'}
+[2.763380] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/cmake/leo_descriptionConfig.cmake\n'}
+[2.764338] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/cmake/leo_descriptionConfig-version.cmake\n'}
+[2.765853] (leo_description) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/package.xml\n'}
+[2.831919] (-) TimerEvent: {}
+[2.875811] (leo_teleop) JobEnded: {'identifier': 'leo_teleop', 'rc': 0}
+[2.878328] (leo_description) CommandEnded: {'returncode': 0}
+[2.934101] (-) TimerEvent: {}
+[3.035869] (-) TimerEvent: {}
+[3.088751] (leo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.137008] (-) TimerEvent: {}
+[3.173648] (leo_description) JobEnded: {'identifier': 'leo_description', 'rc': 0}
+[3.237725] (-) TimerEvent: {}
+[3.338580] (-) TimerEvent: {}
+[3.440124] (leo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.440618] (-) TimerEvent: {}
+[3.541585] (-) TimerEvent: {}
+[3.642558] (-) TimerEvent: {}
+[3.743919] (-) TimerEvent: {}
+[3.845519] (-) TimerEvent: {}
+[3.862461] (leo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.912436] (leo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.917354] (leo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.946341] (-) TimerEvent: {}
+[3.978883] (leo_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.979170] (leo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.979262] (leo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.979344] (leo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.016988] (leo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.047018] (-) TimerEvent: {}
+[4.106809] (leo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.148240] (-) TimerEvent: {}
+[4.177645] (leo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.182298] (leo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/csg/dev_ws/build/leo_msgs\n'}
+[4.192685] (leo_msgs) CommandEnded: {'returncode': 0}
+[4.196751] (leo_msgs) JobProgress: {'identifier': 'leo_msgs', 'progress': 'build'}
+[4.196918] (leo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/csg/dev_ws/build/leo_msgs', '--', '-j8', '-l8'], 'cwd': '/home/csg/dev_ws/build/leo_msgs', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[4.249121] (-) TimerEvent: {}
+[4.291191] (leo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.316698] (leo_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.337625] (leo_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_leo_msgs\n'}
+[4.350356] (-) TimerEvent: {}
+[4.451380] (-) TimerEvent: {}
+[4.552535] (-) TimerEvent: {}
+[4.653762] (-) TimerEvent: {}
+[4.754534] (-) TimerEvent: {}
+[4.768194] (leo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.768791] (leo_msgs) StdoutLine: {'line': b'creating leo_msgs.egg-info\n'}
+[4.769337] (leo_msgs) StdoutLine: {'line': b'writing leo_msgs.egg-info/PKG-INFO\n'}
+[4.770211] (leo_msgs) StdoutLine: {'line': b'writing dependency_links to leo_msgs.egg-info/dependency_links.txt\n'}
+[4.770485] (leo_msgs) StdoutLine: {'line': b'writing top-level names to leo_msgs.egg-info/top_level.txt\n'}
+[4.770579] (leo_msgs) StdoutLine: {'line': b"writing manifest file 'leo_msgs.egg-info/SOURCES.txt'\n"}
+[4.773950] (leo_msgs) StdoutLine: {'line': b"reading manifest file 'leo_msgs.egg-info/SOURCES.txt'\n"}
+[4.775161] (leo_msgs) StdoutLine: {'line': b"writing manifest file 'leo_msgs.egg-info/SOURCES.txt'\n"}
+[4.830397] (leo_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_leo_msgs_egg\n'}
+[4.855187] (-) TimerEvent: {}
+[4.956644] (-) TimerEvent: {}
+[5.058081] (-) TimerEvent: {}
+[5.091102] (leo_msgs) StdoutLine: {'line': b'[  3%] Built target leo_msgs__cpp\n'}
+[5.118694] (leo_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.123815] (leo_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.131244] (leo_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.159286] (-) TimerEvent: {}
+[5.165600] (leo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_generator_c.dir/rosidl_generator_c/leo_msgs/msg/detail/wheel_odom__functions.c.o\x1b[0m\n'}
+[5.166255] (leo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_generator_c.dir/rosidl_generator_c/leo_msgs/srv/detail/set_imu_calibration__functions.c.o\x1b[0m\n'}
+[5.166645] (leo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_generator_c.dir/rosidl_generator_c/leo_msgs/msg/detail/wheel_states__functions.c.o\x1b[0m\n'}
+[5.167226] (leo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_generator_c.dir/rosidl_generator_c/leo_msgs/msg/detail/imu__functions.c.o\x1b[0m\n'}
+[5.259987] (-) TimerEvent: {}
+[5.360899] (-) TimerEvent: {}
+[5.369260] (leo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libleo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.455486] (leo_msgs) StdoutLine: {'line': b'[ 18%] Built target leo_msgs__rosidl_generator_c\n'}
+[5.461601] (-) TimerEvent: {}
+[5.480513] (leo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.480789] (leo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.486548] (leo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.562441] (-) TimerEvent: {}
+[5.663496] (-) TimerEvent: {}
+[5.725437] (leo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leo_msgs/msg/wheel_odom__type_support.cpp.o\x1b[0m\n'}
+[5.726010] (leo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leo_msgs/msg/imu__type_support.cpp.o\x1b[0m\n'}
+[5.726214] (leo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leo_msgs/msg/wheel_states__type_support.cpp.o\x1b[0m\n'}
+[5.763879] (-) TimerEvent: {}
+[5.865222] (-) TimerEvent: {}
+[5.957128] (leo_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leo_msgs/msg/detail/imu__type_support.cpp.o\x1b[0m\n'}
+[5.965516] (-) TimerEvent: {}
+[5.996188] (leo_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leo_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o\x1b[0m\n'}
+[6.066022] (-) TimerEvent: {}
+[6.114805] (leo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/leo_msgs/msg/imu__type_support.cpp.o\x1b[0m\n'}
+[6.167027] (-) TimerEvent: {}
+[6.191439] (leo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/leo_msgs/msg/wheel_odom__type_support.cpp.o\x1b[0m\n'}
+[6.229924] (leo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leo_msgs/msg/detail/imu__type_support.c.o\x1b[0m\n'}
+[6.236111] (leo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leo_msgs/msg/detail/imu__type_support_c.cpp.o\x1b[0m\n'}
+[6.246942] (leo_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/leo_msgs/msg/wheel_states__type_support.cpp.o\x1b[0m\n'}
+[6.268221] (-) TimerEvent: {}
+[6.278254] (leo_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leo_msgs/msg/detail/wheel_odom__type_support_c.cpp.o\x1b[0m\n'}
+[6.283772] (leo_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leo_msgs/msg/detail/wheel_states__type_support_c.cpp.o\x1b[0m\n'}
+[6.294234] (leo_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/leo_msgs/srv/set_imu_calibration__type_support.cpp.o\x1b[0m\n'}
+[6.297473] (leo_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leo_msgs/msg/detail/wheel_odom__type_support.c.o\x1b[0m\n'}
+[6.321279] (leo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/leo_msgs/srv/set_imu_calibration__type_support.cpp.o\x1b[0m\n'}
+[6.368740] (-) TimerEvent: {}
+[6.370838] (leo_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leo_msgs/msg/detail/wheel_states__type_support.c.o\x1b[0m\n'}
+[6.380800] (leo_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libleo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.453717] (leo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/leo_msgs/srv/detail/set_imu_calibration__type_support.c.o\x1b[0m\n'}
+[6.462487] (leo_msgs) StdoutLine: {'line': b'[ 56%] Built target leo_msgs__rosidl_typesupport_c\n'}
+[6.469314] (-) TimerEvent: {}
+[6.483776] (leo_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/leo_msgs/srv/detail/set_imu_calibration__type_support_c.cpp.o\x1b[0m\n'}
+[6.522523] (leo_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libleo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.569964] (-) TimerEvent: {}
+[6.581640] (leo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leo_msgs/msg/detail/wheel_odom__type_support.cpp.o\x1b[0m\n'}
+[6.588596] (leo_msgs) StdoutLine: {'line': b'[ 61%] Built target leo_msgs__rosidl_typesupport_introspection_c\n'}
+[6.606905] (leo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leo_msgs/msg/detail/dds_fastrtps/wheel_odom__type_support.cpp.o\x1b[0m\n'}
+[6.607191] (leo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leo_msgs/msg/detail/dds_fastrtps/wheel_states__type_support.cpp.o\x1b[0m\n'}
+[6.670390] (-) TimerEvent: {}
+[6.672924] (leo_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libleo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.730407] (leo_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/leo_msgs/srv/detail/dds_fastrtps/set_imu_calibration__type_support.cpp.o\x1b[0m\n'}
+[6.743764] (leo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leo_msgs/msg/detail/wheel_states__type_support.cpp.o\x1b[0m\n'}
+[6.756253] (leo_msgs) StdoutLine: {'line': b'[ 70%] Built target leo_msgs__rosidl_typesupport_cpp\n'}
+[6.760895] (leo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/leo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/leo_msgs/srv/detail/set_imu_calibration__type_support.cpp.o\x1b[0m\n'}
+[6.771509] (-) TimerEvent: {}
+[6.872761] (-) TimerEvent: {}
+[6.959580] (leo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libleo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.973529] (-) TimerEvent: {}
+[7.075094] (-) TimerEvent: {}
+[7.124594] (leo_msgs) StdoutLine: {'line': b'[ 74%] Built target leo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.176121] (-) TimerEvent: {}
+[7.242300] (leo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libleo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.245397] (leo_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libleo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.277433] (-) TimerEvent: {}
+[7.368582] (leo_msgs) StdoutLine: {'line': b'[ 78%] Built target leo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.370240] (leo_msgs) StdoutLine: {'line': b'[ 78%] Built target leo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.378371] (-) TimerEvent: {}
+[7.406389] (leo_msgs) StdoutLine: {'line': b'[ 78%] Built target leo_msgs\n'}
+[7.441138] (leo_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.479536] (-) TimerEvent: {}
+[7.580575] (-) TimerEvent: {}
+[7.681271] (-) TimerEvent: {}
+[7.782155] (-) TimerEvent: {}
+[7.883447] (-) TimerEvent: {}
+[7.984665] (-) TimerEvent: {}
+[8.085453] (-) TimerEvent: {}
+[8.186187] (-) TimerEvent: {}
+[8.236759] (leo_msgs) StdoutLine: {'line': b'[ 80%] Built target leo_msgs__py\n'}
+[8.275389] (leo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_generator_py.dir/rosidl_generator_py/leo_msgs/msg/_imu_s.c.o\x1b[0m\n'}
+[8.276789] (leo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_generator_py.dir/rosidl_generator_py/leo_msgs/msg/_wheel_states_s.c.o\x1b[0m\n'}
+[8.277385] (leo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_generator_py.dir/rosidl_generator_py/leo_msgs/msg/_wheel_odom_s.c.o\x1b[0m\n'}
+[8.279733] (leo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_generator_py.dir/rosidl_generator_py/leo_msgs/srv/_set_imu_calibration_s.c.o\x1b[0m\n'}
+[8.286506] (-) TimerEvent: {}
+[8.387350] (-) TimerEvent: {}
+[8.487870] (-) TimerEvent: {}
+[8.566470] (leo_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leo_msgs/libleo_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.588434] (-) TimerEvent: {}
+[8.641404] (leo_msgs) StdoutLine: {'line': b'[ 89%] Built target leo_msgs__rosidl_generator_py\n'}
+[8.681922] (leo_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.683960] (leo_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.688174] (leo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/leo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.688652] (-) TimerEvent: {}
+[8.789322] (-) TimerEvent: {}
+[8.836941] (leo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leo_msgs/leo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.841251] (leo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leo_msgs/leo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.843750] (leo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/leo_msgs/leo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.889910] (-) TimerEvent: {}
+[8.903510] (leo_msgs) StdoutLine: {'line': b'[100%] Built target leo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.907062] (leo_msgs) StdoutLine: {'line': b'[100%] Built target leo_msgs__rosidl_typesupport_c__pyext\n'}
+[8.907255] (leo_msgs) StdoutLine: {'line': b'[100%] Built target leo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.928793] (leo_msgs) CommandEnded: {'returncode': 0}
+[8.990565] (-) TimerEvent: {}
+[9.091926] (-) TimerEvent: {}
+[9.192601] (-) TimerEvent: {}
+[9.277271] (leo_msgs) JobProgress: {'identifier': 'leo_msgs', 'progress': 'install'}
+[9.277403] (leo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/csg/dev_ws/build/leo_msgs'], 'cwd': '/home/csg/dev_ws/build/leo_msgs', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[9.289257] (leo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.289739] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/ament_index/resource_index/rosidl_interfaces/leo_msgs\n'}
+[9.290178] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[9.290273] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[9.290454] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[9.290671] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__type_support.h\n'}
+[9.290760] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__functions.h\n'}
+[9.290814] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__struct.h\n'}
+[9.290912] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__struct.h\n'}
+[9.291205] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__functions.c\n'}
+[9.291283] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__functions.h\n'}
+[9.291603] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__type_support.h\n'}
+[9.291676] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__type_support.h\n'}
+[9.292309] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__functions.h\n'}
+[9.292398] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__functions.c\n'}
+[9.292473] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__functions.c\n'}
+[9.292527] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__struct.h\n'}
+[9.292577] (-) TimerEvent: {}
+[9.292765] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/wheel_states.h\n'}
+[9.292914] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.293096] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/imu.h\n'}
+[9.293378] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/wheel_odom.h\n'}
+[9.293505] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[9.293563] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[9.293625] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__functions.c\n'}
+[9.294175] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__functions.h\n'}
+[9.294439] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__type_support.h\n'}
+[9.294631] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__struct.h\n'}
+[9.294873] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/set_imu_calibration.h\n'}
+[9.295046] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/environment/library_path.sh\n'}
+[9.295396] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/environment/library_path.dsv\n'}
+[9.295456] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_generator_c.so\n'}
+[9.295812] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_generator_c.so" to ""\n'}
+[9.296344] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[9.296541] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[9.296903] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.296984] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[9.297072] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h\n'}
+[9.297272] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__rosidl_typesupport_fastrtps_c.h\n'}
+[9.297336] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__rosidl_typesupport_fastrtps_c.h\n'}
+[9.297390] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[9.297443] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[9.297495] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__rosidl_typesupport_fastrtps_c.h\n'}
+[9.297547] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.297831] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.297945] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[9.298004] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[9.298146] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[9.298461] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__rosidl_typesupport_introspection_c.h\n'}
+[9.298546] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__type_support.c\n'}
+[9.298749] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__type_support.c\n'}
+[9.298837] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__type_support.c\n'}
+[9.298891] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__rosidl_typesupport_introspection_c.h\n'}
+[9.298943] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h\n'}
+[9.299304] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.299546] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[9.299647] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[9.299925] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__rosidl_typesupport_introspection_c.h\n'}
+[9.299995] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__type_support.c\n'}
+[9.300099] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.302071] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.302312] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_c.so\n'}
+[9.302622] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.302699] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[9.302755] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[9.302806] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[9.302858] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__builder.hpp\n'}
+[9.302909] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__struct.hpp\n'}
+[9.302960] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__traits.hpp\n'}
+[9.303024] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__builder.hpp\n'}
+[9.303364] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__traits.hpp\n'}
+[9.303492] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__builder.hpp\n'}
+[9.303556] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__traits.hpp\n'}
+[9.304236] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__struct.hpp\n'}
+[9.304390] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__struct.hpp\n'}
+[9.304712] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/wheel_odom.hpp\n'}
+[9.304962] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/imu.hpp\n'}
+[9.305045] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/wheel_states.hpp\n'}
+[9.305166] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[9.305230] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[9.305483] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__traits.hpp\n'}
+[9.305719] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__struct.hpp\n'}
+[9.305787] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__builder.hpp\n'}
+[9.305843] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/set_imu_calibration.hpp\n'}
+[9.306096] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[9.306304] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[9.306668] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.306752] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[9.306805] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.306856] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.306906] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.309045] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/dds_fastrtps\n'}
+[9.309253] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[9.309313] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[9.309364] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.309433] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/dds_fastrtps\n'}
+[9.309631] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.309858] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.309939] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[9.309993] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[9.310545] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[9.310845] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__type_support.cpp\n'}
+[9.311019] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__type_support.cpp\n'}
+[9.311227] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.311436] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.311876] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__type_support.cpp\n'}
+[9.312545] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.312732] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[9.312979] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[9.313052] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__type_support.cpp\n'}
+[9.313275] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.313352] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.313634] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.313807] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_cpp.so\n'}
+[9.313921] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.314388] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/environment/pythonpath.sh\n'}
+[9.314498] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/environment/pythonpath.dsv\n'}
+[9.314632] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs-1.1.0-py3.10.egg-info\n'}
+[9.314783] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs-1.1.0-py3.10.egg-info/PKG-INFO\n'}
+[9.314952] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs-1.1.0-py3.10.egg-info/top_level.txt\n'}
+[9.315139] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs-1.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.315335] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs-1.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.315527] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs\n'}
+[9.315747] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.316043] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.316179] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg\n'}
+[9.316272] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_states_s.c\n'}
+[9.316347] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_states.py\n'}
+[9.316404] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_odom.py\n'}
+[9.316457] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_odom_s.c\n'}
+[9.316509] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_imu_s.c\n'}
+[9.316560] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/__init__.py\n'}
+[9.316647] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_imu.py\n'}
+[9.316701] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv\n'}
+[9.316753] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv/_set_imu_calibration.py\n'}
+[9.316998] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv/_set_imu_calibration_s.c\n'}
+[9.317159] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv/__init__.py\n'}
+[9.317485] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.317794] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.318067] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.318311] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/__init__.py\n'}
+[9.318539] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.323344] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/libleo_msgs__rosidl_generator_py.so\n'}
+[9.367779] (leo_msgs) StdoutLine: {'line': b"Listing '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs'...\n"}
+[9.368185] (leo_msgs) StdoutLine: {'line': b"Compiling '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/__init__.py'...\n"}
+[9.368396] (leo_msgs) StdoutLine: {'line': b"Listing '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg'...\n"}
+[9.368462] (leo_msgs) StdoutLine: {'line': b"Compiling '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/__init__.py'...\n"}
+[9.368516] (leo_msgs) StdoutLine: {'line': b"Compiling '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_imu.py'...\n"}
+[9.368567] (leo_msgs) StdoutLine: {'line': b"Compiling '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_odom.py'...\n"}
+[9.368618] (leo_msgs) StdoutLine: {'line': b"Compiling '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_states.py'...\n"}
+[9.368668] (leo_msgs) StdoutLine: {'line': b"Listing '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv'...\n"}
+[9.368718] (leo_msgs) StdoutLine: {'line': b"Compiling '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv/__init__.py'...\n"}
+[9.368768] (leo_msgs) StdoutLine: {'line': b"Compiling '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv/_set_imu_calibration.py'...\n"}
+[9.374399] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.374889] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.375262] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.375564] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.375975] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.376437] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.376606] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_generator_py.so\n'}
+[9.376936] (leo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/csg/dev_ws/install/leo_msgs/lib/libleo_msgs__rosidl_generator_py.so" to ""\n'}
+[9.377455] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/msg/Imu.idl\n'}
+[9.377523] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/msg/WheelOdom.idl\n'}
+[9.377947] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/msg/WheelStates.idl\n'}
+[9.378150] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/srv/SetImuCalibration.idl\n'}
+[9.378431] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/msg/Imu.msg\n'}
+[9.380117] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/msg/WheelOdom.msg\n'}
+[9.380328] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/msg/WheelStates.msg\n'}
+[9.380693] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/srv/SetImuCalibration.srv\n'}
+[9.380918] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/srv/SetImuCalibration_Request.msg\n'}
+[9.381157] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/srv/SetImuCalibration_Response.msg\n'}
+[9.381615] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/ament_index/resource_index/package_run_dependencies/leo_msgs\n'}
+[9.381733] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/ament_index/resource_index/parent_prefix_path/leo_msgs\n'}
+[9.382104] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/environment/ament_prefix_path.sh\n'}
+[9.382294] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/environment/ament_prefix_path.dsv\n'}
+[9.382599] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/environment/path.sh\n'}
+[9.382812] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/environment/path.dsv\n'}
+[9.383169] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/local_setup.bash\n'}
+[9.383262] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/local_setup.sh\n'}
+[9.383495] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/local_setup.zsh\n'}
+[9.383760] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/local_setup.dsv\n'}
+[9.384244] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.dsv\n'}
+[9.384327] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/ament_index/resource_index/packages/leo_msgs\n'}
+[9.384383] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_generator_cExport.cmake\n'}
+[9.384443] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.384722] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.385264] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.385592] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.385766] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.386004] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.386378] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.386621] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.386849] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.387041] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.387479] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.387628] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.387690] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.387861] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.388270] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.388584] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.389134] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.389367] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.389584] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.389894] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.390393] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.390575] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.390649] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.390704] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/leo_msgsConfig.cmake\n'}
+[9.390757] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/cmake/leo_msgsConfig-version.cmake\n'}
+[9.390810] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo_msgs/share/leo_msgs/package.xml\n'}
+[9.395167] (leo_msgs) CommandEnded: {'returncode': 0}
+[9.395701] (-) TimerEvent: {}
+[9.497481] (-) TimerEvent: {}
+[9.598032] (-) TimerEvent: {}
+[9.698551] (-) TimerEvent: {}
+[9.799393] (-) TimerEvent: {}
+[9.901747] (-) TimerEvent: {}
+[9.911934] (leo_msgs) JobEnded: {'identifier': 'leo_msgs', 'rc': 0}
+[9.915928] (leo) JobStarted: {'identifier': 'leo'}
+[10.000589] (leo) JobProgress: {'identifier': 'leo', 'progress': 'cmake'}
+[10.002484] (leo) Command: {'cmd': ['/usr/bin/cmake', '/home/csg/dev_ws/leo-common-ros2/leo', '-DCMAKE_INSTALL_PREFIX=/home/csg/dev_ws/install/leo'], 'cwd': '/home/csg/dev_ws/build/leo', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[10.003291] (-) TimerEvent: {}
+[10.033179] (leo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.103936] (-) TimerEvent: {}
+[10.205205] (-) TimerEvent: {}
+[10.264272] (leo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[10.306215] (-) TimerEvent: {}
+[10.407086] (-) TimerEvent: {}
+[10.438548] (leo) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.441110] (leo) StdoutLine: {'line': b'-- Generating done\n'}
+[10.442370] (leo) StdoutLine: {'line': b'-- Build files have been written to: /home/csg/dev_ws/build/leo\n'}
+[10.449029] (leo) CommandEnded: {'returncode': 0}
+[10.450172] (leo) JobProgress: {'identifier': 'leo', 'progress': 'build'}
+[10.451666] (leo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/csg/dev_ws/build/leo', '--', '-j8', '-l8'], 'cwd': '/home/csg/dev_ws/build/leo', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[10.509112] (-) TimerEvent: {}
+[10.511736] (leo) CommandEnded: {'returncode': 0}
+[10.558359] (leo) JobProgress: {'identifier': 'leo', 'progress': 'install'}
+[10.558477] (leo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/csg/dev_ws/build/leo'], 'cwd': '/home/csg/dev_ws/build/leo', 'env': OrderedDict([('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_US:'), ('USER', 'csg'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/csg/dev_ws/install/leo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/csg'), ('OLDPWD', '/home/csg/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/csg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'csg'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'csg'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/csg/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csg-virtual-machine:@/tmp/.ICE-unix/1944,unix/csg-virtual-machine:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1455d662_fa09_498a_ae38_0f48a97b46db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5XKJ2'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/csg/dev_ws/build/leo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/csg/dev_ws/install/leo_msgs/local/lib/python3.10/dist-packages:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble')]), 'shell': False}
+[10.570898] (leo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.571538] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/ament_index/resource_index/package_run_dependencies/leo\n'}
+[10.571842] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/ament_index/resource_index/parent_prefix_path/leo\n'}
+[10.572790] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/environment/ament_prefix_path.sh\n'}
+[10.572932] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/environment/ament_prefix_path.dsv\n'}
+[10.573403] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/environment/path.sh\n'}
+[10.573629] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/environment/path.dsv\n'}
+[10.574244] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/local_setup.bash\n'}
+[10.574589] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/local_setup.sh\n'}
+[10.575108] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/local_setup.zsh\n'}
+[10.575490] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/local_setup.dsv\n'}
+[10.575981] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/package.dsv\n'}
+[10.576850] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/ament_index/resource_index/packages/leo\n'}
+[10.577550] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/cmake/leoConfig.cmake\n'}
+[10.577885] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/cmake/leoConfig-version.cmake\n'}
+[10.578382] (leo) StdoutLine: {'line': b'-- Installing: /home/csg/dev_ws/install/leo/share/leo/package.xml\n'}
+[10.582172] (leo) CommandEnded: {'returncode': 0}
+[10.609839] (-) TimerEvent: {}
+[10.712333] (-) TimerEvent: {}
+[10.783333] (leo) JobEnded: {'identifier': 'leo', 'rc': 0}
+[10.784299] (-) EventReactorShutdown: {}

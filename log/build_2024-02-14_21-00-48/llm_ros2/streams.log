@@ -1,0 +1,17 @@
+[0.771s] Invoking command in '/home/csg/dev_ws/build/llm_ros2': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/csg/dev_ws/build/llm_ros2/build --no-deps install_data
+[1.029s] running develop
+[1.179s] running egg_info
+[1.180s] writing llm_ros2.egg-info/PKG-INFO
+[1.181s] writing dependency_links to llm_ros2.egg-info/dependency_links.txt
+[1.181s] writing entry points to llm_ros2.egg-info/entry_points.txt
+[1.181s] writing requirements to llm_ros2.egg-info/requires.txt
+[1.181s] writing top-level names to llm_ros2.egg-info/top_level.txt
+[1.184s] reading manifest file 'llm_ros2.egg-info/SOURCES.txt'
+[1.185s] writing manifest file 'llm_ros2.egg-info/SOURCES.txt'
+[1.186s] running build_ext
+[1.186s] Creating /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm-ros2.egg-link (link to .)
+[1.187s] Installing sub_pose script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[1.188s] 
+[1.188s] Installed /home/csg/dev_ws/build/llm_ros2
+[1.188s] running install_data
+[1.235s] Invoked command in '/home/csg/dev_ws/build/llm_ros2' returned '0': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/csg/dev_ws/build/llm_ros2/build --no-deps install_data

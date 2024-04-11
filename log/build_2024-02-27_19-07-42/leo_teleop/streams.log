@@ -1,0 +1,25 @@
+[0.173s] Invoking command in '/home/csg/dev_ws/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_teleop -- -j8 -l8
+[0.580s] Invoked command in '/home/csg/dev_ws/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_teleop -- -j8 -l8
+[0.649s] Invoking command in '/home/csg/dev_ws/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_teleop
+[0.663s] -- Install configuration: ""
+[0.664s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/config
+[0.680s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/config/joy_config.yaml
+[0.681s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/launch
+[0.682s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/launch/joy_teleop.launch.xml
+[0.682s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/launch/key_teleop.launch.xml
+[0.682s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/ament_index/resource_index/package_run_dependencies/leo_teleop
+[0.682s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/ament_index/resource_index/parent_prefix_path/leo_teleop
+[0.682s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.sh
+[0.682s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.dsv
+[0.682s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/environment/path.sh
+[0.682s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/environment/path.dsv
+[0.682s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/local_setup.bash
+[0.683s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/local_setup.sh
+[0.683s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/local_setup.zsh
+[0.683s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/local_setup.dsv
+[0.683s] -- Installing: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.dsv
+[0.683s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/ament_index/resource_index/packages/leo_teleop
+[0.687s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig.cmake
+[0.687s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig-version.cmake
+[0.687s] -- Up-to-date: /home/csg/dev_ws/install/leo_teleop/share/leo_teleop/package.xml
+[0.687s] Invoked command in '/home/csg/dev_ws/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_teleop

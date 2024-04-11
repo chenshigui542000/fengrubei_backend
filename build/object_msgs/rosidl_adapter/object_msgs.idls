@@ -1,0 +1,4 @@
+/home/csg/dev_ws/build/object_msgs/rosidl_adapter/object_msgs:msg/Object.idl
+/home/csg/dev_ws/build/object_msgs/rosidl_adapter/object_msgs:msg/ObjectPose.idl
+/home/csg/dev_ws/build/object_msgs/rosidl_adapter/object_msgs:srv/ObjectInfo.idl
+/home/csg/dev_ws/build/object_msgs/rosidl_adapter/object_msgs:srv/RegisterObject.idl

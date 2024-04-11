@@ -1,0 +1,161 @@
+[0.275s] Invoking command in '/home/csg/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --build /home/csg/dev_ws/build/interfaces -- -j8 -l8
+[0.511s] [  2%] Built target interfaces__cpp
+[0.527s] [ 12%] Built target interfaces__rosidl_generator_c
+[0.548s] [ 12%] Built target ament_cmake_python_copy_interfaces
+[0.597s] [ 23%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.611s] [ 33%] Built target interfaces__rosidl_typesupport_cpp
+[0.612s] [ 43%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.612s] [ 53%] Built target interfaces__rosidl_typesupport_c
+[0.620s] [ 64%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.630s] [ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[0.699s] [ 74%] Built target interfaces
+[0.780s] [ 76%] Built target interfaces__py
+[0.859s] [ 84%] Built target interfaces__rosidl_generator_py
+[0.924s] [ 89%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.925s] [ 94%] Built target interfaces__rosidl_typesupport_c__pyext
+[0.929s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[1.104s] running egg_info
+[1.104s] writing interfaces.egg-info/PKG-INFO
+[1.104s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[1.105s] writing top-level names to interfaces.egg-info/top_level.txt
+[1.109s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.111s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.177s] [100%] Built target ament_cmake_python_build_interfaces_egg
+[1.250s] Invoked command in '/home/csg/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --build /home/csg/dev_ws/build/interfaces -- -j8 -l8
+[1.614s] Invoking command in '/home/csg/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --install /home/csg/dev_ws/build/interfaces
+[1.638s] -- Install configuration: ""
+[1.639s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[1.639s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces
+[1.639s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[1.639s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/position.h
+[1.640s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/matrix.h
+[1.640s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[1.640s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__functions.c
+[1.641s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__type_support.h
+[1.641s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__struct.h
+[1.641s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__struct.h
+[1.641s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__functions.h
+[1.641s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__functions.h
+[1.641s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.h
+[1.641s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__functions.c
+[1.641s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.641s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[1.642s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[1.642s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[1.642s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces
+[1.643s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[1.643s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.643s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[1.643s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_fastrtps_c.h
+[1.643s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[1.644s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[1.644s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces
+[1.644s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[1.644s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[1.644s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_introspection_c.h
+[1.645s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_introspection_c.h
+[1.645s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__type_support.c
+[1.645s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.c
+[1.645s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.645s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[1.646s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[1.647s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces
+[1.647s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[1.648s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/matrix.hpp
+[1.648s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/position.hpp
+[1.648s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[1.648s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__struct.hpp
+[1.648s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__builder.hpp
+[1.649s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__builder.hpp
+[1.649s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__traits.hpp
+[1.649s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__traits.hpp
+[1.649s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__struct.hpp
+[1.650s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces
+[1.650s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[1.650s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.650s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[1.650s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[1.650s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[1.650s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_fastrtps_cpp.hpp
+[1.652s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.652s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces
+[1.652s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg
+[1.653s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[1.653s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__rosidl_typesupport_introspection_cpp.hpp
+[1.653s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.cpp
+[1.653s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/matrix__type_support.cpp
+[1.653s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[1.655s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[1.657s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[1.660s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[1.660s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[1.661s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[1.661s] -- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.661s] -- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.661s] -- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.661s] -- Installing: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.661s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[1.662s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.662s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.662s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[1.662s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.662s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.663s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg
+[1.663s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_position.py
+[1.663s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_position_s.c
+[1.663s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_matrix_s.c
+[1.663s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_matrix.py
+[1.663s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[1.663s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[1.663s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[1.664s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.728s] Listing '/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[1.728s] Listing '/home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[1.732s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.734s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.736s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.738s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[1.738s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/msg/Matrix.idl
+[1.738s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/msg/Position.idl
+[1.739s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/msg/Matrix.msg
+[1.739s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/msg/Position.msg
+[1.739s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[1.740s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[1.741s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[1.741s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[1.742s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/path.sh
+[1.742s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/environment/path.dsv
+[1.743s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.bash
+[1.743s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.sh
+[1.743s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.zsh
+[1.744s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/local_setup.dsv
+[1.745s] -- Installing: /home/csg/dev_ws/install/interfaces/share/interfaces/package.dsv
+[1.746s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[1.748s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[1.748s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.750s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.750s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.752s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.752s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.754s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[1.754s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.756s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[1.757s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.757s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.759s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.759s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.760s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[1.760s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.762s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[1.762s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.763s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[1.763s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.763s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.764s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.764s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.764s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.765s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.765s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[1.765s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[1.766s] -- Up-to-date: /home/csg/dev_ws/install/interfaces/share/interfaces/package.xml
+[1.772s] Invoked command in '/home/csg/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/csg/dev_ws/install/leo:/home/csg/dev_ws/install/leo_teleop:/home/csg/dev_ws/install/leo_msgs:/home/csg/dev_ws/install/leo_description:/home/csg/dev_ws/install/interfaces:/home/csg/dev_ws/install/gazebo_grasp_plugin_ros:/home/csg/dev_ws/install/gazebo_grasp_plugin:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble:/home/csg/dev_ws/install/gazebo_version_helpers /usr/bin/cmake --install /home/csg/dev_ws/build/interfaces

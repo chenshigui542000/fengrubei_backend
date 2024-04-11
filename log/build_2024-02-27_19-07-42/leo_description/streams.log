@@ -1,0 +1,37 @@
+[0.304s] Invoking command in '/home/csg/dev_ws/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_description -- -j8 -l8
+[0.721s] Invoked command in '/home/csg/dev_ws/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --build /home/csg/dev_ws/build/leo_description -- -j8 -l8
+[0.787s] Invoking command in '/home/csg/dev_ws/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_description
+[0.801s] -- Install configuration: ""
+[0.801s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/config
+[0.802s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/config/controllers.yaml
+[0.802s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/launch
+[0.803s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/launch/state_publisher.launch.xml
+[0.804s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/models
+[0.808s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Chassis_outline.stl
+[0.809s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/models/WheelB.dae
+[0.810s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Rocker_outline.stl
+[0.812s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/models/WheelA.dae
+[0.813s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Rocker.dae
+[0.813s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Chassis.dae
+[0.814s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Wheel_outline.stl
+[0.815s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/models/Antenna.dae
+[0.815s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/urdf
+[0.816s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/urdf/leo_sim.urdf.xacro
+[0.816s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/urdf/macros.xacro
+[0.816s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/urdf/leo.urdf.xacro
+[0.816s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/ament_index/resource_index/package_run_dependencies/leo_description
+[0.817s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/ament_index/resource_index/parent_prefix_path/leo_description
+[0.817s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/environment/ament_prefix_path.sh
+[0.817s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/environment/ament_prefix_path.dsv
+[0.817s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/environment/path.sh
+[0.817s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/environment/path.dsv
+[0.820s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/local_setup.bash
+[0.820s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/local_setup.sh
+[0.820s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/local_setup.zsh
+[0.821s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/local_setup.dsv
+[0.821s] -- Installing: /home/csg/dev_ws/install/leo_description/share/leo_description/package.dsv
+[0.821s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/ament_index/resource_index/packages/leo_description
+[0.821s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/cmake/leo_descriptionConfig.cmake
+[0.822s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/cmake/leo_descriptionConfig-version.cmake
+[0.822s] -- Up-to-date: /home/csg/dev_ws/install/leo_description/share/leo_description/package.xml
+[0.899s] Invoked command in '/home/csg/dev_ws/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csg/dev_ws/install/llm_ros2:/opt/ros/humble /usr/bin/cmake --install /home/csg/dev_ws/build/leo_description

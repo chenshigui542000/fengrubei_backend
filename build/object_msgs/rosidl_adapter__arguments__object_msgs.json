@@ -1,0 +1,9 @@
+{
+  "package_name": "object_msgs",
+  "non_idl_tuples": [
+    "/home/csg/dev_ws/src/general-message-pkgs/object_msgs:msg/Object.msg",
+    "/home/csg/dev_ws/src/general-message-pkgs/object_msgs:msg/ObjectPose.msg",
+    "/home/csg/dev_ws/src/general-message-pkgs/object_msgs:srv/ObjectInfo.srv",
+    "/home/csg/dev_ws/src/general-message-pkgs/object_msgs:srv/RegisterObject.srv"
+  ]
+}
