@@ -53,7 +53,7 @@
     </physics> 
 
 
-    <model name="adjustable_table">
+    <model name="fixed_adjustable_table">
       <static>true</static>
       <link name="top">
         <pose>-1 -1 0.35 0 0 0</pose>
@@ -192,7 +192,7 @@
     </model>
 
 
-    <model name="adjustable_table2">
+    <model name="fixed_adjustable_table2">
       <static>true</static>
       <link name="top">
         <pose>1 1 0.35 0 0 0</pose>
@@ -332,7 +332,7 @@
 
 
 
-  <model name="grabbable_cylinder">
+  <model name="dynamic_grabbable_cylinder">
 
     <plugin name="state_publisher" filename="libgazebo_ros_state_publisher.so">
       <ros>
@@ -356,6 +356,19 @@
           <izz>0.00000078125</izz> <!-- izz -->
         </inertia>
       </inertial>
+
+
+      <!-- Friction settings -->
+      <self_collide>true</self_collide>
+      <enable_wind>true</enable_wind>
+      <kinematic>false</kinematic>
+      <gravity>true</gravity> <!-- Enable gravity -->
+
+       <!-- Friction coefficients -->
+      <mu1>0.5</mu1> <!-- Static friction coefficient -->
+      <mu2>0.1</mu2> <!-- Sliding friction coefficient -->
+
+      
       <collision name="collision">
         <geometry>
           <cylinder>
@@ -381,55 +394,143 @@
 
 
 
-    <model name="my_box">
-      <static>false</static>
-      <pose>1 1 0.012 0 0 0</pose> <!-- 长方体的位置和朝向 -->
-      <link name="link">
-        <inertial>
-          <mass>0.01</mass>
-          <inertia>
-            <ixx>2.167e-6</ixx>
-            <iyy>8.417e-6</iyy>
-            <izz>1.042e-5</izz>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyz>0</iyz>
-          </inertia>
-        </inertial>
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.1 0.05 0.024</size> <!-- 长、宽、高 -->
-            </box>
-          </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>2.0</mu> <!-- 静摩擦系数 -->
-                <mu2>1.5</mu2> <!-- 动摩擦系数 -->
-              </ode>
-            </friction>
+  <model name="dynamic_my_box">
+    <static>false</static>
 
+    <!-- Link definitions -->
+    <link name="link">
+      <!-- Inertial definition -->
+      <inertial>
+        <mass>0.01</mass>
+        <!-- Inertia matrix for a cylinder: Ixx Iyy Izz Ixy Ixz Iyz -->
+        <inertia>
+          <ixx>1.1805555556e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>2.3611111111e-05</iyy>
+          <iyz>0</iyz>
+          <izz>2.3611111111e-05</izz>
+        </inertia>
 
-            <!-- 可以选择性地添加更多表面属性，如弹性等 -->
-          </surface>
-         
-         
+        <!-- Pose of the center of mass -->
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
 
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.1 0.05 0.03</size> <!-- 长、宽、高 -->
-            </box>
-          </geometry>
-          <!-- 可以定义材质来改变颜色或纹理 -->
-          <material>
-            <ambient>0.5 0.5 0.5 1</ambient> <!-- RGBA颜色 -->
-          </material>
-        </visual>
-      </link>
-    </model>
+      <!-- Visual and collision definitions -->
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.025</radius>
+            <length>0.04</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Green</name>
+          </script>
+        </material>
+      </visual>
+
+      <!-- Friction settings -->
+      <self_collide>true</self_collide>
+      <enable_wind>true</enable_wind>
+      <kinematic>false</kinematic>
+      <gravity>true</gravity> <!-- Enable gravity -->
+
+       <!-- Friction coefficients -->
+      <mu1>0.5</mu1> <!-- Static friction coefficient -->
+      <mu2>0.1</mu2> <!-- Sliding friction coefficient -->
+
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.025</radius>
+            <length>0.04</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Pose of the model -->
+    <pose>0.5 -0.5 0.02 0 0 0</pose>
+
+  </model>
+<model name="trash_can">
+    <static>true</static>
+
+    <!-- Outer cylinder for the trash can -->
+    <link name="outer_link">
+      <inertial>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>1.6667e-4</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1.6667e-4</iyy>
+          <iyz>0</iyz>
+          <izz>3.3333e-4</izz>
+        </inertia>
+      </inertial>
+      <visual name="outer_visual">
+        <geometry>
+          <cylinder>
+            <radius>0.1</radius>
+            <length>0.2</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Green</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="outer_collision">
+        <geometry>
+          <cylinder>
+            <radius>0.1</radius>
+            <length>0.2</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Inner cylinder to make it hollow -->
+    <link name="inner_link">
+      <inertial>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>2.0833e-6</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>2.0833e-6</iyy>
+          <iyz>0</iyz>
+          <izz>4.1667e-6</izz>
+        </inertia>
+      </inertial>
+      <visual name="inner_visual">
+        <geometry>
+          <cylinder>
+            <radius>0.08</radius>  <!-- Inner radius -->
+            <length>0.18</length>  <!-- Inner height -->
+          </cylinder>
+        </geometry>
+      </visual>
+      <collision name="inner_collision">
+        <geometry>
+          <cylinder>
+            <radius>0.08</radius>  <!-- Inner radius -->
+            <length>0.18</length>  <!-- Inner height -->
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Pose of the model -->
+    <pose>1.0 -1.0 0.1 0 0 0</pose>
+
+  </model>
 
   </world>
 </sdf>

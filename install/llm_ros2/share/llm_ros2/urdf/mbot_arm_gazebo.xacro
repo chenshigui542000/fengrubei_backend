@@ -55,7 +55,7 @@
 
     <xacro:property name="sqirt_3" value="1.732"/>
 
-    <xacro:property name="gripper_width" value="0.03"/>
+    <xacro:property name="gripper_width" value="0.05"/>
     <xacro:property name="gripper_len" value="0.005"/>
     <xacro:property name="gripper_hight"   value="0.01"/>
 
@@ -236,7 +236,7 @@
             <child link="link1"/>
             <origin xyz="0.25 0 0.15" rpy="0 0 0" />
             <axis xyz="0 0 1" />
-            <limit effort="30" velocity="1" lower="-2.96" upper="2.96"/>
+            <limit effort="1" velocity="1" lower="-2.96" upper="2.96"/>
             <dynamics damping="50" friction="1"/>
         </joint>
     
@@ -270,7 +270,7 @@
             <child link="link2"/>
             <origin xyz="0 0 ${link1_len}" rpy="0 0 0" />
             <axis xyz="1 0 0" />
-            <limit effort="30" velocity="1" lower="-2.35" upper="2.35" />
+            <limit effort="1" velocity="1" lower="-2.35" upper="2.35" />
             <dynamics damping="50" friction="1"/>
         </joint>
     
@@ -300,7 +300,7 @@
             <child link="link3"/>
             <origin xyz="0 0 ${link2_len}" rpy="0 0 0" />
             <axis xyz="1 0 0" />
-            <limit effort="30" velocity="1" lower="-2.62" upper="2.62" />
+            <limit effort="1" velocity="1" lower="-2.62" upper="2.62" />
             <dynamics damping="50" friction="1"/>
         </joint>
     
@@ -329,7 +329,7 @@
             <child link="link4"/>
             <origin xyz="0.0 0.0 ${link3_len}" rpy="0 0 0" />
             <axis xyz="1 0 0" />
-            <limit effort="30" velocity="1" lower="-2.62" upper="2.62" />
+            <limit effort="1" velocity="1" lower="-2.62" upper="2.62" />
             <dynamics damping="50" friction="1"/>
         </joint>
     
@@ -358,7 +358,7 @@
             <child link="link5"/>
             <origin xyz="0.0 0.0 ${link4_len}" rpy="0 0 0" />
             <axis xyz="1 0 0" />
-            <limit effort="30" velocity="1" lower="-2.62" upper="2.62" />
+            <limit effort="1" velocity="1" lower="-2.62" upper="2.62" />
             <dynamics damping="50" friction="1"/>
         </joint>
     
@@ -388,7 +388,7 @@
             <child link="link6"/>
             <origin xyz="0 0 ${link5_len}" rpy="0 0 0" />
             <axis xyz="0 0 1" />
-            <limit effort="30" velocity="1" lower="-6.28" upper="6.28" />
+            <limit effort="1" velocity="1" lower="-6.28" upper="6.28" />
             <dynamics damping="50" friction="1"/>
         </joint>
     
@@ -417,7 +417,7 @@
             <child link="gripper1_link"/>
             <origin xyz="0 ${link6_width} ${link6_len}" rpy="0 0 0"/>
             <axis xyz="0 -1 0"/>
-            <limit lower="0" upper="0.04" effort="5" velocity="0.5"/>
+            <limit lower="0" upper="0.04" effort="1" velocity="0.5"/>
             <dynamics damping="50" friction="1"/>
         </joint>
 
@@ -426,7 +426,7 @@
             <child link="gripper2_link"/>
             <origin xyz="0 -${link6_width} ${link6_len}" rpy="0 0 ${M_PI}"/>
             <axis xyz="0 -1 0"/>
-            <limit lower="0" upper="0.04" effort="5" velocity="0.5"/>
+            <limit lower="0" upper="0.04" effort="1" velocity="0.5"/>
             <dynamics damping="50" friction="1"/>
         </joint>
 

@@ -2,6 +2,8 @@
 calculate_matrix = llm_ros2.calculate_matrix:main
 camera_server = llm_ros2.camera_server:main
 ctl_robot = llm_ros2.control_robot:main
+instru_receive = llm_ros2.instru_receive:main
 monitor_joint = llm_ros2.monitor_joint:main
 sub_pose = llm_ros2.sub_pose:main
+sub_world_object = llm_ros2.sub_world_object:main
 

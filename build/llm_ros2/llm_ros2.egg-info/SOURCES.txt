@@ -22,8 +22,10 @@ llm_ros2/__init__.py
 llm_ros2/calculate_matrix.py
 llm_ros2/camera_server.py
 llm_ros2/control_robot.py
+llm_ros2/instru_receive.py
 llm_ros2/monitor_joint.py
 llm_ros2/sub_pose.py
+llm_ros2/sub_world_object.py
 meshes/kinect.dae
 meshes/kinect.jpg
 meshes/kinect.tga

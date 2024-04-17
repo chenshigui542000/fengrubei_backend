@@ -1,0 +1,20 @@
+[ 50%] [32m[1mLinking CXX executable grasp_event_republisher[0m
+[100%] Built target grasp_event_republisher
+-- Install configuration: ""
+-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/lib/gazebo_grasp_plugin_ros/grasp_event_republisher
+-- Set runtime path of "/home/csg/dev_ws/install/gazebo_grasp_plugin_ros/lib/gazebo_grasp_plugin_ros/grasp_event_republisher" to ""
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/ament_index/resource_index/package_run_dependencies/gazebo_grasp_plugin_ros
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/ament_index/resource_index/parent_prefix_path/gazebo_grasp_plugin_ros
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/environment/path.sh
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/environment/path.dsv
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/local_setup.bash
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/local_setup.sh
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/local_setup.zsh
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/local_setup.dsv
+-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.dsv
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/ament_index/resource_index/packages/gazebo_grasp_plugin_ros
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/cmake/gazebo_grasp_plugin_rosConfig.cmake
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/cmake/gazebo_grasp_plugin_rosConfig-version.cmake
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin_ros/share/gazebo_grasp_plugin_ros/package.xml

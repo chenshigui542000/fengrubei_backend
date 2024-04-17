@@ -1,0 +1,28 @@
+[1.597s] Invoking command in '/home/csg/dev_ws/src/llm_ros2': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm_ros2 build --build-base /home/csg/dev_ws/build/llm_ros2/build install --record /home/csg/dev_ws/build/llm_ros2/install.log --single-version-externally-managed
+[2.034s] running egg_info
+[2.035s] writing ../../build/llm_ros2/llm_ros2.egg-info/PKG-INFO
+[2.036s] writing dependency_links to ../../build/llm_ros2/llm_ros2.egg-info/dependency_links.txt
+[2.037s] writing entry points to ../../build/llm_ros2/llm_ros2.egg-info/entry_points.txt
+[2.038s] writing requirements to ../../build/llm_ros2/llm_ros2.egg-info/requires.txt
+[2.038s] writing top-level names to ../../build/llm_ros2/llm_ros2.egg-info/top_level.txt
+[2.041s] reading manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'
+[2.043s] writing manifest file '../../build/llm_ros2/llm_ros2.egg-info/SOURCES.txt'
+[2.046s] running build
+[2.046s] running build_py
+[2.046s] running install
+[2.047s] running install_lib
+[2.052s] running install_data
+[2.053s] copying urdf/mbot_arm_gazebo.xacro -> /home/csg/dev_ws/install/llm_ros2/share/llm_ros2/urdf
+[2.057s] running install_egg_info
+[2.060s] removing '/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.060s] Copying ../../build/llm_ros2/llm_ros2.egg-info to /home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages/llm_ros2-0.0.0-py3.10.egg-info
+[2.064s] running install_scripts
+[2.097s] Installing calculate_matrix script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[2.097s] Installing camera_server script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[2.099s] Installing ctl_robot script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[2.100s] Installing instru_receive script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[2.100s] Installing monitor_joint script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[2.101s] Installing sub_pose script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[2.101s] Installing sub_world_object script to /home/csg/dev_ws/install/llm_ros2/lib/llm_ros2
+[2.103s] writing list of installed files to '/home/csg/dev_ws/build/llm_ros2/install.log'
+[2.295s] Invoked command in '/home/csg/dev_ws/src/llm_ros2' returned '0': PYTHONPATH=/home/csg/dev_ws/build/llm_ros2/prefix_override:/home/csg/dev_ws/install/llm_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm_ros2 build --build-base /home/csg/dev_ws/build/llm_ros2/build install --record /home/csg/dev_ws/build/llm_ros2/install.log --single-version-externally-managed

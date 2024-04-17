@@ -50,7 +50,7 @@ theta3_lower = - math.pi / 3 * 2
 
 
 #control para
-set_catch_link_robot_distance = 0.4
+set_catch_link_robot_distance = 0.45
 
 degree_error_range_first_level= 1  
 degree_error_range_second_level = 10
@@ -295,7 +295,7 @@ class ctl_robot_node(Node):
         control_arm_info.joint_names =  ["gripper_joint1","gripper_joint2"]
         
         point = JointTrajectoryPoint()
-        point.positions = [0.0185, 0.0185]
+        point.positions = [0.019, 0.019]
 
         point.velocities = [0.05,0.05]
 
@@ -340,7 +340,7 @@ class ctl_robot_node(Node):
     #-------------------lift_object--------------------------------------
     def lift_object(self, points):
         point = points[0]
-        point.positions = [0.0,0.0,0.0,0.0,0.0,0.0]
+        # point.positions = [0.0,0.0,0.0,0.0,0.0,0.0]
         
 
         control_arm_info = JointTrajectory()
@@ -354,6 +354,24 @@ class ctl_robot_node(Node):
         self.action_client.wait_for_server()
         self._send_goal_future = self.action_client.send_goal_async(goal_msg)
         self._send_goal_future.add_done_callback(self.goal_response_callback)
+
+        time.sleep(1)
+        
+        point.positions = [0.0,0.0,0.0,0.0,0.0,0.0]
+        control_arm_info = JointTrajectory()
+        control_arm_info.points.append(point)
+        control_arm_info.header.stamp = Time(sec=0,nanosec=0)
+        control_arm_info.joint_names =  ["joint1","joint2","joint3","joint4","joint5","joint6"]
+        
+        goal_msg = FollowJointTrajectory.Goal()
+        goal_msg.trajectory = control_arm_info
+
+        self.action_client.wait_for_server()
+        self._send_goal_future = self.action_client.send_goal_async(goal_msg)
+        self._send_goal_future.add_done_callback(self.goal_response_callback)
+
+
+
         time.sleep(2)
 
     #------------------------------------------------------------------------
@@ -367,7 +385,7 @@ class ctl_robot_node(Node):
 
         vertical_flag = 0
 
-        if math.fabs(self.catch_link_postion_R_world[2][0]) <= 0.01:
+        if math.fabs(self.catch_link_postion_R_world[2][0]) <= 0.05:
             vertical_flag = 1
             catcg_link_z = catcg_link_z + link5_plus_link6_plus_gripper 
             catch_link_y = set_catch_link_robot_distance - 0.1
@@ -386,6 +404,8 @@ class ctl_robot_node(Node):
         if res['success']:
 
             points = res['content']
+
+            self.loosen_object()
 
         #-------------------achieve_grasp_position----------------------
             self.achieve_grasp_position(points)
@@ -485,21 +505,21 @@ class ctl_robot_node(Node):
             self.pubBase.publish(base_vel)
         elif math.fabs(degrees) < degree_error_range_second_level:
 
-            if degrees > 0 : base_vel.angular.z = 0.02
+            if degrees > 0 : base_vel.angular.z = 0.04
             
             else: base_vel.angular.z = -0.04
 
             self.pubBase.publish(base_vel)
 
         elif math.fabs(degrees) < degree_error_range_third_level:
-            if degrees > 0 : base_vel.angular.z = 0.05
+            if degrees > 0 : base_vel.angular.z = 0.15
 
             else: base_vel.angular.z = -0.15
 
             self.pubBase.publish(base_vel)
 
         else:
-            if degrees > 0 : base_vel.angular.z = 0.1
+            if degrees > 0 : base_vel.angular.z = 0.25
             else: base_vel.angular.z = -0.25
 
             self.pubBase.publish(base_vel)

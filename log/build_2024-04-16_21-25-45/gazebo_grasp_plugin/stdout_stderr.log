@@ -1,0 +1,85 @@
+[ 50%] Built target gazebo_grasp_msgs
+[ 66%] [32mBuilding CXX object CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o[0m
+In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboGraspFix::OnUpdate()[m[K’:
+[01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:665:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgazebo::GazeboGraspFix::CollidingPoint& gazebo::GazeboGraspFix::CollidingPoint::operator=(const gazebo::GazeboGraspFix::CollidingPoint&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  665 |         attGripConts[collidingLink] = [01;35m[KcollidingPoint[m[K;
+      |                                       [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:399:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgazebo::GazeboGraspFix::CollidingPoint[m[K’ has user-provided ‘[01m[Kgazebo::GazeboGraspFix::CollidingPoint::CollidingPoint(const gazebo::GazeboGraspFix::CollidingPoint&)[m[K’
+  399 |     [01;36m[KCollidingPoint[m[K(const CollidingPoint &o):
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboGraspFix::OnContact(ConstContactsPtr&)[m[K’:
+[01m[K/home/csg/dev_ws/src/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp:908:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ignition::math::v6::Vector3<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  908 |       for (int k = 0; [01;35m[Kk < force.size()[m[K; ++k)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libgazebo_grasp_fix.so[0m
+[100%] Built target gazebo_grasp_fix
+-- Install configuration: ""
+-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so
+-- Set runtime path of "/home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_fix.so" to ""
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/lib/libgazebo_grasp_msgs.so
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/GazeboGraspGripper.h
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/GazeboGraspFix.h
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/msgs
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/msgs/grasp_event.pb.h
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_environment_hooks
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share/ament_index
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share/ament_index/resource_index
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_index/share/ament_index/resource_index/packages
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_export_dependencies
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_core
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_core/stamps
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_export_include_directories
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/grasp_event.pb.h
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_package_templates
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_export_libraries
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/ament_cmake_uninstall_target
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_msgs.dir
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/CMakeTmp
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_plugin_uninstall.dir
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/uninstall.dir
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/3.22.1
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/3.22.1/CompilerIdC
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/3.22.1/CompilerIdC/tmp
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/3.22.1/CompilerIdCXX
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/3.22.1/CompilerIdCXX/tmp
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/include/gazebo_grasp_plugin/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/library_path.sh
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/library_path.dsv
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/ament_index/resource_index/package_run_dependencies/gazebo_grasp_plugin
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/ament_index/resource_index/parent_prefix_path/gazebo_grasp_plugin
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/ament_prefix_path.sh
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/path.sh
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/environment/path.dsv
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/local_setup.bash
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/local_setup.sh
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/local_setup.zsh
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/local_setup.dsv
+-- Installing: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.dsv
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/ament_index/resource_index/packages/gazebo_grasp_plugin
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/gazebo_grasp_pluginConfig.cmake
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/gazebo_grasp_pluginConfig-version.cmake
+-- Up-to-date: /home/csg/dev_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/package.xml

@@ -33,7 +33,9 @@ setup(
             'camera_server = llm_ros2.camera_server:main',
             'ctl_robot     = llm_ros2.control_robot:main',
             'monitor_joint = llm_ros2.monitor_joint:main',
-            'calculate_matrix = llm_ros2.calculate_matrix:main'
+            'calculate_matrix = llm_ros2.calculate_matrix:main',
+            'instru_receive = llm_ros2.instru_receive:main',
+            'sub_world_object = llm_ros2.sub_world_object:main'
         ],
     },
 )
